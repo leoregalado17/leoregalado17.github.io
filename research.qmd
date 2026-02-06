@@ -1,0 +1,32 @@
+---
+title: "Research"
+---
+
+My research focuses on migration, entrepreneurship, and political economy, with an emphasis on how institutions, policy environments, and economic incentives influence individual behavior and long-run development outcomes.
+
+---
+
+## Peer-Reviewed Publications
+
+### [Emigration and origin country economic institutions](publications/emigration origin country institutions.pdf){.paper-title}
+*with Benjamin Powell* | *Public Choice*, 2025
+
+---
+
+### [Property rights and entrepreneurship](publications/entrepreneurship property rights.pdf){.paper-title}
+*Economic Affairs*, 45(3), 509–521, 2025
+
+---
+
+## Working Papers
+
+### Did the Syrian Refugee Crisis destroy European economic freedom? {.paper-title}
+*with Benjamin Powell*, 2025
+
+---
+
+### Debt Constraints in Emerging Economies: Synthetic Control Evidence from Guatemala {.paper-title}
+
+---
+
+### Do corruption reforms spur entrepreneurship? {.paper-title}

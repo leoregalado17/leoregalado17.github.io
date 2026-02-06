@@ -1,0 +1,39 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - cv.pdf
+    - publications/**
+
+website:
+  title: "Leonel A. Regalado Cardoso"
+  description: "Academic Website"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: teaching.qmd
+        text: Teaching
+      - href: presentations.qmd
+        text: Presentations
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: envelope
+        href: mailto:lregalad@ttu.edu
+      - icon: github
+        href: https://github.com/leoregalado17
+      - icon: linkedin
+        href: https://www.linkedin.com/in/leonel-regalado/
+  page-footer:
+    center: "© 2026 Leonel A. Regalado Cardoso. Built with [Quarto](https://quarto.org/)."
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    css: styles.css
+    toc: false

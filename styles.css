@@ -1,0 +1,42 @@
+/* Custom styles for academic website */
+
+/* Paper titles in research page */
+.paper-title {
+  font-weight: 600;
+  color: var(--bs-emphasis-color);
+}
+
+/* Spacing between sections */
+h2 {
+  margin-top: 1.5rem;
+  padding-top: 0.5rem;
+}
+
+h3 {
+  margin-top: 1.2rem;
+}
+
+/* Horizontal rules between papers */
+hr {
+  margin: 1.5rem 0;
+  opacity: 0.15;
+}
+
+/* Links styling */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* About page image */
+.about-entity img {
+  border: 3px solid var(--bs-border-color);
+}
+
+/* Footer styling */
+.nav-footer {
+  font-size: 0.85rem;
+}

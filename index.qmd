@@ -1,0 +1,43 @@
+---
+title: "Leonel A. Regalado Cardoso"
+about:
+  template: trestles
+  image: profile.jpg
+  image-width: 14em
+  image-shape: round
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:lregalad@ttu.edu
+    - icon: github
+      text: GitHub
+      href: https://github.com/leoregalado17
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/leonel-regalado/
+---
+
+I am a Ph.D. student in the Department of Agricultural and Applied Economics at Texas Tech University and a Research Assistant at the Free Market Institute. I also serve as a Graduate Instructor in the Area of Energy Commerce & Business Economics at the Rawls College of Business.
+
+I earned my B.A. in Economics from Universidad Francisco Marroquín and completed a Postgraduate Certificate in Money, Banking, and Central Banking at The University of Buckingham. My research focuses on migration, entrepreneurship, and political economy, with an emphasis on how institutions, policy environments, and economic incentives influence individual behavior and long-run development outcomes. More broadly, my work seeks to understand how institutional changes shape economic opportunity and entrepreneurial activity across countries and regions.
+
+## Research Interests
+
+- Migration
+- Entrepreneurship
+- Political Economy
+- Institutional Economics
+
+## Education
+
+**Texas Tech University** | Lubbock, TX
+Ph.D. in Agricultural and Applied Economics | Expected Spring 2027
+
+**Texas Tech University** | Lubbock, TX
+M.S. in Agricultural and Applied Economics | 2025
+
+**Universidad Francisco Marroquín** | Guatemala City, Guatemala
+B.A. in Economics, minor in Finance | 2023
+
+**University of Buckingham** | Buckingham, United Kingdom
+Postgraduate Certificate in Money, Banking, and Central Banking | 2022

@@ -1,0 +1,10 @@
+---
+title: "CV"
+format:
+  html:
+    toc: false
+---
+
+<meta http-equiv="refresh" content="0; url=cv.pdf">
+
+<p>If the PDF does not open automatically, <a href="cv.pdf">click here</a>.</p>
