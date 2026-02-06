@@ -4,6 +4,7 @@ project:
   resources:
     - cv.pdf
     - publications/**
+    - CNAME
 
 website:
   title: "Leonel A. Regalado Cardoso"
