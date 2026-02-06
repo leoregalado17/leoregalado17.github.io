@@ -6,3 +6,5 @@ cv.fls
 cv.log
 cv.out
 cv.synctex.gz
+
+**/*.quarto_ipynb
