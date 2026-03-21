@@ -11,6 +11,7 @@ project:
 website:
   title: "Leonel A. Regalado Cardoso"
   description: "Academic Website"
+  site-url: https://leoregalado.com
   favicon: favicon.png
   open-graph:
     image: logo.png
