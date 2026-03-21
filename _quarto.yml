@@ -5,10 +5,17 @@ project:
     - cv.pdf
     - publications/**
     - CNAME
+    - logo.png
+    - favicon.png
 
 website:
   title: "Leonel A. Regalado Cardoso"
   description: "Academic Website"
+  favicon: favicon.png
+  open-graph:
+    image: logo.png
+  twitter-card:
+    image: logo.png
   navbar:
     left:
       - href: index.qmd
