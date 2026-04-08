@@ -31,6 +31,30 @@ a {
 }
 
 /* ================================================
+   Dark Mode Toggle — Sun/Moon Icons
+   ================================================ */
+
+.quarto-color-scheme-toggle {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+/* Sun icon on the left */
+.quarto-color-scheme-toggle::before {
+  content: "\f5a5";
+  font-family: "bootstrap-icons";
+  font-size: 0.95rem;
+}
+
+/* Moon icon on the right */
+.quarto-color-scheme-toggle::after {
+  content: "\f497";
+  font-family: "bootstrap-icons";
+  font-size: 0.95rem;
+}
+
+/* ================================================
    Homepage Hero
    ================================================ */
 
