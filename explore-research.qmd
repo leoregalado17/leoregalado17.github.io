@@ -29,7 +29,7 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 <span class="topic-label topic-migration">Migration</span>
 <span class="status-badge badge-working">Working Paper</span>
 </div>
-<h4 class="card-title">Did the Syrian Refugee Crisis destroy European economic freedom?</h4>
+<h4 class="card-title">Did the Syrian Refugee Crisis impact European economic freedom?</h4>
 <p class="card-meta">with Benjamin Powell</p>
 <div class="card-description">
 

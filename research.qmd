@@ -4,6 +4,13 @@ title: "Research"
 
 My research focuses on migration, entrepreneurship, and political economy, with an emphasis on how institutions, policy environments, and economic incentives influence individual behavior and long-run development outcomes.
 
+<div class="explore-cta">
+<a href="explore-research.html">
+<strong>Explore My Research</strong>
+<p>Read detailed summaries of each paper with interactive figures, key findings, and policy implications.</p>
+</a>
+</div>
+
 ---
 
 ## Peer-Reviewed Publications
@@ -20,7 +27,7 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 
 ## Working Papers
 
-### Did the Syrian Refugee Crisis destroy European economic freedom? {.paper-title}
+### Did the Syrian Refugee Crisis impact European economic freedom? {.paper-title}
 *with Benjamin Powell*, 2025
 
 ---

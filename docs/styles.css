@@ -6,6 +6,38 @@
   color: var(--bs-emphasis-color);
 }
 
+/* Explore My Research CTA on research page */
+.explore-cta {
+  margin: 1.5rem 0;
+}
+
+.explore-cta a {
+  display: block;
+  padding: 1rem 1.4rem;
+  border: 1px solid var(--bs-primary);
+  border-radius: 8px;
+  background: var(--bs-body-bg);
+  text-decoration: none;
+  transition: box-shadow 0.15s, background 0.15s;
+}
+
+.explore-cta a:hover {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background: var(--bs-tertiary-bg);
+  text-decoration: none;
+}
+
+.explore-cta strong {
+  font-size: 1.05rem;
+  color: var(--bs-primary);
+}
+
+.explore-cta p {
+  margin: 0.3rem 0 0;
+  font-size: 0.88rem;
+  color: var(--bs-secondary-color);
+}
+
 /* Spacing between sections */
 h2 {
   margin-top: 1.5rem;
