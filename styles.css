@@ -40,3 +40,256 @@ a:hover {
 .nav-footer {
   font-size: 0.85rem;
 }
+
+/* ================================================
+   Explore My Research — Explorer Layout
+   ================================================ */
+
+/* Widen the page content for the explorer */
+.page-columns .column-page,
+.page-columns .column-body {
+  max-width: 1200px;
+}
+
+#quarto-content > .page-columns {
+  max-width: 1200px;
+}
+
+.explorer-container {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 2rem;
+  margin-top: 1rem;
+  max-width: 1100px;
+}
+
+/* --- Sidebar --- */
+.explorer-sidebar {
+  position: sticky;
+  top: 80px;
+  align-self: start;
+}
+
+.sidebar-heading {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--bs-secondary-color);
+  margin-bottom: 0.75rem;
+}
+
+.topic-btn {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: 1px solid var(--bs-border-color);
+  border-radius: 6px;
+  padding: 0.5rem 0.85rem;
+  margin-bottom: 0.4rem;
+  font-size: 0.9rem;
+  color: var(--bs-body-color);
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.topic-btn:hover {
+  background: var(--bs-tertiary-bg);
+}
+
+.topic-btn.active {
+  background: var(--bs-primary);
+  color: #fff;
+  border-color: var(--bs-primary);
+}
+
+/* --- Year dividers --- */
+.year-divider {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 1.8rem 0 1rem;
+}
+
+.year-divider span {
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--bs-emphasis-color);
+  white-space: nowrap;
+}
+
+.year-divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--bs-border-color);
+}
+
+/* first divider needs no top margin */
+.explorer-content > .year-divider:first-child {
+  margin-top: 0;
+}
+
+/* --- Paper cards --- */
+.paper-card {
+  border: 1px solid var(--bs-border-color);
+  border-radius: 8px;
+  padding: 1.25rem 1.4rem;
+  margin-bottom: 1rem;
+  transition: box-shadow 0.15s, border-color 0.15s;
+  background: var(--bs-body-bg);
+}
+
+.paper-card:hover {
+  border-color: var(--bs-primary);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.card-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.4rem;
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0 0 0.3rem;
+  color: var(--bs-emphasis-color);
+}
+
+.card-meta {
+  font-size: 0.88rem;
+  color: var(--bs-secondary-color);
+  margin: 0 0 0.6rem;
+}
+
+.card-description {
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: var(--bs-body-color);
+  margin: 0;
+}
+
+/* --- Figures inside cards --- */
+.card-figures {
+  margin: 1.2rem 0;
+}
+
+.card-figures figure {
+  margin: 0 0 1rem;
+}
+
+.card-figures img {
+  width: 100%;
+  max-height: 360px;
+  object-fit: contain;
+  border-radius: 6px;
+  border: 1px solid var(--bs-border-color);
+}
+
+.card-figures figcaption {
+  font-size: 0.82rem;
+  color: var(--bs-secondary-color);
+  margin-top: 0.4rem;
+  line-height: 1.4;
+  font-style: italic;
+}
+
+/* --- Topic labels --- */
+.topic-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.2rem 0.55rem;
+  border-radius: 4px;
+}
+
+.topic-migration {
+  background: #e8f4fd;
+  color: #1a6fa0;
+}
+
+.topic-entrepreneurship {
+  background: #fdf2e8;
+  color: #a06b1a;
+}
+
+.topic-fiscal {
+  background: #e8fdf0;
+  color: #1a7a3a;
+}
+
+/* dark mode topic label adjustments */
+[data-bs-theme="dark"] .topic-migration {
+  background: #1a3a4d;
+  color: #7cc4f0;
+}
+
+[data-bs-theme="dark"] .topic-entrepreneurship {
+  background: #4d3a1a;
+  color: #f0c47c;
+}
+
+[data-bs-theme="dark"] .topic-fiscal {
+  background: #1a4d2a;
+  color: #7cf0a0;
+}
+
+/* --- Status badges --- */
+.status-badge {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.2rem 0.6rem;
+  border-radius: 12px;
+}
+
+.badge-published {
+  background: #d4edda;
+  color: #155724;
+}
+
+.badge-working {
+  background: #d1ecf1;
+  color: #0c5460;
+}
+
+[data-bs-theme="dark"] .badge-published {
+  background: #1a4d2a;
+  color: #7cf0a0;
+}
+
+[data-bs-theme="dark"] .badge-working {
+  background: #1a3a4d;
+  color: #7cc4f0;
+}
+
+/* --- Responsive: mobile --- */
+@media (max-width: 768px) {
+  .explorer-container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .explorer-sidebar {
+    position: static;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    align-items: center;
+  }
+
+  .sidebar-heading {
+    width: 100%;
+    margin-bottom: 0.4rem;
+  }
+
+  .topic-btn {
+    display: inline-block;
+    width: auto;
+    padding: 0.35rem 0.75rem;
+    font-size: 0.82rem;
+  }
+}

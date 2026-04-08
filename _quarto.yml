@@ -4,6 +4,7 @@ project:
   resources:
     - cv.pdf
     - publications/**
+    - images/research/**
     - CNAME
     - logo.png
     - favicon.png
@@ -23,6 +24,8 @@ website:
         text: Home
       - href: research.qmd
         text: Research
+      - href: explore-research.qmd
+        text: Explore My Research
       - href: teaching.qmd
         text: Teaching
       - href: presentations.qmd
