@@ -93,7 +93,16 @@ a {
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 0.2rem;
-  color: var(--bs-emphasis-color);
+  color: var(--bs-emphasis-color) !important;
+}
+
+/* Ensure all headings respect dark mode */
+body.quarto-dark h1,
+body.quarto-dark h2,
+body.quarto-dark h3,
+body.quarto-dark h4,
+body.quarto-dark .anchored {
+  color: var(--bs-emphasis-color) !important;
 }
 
 .hero-subtitle {
@@ -129,9 +138,22 @@ a {
   border: 1px solid rgba(204, 0, 0, 0.2);
 }
 
-[data-bs-theme="dark"] .interest-pill {
+body.quarto-dark .interest-pill {
   background: rgba(204, 0, 0, 0.15);
   border-color: rgba(204, 0, 0, 0.3);
+}
+
+body.quarto-dark .edu-item {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+body.quarto-dark .hero-social a {
+  border-color: rgba(255, 255, 255, 0.2);
+  color: var(--bs-body-color);
+}
+
+body.quarto-dark .paper-card {
+  background: rgba(255, 255, 255, 0.03);
 }
 
 /* Education grid */
@@ -193,6 +215,81 @@ a {
   }
 
   .education-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ================================================
+   Featured Research (Homepage)
+   ================================================ */
+
+.featured-research {
+  max-width: 900px;
+  margin: 0 auto 2rem;
+  padding: 0 1.5rem;
+}
+
+.featured-research h2 {
+  margin-bottom: 1rem;
+}
+
+.featured-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+}
+
+.featured-card {
+  border: 1px solid var(--bs-border-color);
+  border-radius: 8px;
+  padding: 1.2rem 1.4rem;
+  background: var(--bs-body-bg);
+  transition: box-shadow 0.25s ease, border-color 0.25s ease, transform 0.25s ease;
+}
+
+.featured-card:hover {
+  border-color: var(--bs-primary);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.featured-card h4 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 0.5rem 0 0.3rem;
+  color: var(--bs-emphasis-color);
+}
+
+.featured-meta {
+  font-size: 0.82rem;
+  color: var(--bs-secondary-color);
+  margin: 0 0 0.5rem;
+}
+
+.featured-desc {
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: var(--bs-body-color);
+  margin: 0 0 0.8rem;
+}
+
+.featured-link {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--bs-primary);
+  text-decoration: none;
+}
+
+.featured-link:hover {
+  text-decoration: underline;
+}
+
+body.quarto-dark .featured-card {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+@media (max-width: 768px) {
+  .featured-cards {
     grid-template-columns: 1fr;
   }
 }
@@ -399,11 +496,18 @@ a:hover {
   margin-bottom: 0.4rem;
 }
 
-.card-title {
+.card-title,
+.card-title a,
+.card-title.anchored,
+.card-title.anchored a {
   font-size: 1.1rem;
   font-weight: 600;
   margin: 0 0 0.3rem;
-  color: var(--bs-emphasis-color);
+  color: var(--bs-emphasis-color) !important;
+}
+
+.card-title a:hover {
+  color: var(--bs-primary) !important;
 }
 
 .card-meta {
@@ -470,17 +574,17 @@ a:hover {
 }
 
 /* dark mode topic label adjustments */
-[data-bs-theme="dark"] .topic-migration {
+body.quarto-dark .topic-migration {
   background: #1a3a4d;
   color: #7cc4f0;
 }
 
-[data-bs-theme="dark"] .topic-entrepreneurship {
+body.quarto-dark .topic-entrepreneurship {
   background: #4d3a1a;
   color: #f0c47c;
 }
 
-[data-bs-theme="dark"] .topic-fiscal {
+body.quarto-dark .topic-fiscal {
   background: #1a4d2a;
   color: #7cf0a0;
 }
@@ -503,12 +607,12 @@ a:hover {
   color: #0c5460;
 }
 
-[data-bs-theme="dark"] .badge-published {
+body.quarto-dark .badge-published {
   background: #1a4d2a;
   color: #7cf0a0;
 }
 
-[data-bs-theme="dark"] .badge-working {
+body.quarto-dark .badge-working {
   background: #1a3a4d;
   color: #7cc4f0;
 }

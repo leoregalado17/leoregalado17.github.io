@@ -64,3 +64,30 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 
 </div>
 </div>
+
+<div class="featured-research">
+<h2>Featured Research</h2>
+
+<div class="featured-cards">
+
+<div class="featured-card">
+<span class="topic-label topic-migration">Migration</span>
+<h4>Did the Syrian Refugee Crisis impact European economic freedom?</h4>
+<p class="featured-meta">with Benjamin Powell | Working Paper</p>
+<p class="featured-desc">Using the synthetic control method, we find that the Syrian refugee surge did not meaningfully impact economic freedom in Germany, Austria, or Sweden, despite the largest institutional gap and refugee inflows in modern European history.</p>
+<a href="explore-research.html" class="featured-link">Read more &rarr;</a>
+</div>
+
+<div class="featured-card">
+<span class="topic-label topic-entrepreneurship">Entrepreneurship</span>
+<h4>Do corruption reforms spur entrepreneurship?</h4>
+<p class="featured-meta">Working Paper</p>
+<p class="featured-desc">Applying the Callaway and Sant'Anna (2021) DiD estimator, this paper finds that sustained anti-corruption reforms have no significant effect on entrepreneurship, suggesting the growth benefits of reforms flow through other channels.</p>
+<a href="explore-research.html" class="featured-link">Read more &rarr;</a>
+</div>
+
+</div>
+
+<p style="text-align:center; margin-top:1rem;"><a href="explore-research.html" class="featured-link">See all research &rarr;</a></p>
+
+</div>
