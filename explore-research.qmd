@@ -244,8 +244,8 @@ document.addEventListener("DOMContentLoaded", function () {
   var syriaSynth   = [7.962,7.948,7.972,7.881,7.852,7.838,7.762,7.818,7.855,7.937,8.004,8.044,8.048,8.007,7.990,7.756,7.868,7.688,7.766];
 
   Plotly.newPlot("syria-synth-chart", [
-    // Treatment vertical line
-    { x: [-0.5,-0.5], y: [7.65,8.05], mode: "lines", name: "",
+    // Treatment vertical line at period 0
+    { x: [0,0], y: [7.65,8.05], mode: "lines", name: "",
       line: { color: "#C5504C", width: 1.5, dash: "dash" }, showlegend: false, hoverinfo: "skip" },
     // Treated line: solid black, filled circles
     { x: syriaTime, y: syriaTreated, mode: "lines+markers", name: "Treated",
@@ -262,7 +262,7 @@ document.addEventListener("DOMContentLoaded", function () {
     font: chartFont,
     paper_bgcolor: "#fff", plot_bgcolor: "#fff",
     margin: { t: 50, r: 40, b: 55, l: 70 },
-    xaxis: Object.assign({}, axisStyle, { title: { text: "Years from treatment", font: { size: 12 } }, dtick: 2 }),
+    xaxis: Object.assign({}, axisStyle, { title: { text: "Years from treatment", font: { size: 12 } }, dtick: 2, zeroline: false }),
     yaxis: Object.assign({}, axisStyle, { title: { text: "Average EFW (Economic Freedom Index)", font: { size: 12 } }, range: [7.65, 8.05] }),
     legend: { x: 0.02, y: 0.98, bordercolor: "#000", borderwidth: 1, bgcolor: "#fff", font: { size: 11 } },
     hoverlabel: { bgcolor: "#fff", bordercolor: "#000", font: { size: 12, color: "#000" } }
