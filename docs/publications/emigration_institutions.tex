@@ -1,0 +1,611 @@
+\documentclass[12pt]{article}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{natbib}
+\usepackage{setspace}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{lscape}
+\usepackage{adjustbox}
+\usepackage{threeparttable}
+\usepackage{amssymb}% for \checkmark
+
+\geometry{margin=1in}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=blue,
+    urlcolor=blue
+}
+
+% Title information
+\title{Emigration and origin country economic institutions}
+\author{Benjamin Powell\thanks{Corresponding author. Texas Tech University, Lubbock, USA. E-mail: \href{mailto:benjaminwpowell@gmail.com}{benjaminwpowell@gmail.com}} \and Leonel Regalado Cardoso\thanks{Texas Tech University, Lubbock, USA. E-mail: \href{mailto:lregalad@ttu.edu}{lregalad@ttu.edu}}}
+\date{
+    Received: 28 May 2025 / Accepted: 12 September 2025 / Published online: 17 October 2025\\[6pt]
+    \textit{Public Choice} (2025)\\[3pt]
+    DOI: \href{https://doi.org/10.1007/s11127-025-01336-8}{10.1007/s11127-025-01336-8}
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This paper empirically examines the impact of emigration to OECD countries on 132 origin countries' economic institutions, as measured by the economic freedom index. We utilize public choice theory to explore how emigration can affect origin country economic freedom through voice and exit via absence, diaspora, prospect, and return channels. We then estimate the association between accumulated emigrant stocks and the subsequent changes in economic freedom and the association between contemporaneous emigrant flows and changes in economic freedom and investigate how these associations vary by emigrant skill. We find that for all skill levels, larger emigrant stocks are consistently positively associated with larger subsequent improvements in economic freedom but that at high levels of emigrant stocks these improvements diminish.
+
+\medskip
+\noindent \textbf{Keywords:} Emigration $\cdot$ Institutions $\cdot$ Economic freedom $\cdot$ Immigration $\cdot$ Diaspora
+
+\medskip
+\noindent \textbf{JEL Classification:} J1 $\cdot$ J6 $\cdot$ P1
+\end{abstract}
+
+\newpage
+\doublespacing
+
+%----------------------------------------------------------------------
+\section{Introduction}
+\label{sec:introduction}
+%----------------------------------------------------------------------
+
+[Content of this section from published paper.]\footnote{[Footnote content from published paper.]}\footnote{[Footnote content from published paper.]}\footnote{[Footnote content from published paper.]}
+
+%----------------------------------------------------------------------
+\section{Theory}
+\label{sec:theory}
+%----------------------------------------------------------------------
+
+[Content of this section from published paper.]
+
+\subsection{Absence channel}
+\label{sec:absence}
+
+[Content of this section from published paper.]
+
+\subsection{Prospect channel}
+\label{sec:prospect}
+
+[Content of this section from published paper.]\footnote{[Footnote content from published paper.]}
+
+\subsection{Diaspora channel}
+\label{sec:diaspora}
+
+[Content of this section from published paper.]\footnote{[Footnote content from published paper.]}
+
+\subsection{Return channel}
+\label{sec:return}
+
+[Content of this section from published paper.]
+
+%----------------------------------------------------------------------
+\section{Empirical methodology and data}
+\label{sec:methodology}
+%----------------------------------------------------------------------
+
+[Content of this section from published paper.]
+
+The emigration stock is defined as:
+\begin{equation}
+\text{Emigration Stock} = \frac{\text{Total number of people living in a destination country}}{\text{Total origin country population} + \text{numerator}}
+\end{equation}
+
+The emigration flow over a decade is calculated as:
+\begin{equation}
+\text{Emigration flow}_{t \to t+10} = \text{Emigration stock}_{t+10} - \text{Emigration stock}_{t}
+\end{equation}
+
+[Content of this section from published paper.]\footnote{[Footnote content from published paper.]}
+
+%----------------------------------------------------------------------
+\section{Results}
+\label{sec:results}
+%----------------------------------------------------------------------
+
+[Content of this section from published paper.]
+
+\subsection{Emigration stocks}
+\label{sec:stocks}
+
+[Content of this section from published paper.]
+
+The baseline regression model for emigration stocks is:
+\begin{equation}
+\Delta \text{EFW}_{t \to t+10} = \alpha + \delta_1 \cdot \text{stock}_t + \delta_2 \cdot \text{stock}_t^2 + \mathbf{X}'\boldsymbol{\beta} + \varepsilon
+\label{eq:stock}
+\end{equation}
+
+The model for emigration flows is:
+\begin{equation}
+\Delta \text{EFW}_{t \to t+10} = \alpha + \gamma_1 \cdot \text{emigration flow}_{t \to t+10} + \gamma_2 \cdot \text{emigration flow}^2_{t \to t+10} + \mathbf{X}'\boldsymbol{\beta} + \varepsilon
+\label{eq:flow}
+\end{equation}
+
+The shift-share instrument is constructed as follows. The initial share of emigrants from origin country $o$ in destination $i$ at the base period $t_0$ is:
+\begin{equation}
+sh_{i,o,t_0} = \frac{M_{i,o,t_0}}{\sum_k M_{i,k,t_0}}
+\label{eq:share}
+\end{equation}
+
+The predicted emigration stock for origin country $o$ at time $t$ is:
+\begin{equation}
+\widehat{\text{Emigration stock}}_{o,t} = \frac{\sum_i \left( sh_{i,o,t_0} \cdot \text{Total immigrants}_{i,t} \right)}{\text{Population}_{o,t}}
+\label{eq:predicted_stock}
+\end{equation}
+
+The instrument for emigration flows is:
+\begin{equation}
+Z_o = \widehat{\text{Emigration stock}}_{o,t+10} - \widehat{\text{Emigration stock}}_{o,t}
+\label{eq:instrument}
+\end{equation}
+
+[Content of this section from published paper.]
+
+% TABLE 1: Descriptive Statistics
+\begin{table}[H]
+\centering
+\caption{Descriptive statistics}
+\label{tab:descriptive}
+\begin{threeparttable}
+\begin{tabular}{@{}lccccc@{}}
+\toprule
+Variables & Observations & Mean & Std.\ dev. & Min & Max \\
+\midrule
+EFW change $t$ to $t+10$ & 752 & 0.463 & 0.792 & $-2.600$ & 3.680 \\
+Emigration stocks Total & 752 & 4.777 & 7.575 & 0.0111 & 48.76 \\
+\quad Low skill & 729 & 4.06 & 7.71 & 0.00122 & 52.1 \\
+\quad Medium skill & 729 & 4.64 & 7.26 & 0.0269 & 45.3 \\
+\quad High skill & 729 & 17.7 & 20.0 & 0.0817 & 99.5 \\
+Emigration Flow $t$ to $t+10$ & 499 & 0.857 & 1.962 & $-3.646$ & 12.69 \\
+EFW (origin countries) & 752 & 5.876 & 1.337 & 1.870 & 9.280 \\
+Gini & 738 & 0.408 & 0.0961 & 0.219 & 0.779 \\
+Civil & 745 & 3.715 & 1.662 & 0 & 7 \\
+Education (Human Capital) & 703 & 2.134 & 0.643 & 1.020 & 3.636 \\
+EFW (destination countries) & 126 & 7.77 & 0.630 & 5.7 & 8.9 \\
+\bottomrule
+\end{tabular}
+\end{threeparttable}
+\end{table}
+
+% TABLE 2: Weak instrument and under-identification tests (stocks)
+\begin{table}[H]
+\centering
+\caption{Weak instrument and under-identification tests}
+\label{tab:instrument_tests}
+\begin{threeparttable}
+\begin{tabular}{@{}lcc@{}}
+\toprule
+ & (9) & (10) \\
+\midrule
+Weak instrument (Cragg--Donald Wald $F$ statistic) & 10.89 & 12.29 \\
+ & $\checkmark$ (at 15\%) & $\checkmark$ (at 15\%) \\[4pt]
+Under-identification (Anderson canon.\ corr.\ LM statistic) & 0.0008 & 0.0003 \\
+ & $\checkmark$ & $\checkmark$ \\
+\bottomrule
+\end{tabular}
+\end{threeparttable}
+\end{table}
+
+% TABLE 3: Emigration as % of total population
+\begin{table}[H]
+\centering
+\caption{Emigration as a \% of total population}
+\label{tab:stocks_ols}
+\begin{threeparttable}
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+ & (1) & (2) & (3) & (4) \\
+\midrule
+\multicolumn{5}{l}{\textit{Dependent variable: $\Delta$EFW change $t$ to $t+10$}} \\[4pt]
+Emigration stock & 0.00691* & 0.0605*** & 0.0484*** & 0.103*** \\
+ & (0.00367) & (0.0221) & (0.0100) & (0.0243) \\[2pt]
+Emigration stock$^2$ & & & $-0.00125$*** & $-0.00124$*** \\
+ & & & (0.000281) & (0.000308) \\[2pt]
+Emigration stock $\times$ EFW & & $-0.00878$** & & $-0.00895$*** \\
+ & & (0.00342) & & (0.00338) \\[2pt]
+EFW & $-0.343$*** & $-0.398$*** & $-0.362$*** & $-0.409$*** \\
+ & (0.0237) & (0.0306) & (0.0238) & (0.0303) \\[2pt]
+Gini (Inverted) & & 0.429 & & 0.246 \\
+ & & (0.447) & & (0.444) \\[2pt]
+Civil & & $-0.101$*** & & $-0.0912$*** \\
+ & & (0.0222) & & (0.0221) \\[2pt]
+Education (Human Capital) & & 0.138* & & 0.148* \\
+ & & (0.0793) & & (0.0784) \\[2pt]
+Constant & 2.733*** & 2.695*** & 2.706*** & 2.661*** \\
+ & (0.249) & (0.436) & (0.246) & (0.431) \\[4pt]
+Time dummies & YES & YES & YES & YES \\
+Region FE & YES & YES & YES & YES \\
+Observations & 752 & 682 & 752 & 682 \\
+$R^2$ & 0.384 & 0.424 & 0.400 & 0.438 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\small
+\item \textit{Note:} Standard errors in parentheses. ***$p<0.01$, **$p<0.05$, *$p<0.1$.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+\subsection{Emigration flows}
+\label{sec:flows}
+
+[Content of this section from published paper.]
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{fig1_predicted_total_effect.png}
+\caption{Emigrant Stock and Changes in Economic Freedom}
+\label{fig:predicted_total}
+\end{figure}
+
+% TABLE 4: Emigration Flows
+\begin{table}[H]
+\centering
+\caption{Emigration flows}
+\label{tab:flows}
+\begin{threeparttable}
+\adjustbox{max width=\textwidth}{
+\begin{tabular}{@{}lcccccc@{}}
+\toprule
+ & \multicolumn{4}{c}{OLS} & \multicolumn{2}{c}{IV 2SLS} \\
+\cmidrule(lr){2-5} \cmidrule(lr){6-7}
+ & (5) & (6) & (7) & (8) & (9) & (10) \\
+\midrule
+\multicolumn{7}{l}{\textit{Dependent variable: $\Delta$EFW change $t$ to $t+10$}} \\[4pt]
+Emigration flow $t$ to $t+10$ & $-0.00648$ & 0.00374 & 0.00833 & 0.0285 & 0.0379 & 0.0130 \\
+ & (0.0181) & (0.0193) & (0.0379) & (0.0412) & (0.105) & (0.0961) \\[2pt]
+Flow$^2$ & & & $-0.00186$ & $-0.00295$ & & \\
+ & & & (0.00418) & (0.00433) & & \\[2pt]
+EFW & $-0.387$*** & $-0.488$*** & $-0.388$*** & $-0.490$*** & $-0.243$*** & $-0.327$*** \\
+ & (0.0299) & (0.0348) & (0.0299) & (0.0349) & (0.0575) & (0.0702) \\[2pt]
+Gini (Inverted) & & 0.647 & & 0.693 & & 0.158 \\
+ & & (0.606) & & (0.610) & & (1.071) \\[2pt]
+Civil & & $-0.103$*** & & $-0.104$*** & & $-0.106$** \\
+ & & (0.0293) & & (0.0295) & & (0.0514) \\[2pt]
+Education (Human Capital) & & 0.375*** & & 0.375*** & & 0.0135 \\
+ & & (0.115) & & (0.115) & & (0.171) \\[2pt]
+Constant & 3.131*** & 2.476*** & 3.123*** & 2.444*** & 1.845*** & 2.563** \\
+ & (0.323) & (0.575) & (0.324) & (0.577) & (0.597) & (1.072) \\[4pt]
+Time dummies & YES & YES & YES & YES & Cross section & YES \\
+Region FE & YES & YES & YES & YES & YES & YES \\
+Observations & 499 & 457 & 499 & 457 & 109 & 101 \\
+$R^2$ & 0.358 & 0.411 & 0.359 & 0.411 & 0.332 & 0.376 \\
+\bottomrule
+\end{tabular}
+}
+\begin{tablenotes}
+\small
+\item \textit{Note:} Standard errors in parentheses. ***$p<0.01$, **$p<0.05$, *$p<0.1$.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+\subsection{Emigrant human capital}
+\label{sec:human_capital}
+
+[Content of this section from published paper.]
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{fig2_skill_specific.png}
+\caption{Emigrant Stock by Skill and Changes in Economic Freedom. \textit{Legend:} Low-skill (solid), Medium-skill (dashed), High-skill (dotted).}
+\label{fig:skill_specific}
+\end{figure}
+
+% TABLE 5: Emigration stocks by skill levels (landscape, wide table)
+\begin{landscape}
+\begin{table}[H]
+\centering
+\caption{Emigration stocks by skill levels}
+\label{tab:skill_stocks}
+\begin{threeparttable}
+\adjustbox{max width=\linewidth}{
+\begin{tabular}{@{}lcccccccccccc@{}}
+\toprule
+ & \multicolumn{4}{c}{Low-Skill} & \multicolumn{4}{c}{Medium-Skill} & \multicolumn{4}{c}{High-Skill} \\
+\cmidrule(lr){2-5} \cmidrule(lr){6-9} \cmidrule(lr){10-13}
+ & (11) & (12) & (13) & (14) & (15) & (16) & (17) & (18) & (19) & (20) & (21) & (22) \\
+\midrule
+\multicolumn{13}{l}{\textit{Dependent variable: $\Delta$EFW change $t$ to $t+10$}} \\[4pt]
+Emigration stock & 0.00443 & 0.0819** & 0.0213*** & 0.0865*** & 0.00790** & 0.0999*** & 0.0302* & 0.111*** & 0.00258** & 0.0135** & 0.0108*** & 0.0317*** \\
+ & (0.00895) & (0.0271) & (0.0101) & (0.0271) & (0.00892) & (0.0180) & (0.0099) & (0.0225) & (0.00133) & (0.00720) & (0.00412) & (0.00905) \\[2pt]
+Emigration stock$^2$ & & $-0.0110$** & $-0.000645$*** & $-0.000459$ & & $-0.00882$*** & $-0.000710$*** & $-0.00126$*** & & $-0.000203$ & $-0.0000219$*** & $-0.000254$*** \\
+ & & (0.00384) & (0.000269) & (0.00423) & & (0.00936) & (0.000293) & (0.000318) & & (0.00120) & (4.95e-05) & (5.42e-05) \\[2pt]
+Emigration stock $\times$ EFW & & $-0.00495$** & & $-0.0065$** & & & & $-0.0106$** & & & & $-0.00175$ \\
+ & & (0.0099) & & (0.00453) & & & & (0.00906) & & & & (0.00119) \\[2pt]
+EFW & $-0.353$*** & $-0.406$*** & $-0.561$*** & $-0.410$*** & $-0.350$*** & $-0.393$*** & $-0.356$*** & $-0.410$*** & $-0.352$*** & $-0.359$*** & $-0.359$*** & $-0.411$*** \\
+ & (0.0249) & (0.0299) & (0.0249) & (0.0303) & (0.0247) & (0.0308) & (0.0247) & (0.0306) & (0.0247) & (0.0347) & (0.0245) & (0.0344) \\[2pt]
+Gini (Inverted) & & 0.290 & & 0.212 & & 0.386 & & 0.260 & & 0.334 & & 0.190 \\
+ & & (0.454) & & (0.455) & & (0.451) & & (0.447) & & (0.457) & & (0.454) \\[2pt]
+Civil & & $-0.101$*** & & $-0.0986$*** & & $-0.101$*** & & $-0.0938$*** & & $-0.108$*** & & $-0.108$*** \\
+ & & (0.0224) & & (0.0225) & & (0.0224) & & (0.0222) & & (0.0223) & & (0.0230) \\[2pt]
+Education & & 0.121 & & 0.121 & & 0.134* & & 0.222*** & & 0.120 & & 0.151* \\
+ & & (0.0806) & & (0.0806) & & (0.0806) & & (0.0828) & & (0.0898) & & (0.0801) \\[2pt]
+Constant & 2.812*** & 2.872*** & 2.730*** & 2.812*** & 2.701*** & 2.708*** & 2.720*** & 2.442*** & 2.810*** & 2.722*** & 2.740*** & 2.744*** \\
+ & (0.256) & (0.443) & (0.256) & (0.444) & (0.257) & (0.446) & (0.257) & (0.446) & (0.256) & (0.469) & (0.253) & (0.463) \\[4pt]
+Time dummies & YES & YES & YES & YES & YES & YES & YES & YES & YES & YES & YES & YES \\
+Region FE & YES & YES & YES & YES & YES & YES & YES & YES & YES & YES & YES & YES \\
+Observations & 729 & 670 & 729 & 670 & 729 & 670 & 729 & 670 & 729 & 670 & 729 & 670 \\
+$R^2$ & 0.383 & 0.424 & 0.390 & 0.425 & 0.385 & 0.426 & 0.390 & 0.440 & 0.384 & 0.423 & 0.401 & 0.439 \\
+\bottomrule
+\end{tabular}
+}
+\begin{tablenotes}
+\small
+\item \textit{Note:} Standard errors in parentheses. ***$p<0.01$, **$p<0.05$, *$p<0.1$.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+\end{landscape}
+
+% TABLE 6: Emigration flow of high-skilled individuals
+\begin{table}[H]
+\centering
+\caption{Emigration flow of high-skilled individuals}
+\label{tab:highskill_flow}
+\begin{threeparttable}
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+ & \multicolumn{2}{c}{OLS} & \multicolumn{2}{c}{IV 2SLS} \\
+\cmidrule(lr){2-3} \cmidrule(lr){4-5}
+ & (23) & (24) & (25) & (26) \\
+\midrule
+\multicolumn{5}{l}{\textit{Dependent variable: $\Delta$EFW change $t$ to $t+10$}} \\[4pt]
+Emigration flow $t$ to $t+10$ (high skill) & $-0.0249$*** & $-0.0228$*** & $-0.0144$ & $-0.0188$ \\
+ & (0.00507) & (0.00532) & (0.0398) & (0.0449) \\[2pt]
+EFW & $-0.402$*** & $-0.485$*** & $-0.254$*** & $-0.336$*** \\
+ & (0.0304) & (0.0343) & (0.0633) & (0.0783) \\[2pt]
+Gini (Inverted) & & 0.533 & & 0.292 \\
+ & & (0.593) & & (1.155) \\[2pt]
+Civil & & $-0.0915$*** & & $-0.112$** \\
+ & & (0.0286) & & (0.0567) \\[2pt]
+Education (Human Capital) & & 0.344*** & & $-0.00440$ \\
+ & & (0.113) & & (0.175) \\[2pt]
+Constant & 3.248*** & 2.610*** & 1.988*** & 2.665** \\
+ & (0.321) & (0.568) & (0.663) & (1.179) \\[4pt]
+Time dummies & YES & YES & YES & YES \\
+Region FE & YES & YES & YES & YES \\
+Observations & 490 & 453 & 107 & 99 \\
+$R^2$ & 0.390 & 0.435 & 0.289 & 0.323 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\small
+\item \textit{Note:} Standard errors in parentheses. ***$p<0.01$, **$p<0.05$, *$p<0.1$.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+% TABLE 7: Weak instrument and under-identification tests (high-skilled 2SLS)
+\begin{table}[H]
+\centering
+\caption{Weak instrument and under-identification tests for high-skilled 2SLS}
+\label{tab:instrument_tests_highskill}
+\begin{threeparttable}
+\begin{tabular}{@{}lcc@{}}
+\toprule
+ & (25) & (26) \\
+\midrule
+Weak instrument (Cragg--Donald Wald $F$ statistic) & 7.03 & 5.21 \\
+ & $\checkmark$ (at 20\%) & $\times$ \\[4pt]
+Under-identification (Anderson canon.\ corr.\ LM statistic) & 0.0059 & 0.0150 \\
+ & $\checkmark$ & $\checkmark$ \\
+\bottomrule
+\end{tabular}
+\end{threeparttable}
+\end{table}
+
+%----------------------------------------------------------------------
+\section{Conclusion}
+\label{sec:conclusion}
+%----------------------------------------------------------------------
+
+[Content of this section from published paper.]
+
+%----------------------------------------------------------------------
+% Acknowledgements
+%----------------------------------------------------------------------
+
+\subsection*{Acknowledgements}
+The authors thank Robert Lawson, Michael Clemens, Ryan Murphy, Jamie Pavlik, participants in the TTU Free Market Institute workshop, GMU Workshop in Philosophy Politics and Economics, Public Choice Society Meetings, APEE Conference, OSU IPDW, associate editor Claudia Kramer, and two anonymous referees.
+
+\subsection*{Author contributions}
+Both authors contributed to data analysis and writing.
+
+\subsection*{Funding}
+No grant funding.
+
+\subsection*{Data availability}
+By request.
+
+\subsection*{Competing interests}
+The authors declare no competing interests.
+
+\subsection*{Open Access}
+This article is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+%----------------------------------------------------------------------
+% References
+%----------------------------------------------------------------------
+
+\begin{thebibliography}{99}
+
+\bibitem[Aarhus and Jakobsen(2019)]{aarhus2019}
+Aarhus, J., \& Jakobsen, T. (2019). \textit{International Area Studies Review}, 22(4), 327--347.
+
+\bibitem[Arif et~al.(2020)]{arif2020}
+Arif, I., et~al. (2020). \textit{Southern Economic Journal}, 87, 170--190.
+
+\bibitem[Ashby(2007)]{ashby2007}
+Ashby, N. (2007). \textit{Southern Economic Journal}, 73(3), 677--697.
+
+\bibitem[Ashby(2010)]{ashby2010}
+Ashby, N. (2010). \textit{Southern Economic Journal}, 77(1), 49--62.
+
+\bibitem[Barro and Lee(2013)]{barro2013}
+Barro, R.~J., \& Lee, J.-W. (2013). \textit{Journal of Development Economics}, 104, 184--198.
+
+\bibitem[Basso and Peri(2015)]{basso2015}
+Basso, G., \& Peri, G. (2015). Technical report, IZA.
+
+\bibitem[Batista et~al.(2025)]{batista2025}
+Batista, C., et~al. (2025). \textit{Science}, 388(6749), eadr8861.
+
+\bibitem[Baudasse et~al.(2018)]{baudasse2018}
+Baudasse, T., et~al. (2018). \textit{Journal of Economic Surveys}, 32(3), 727--766.
+
+\bibitem[Bedi et~al.(2023)]{bedi2023}
+Bedi, J., et~al. (2023). \textit{International Journal of Small Business and Entrepreneurship}, 49(1), 32--63.
+
+\bibitem[Bedi et~al.(2025)]{bedi2025}
+Bedi, J., et~al. (2025). \textit{Public Choice}, 203(3), 369--396.
+
+\bibitem[Bedi and Jia(2025)]{bedijia2025}
+Bedi, J., \& Jia, S. (2025). Available at SSRN 5336621.
+
+\bibitem[Beine and Sekkat(2013)]{beine2013}
+Beine, M., \& Sekkat, K. (2013). \textit{IZA Journal of Migration}.
+
+\bibitem[Black(1958)]{black1958}
+Black, D. (1958). \textit{The theory of committees and elections}. Cambridge University Press.
+
+\bibitem[Borjas(2014)]{borjas2014}
+Borjas, G.~J. (2014). \textit{Immigration economics}. Harvard University Press.
+
+\bibitem[Borjas(2015)]{borjas2015}
+Borjas, G.~J. (2015). \textit{Journal of Economic Literature}, 53(4), 961--974.
+
+\bibitem[Brennan and Buchanan(1980)]{brennan1980}
+Brennan, G., \& Buchanan, J. (1980). \textit{The power to tax}. Cambridge University Press.
+
+\bibitem[Brucker et~al.(2013)]{brucker2013}
+Brucker, H., et~al. (2013). Institute for Employment Studies.
+
+\bibitem[Caplan(2001)]{caplan2001}
+Caplan, B. (2001). \textit{Public Choice}, 108, 101--122.
+
+\bibitem[Card(2001)]{card2001}
+Card, D. (2001). \textit{Journal of Labor Economics}, 19(1), 22--64.
+
+\bibitem[Clark et~al.(2015)]{clark2015}
+Clark, J., et~al. (2015). \textit{Public Choice}, 163(3--4), 321--335.
+
+\bibitem[Clemens(2011)]{clemens2011}
+Clemens, M.~A. (2011). \textit{Journal of Economic Perspectives}, 25, 83--106.
+
+\bibitem[Collier(2013)]{collier2013}
+Collier, P. (2013). \textit{Exodus}. Oxford University Press.
+
+\bibitem[Docquier and Rapoport(2012)]{docquier2012}
+Docquier, F., \& Rapoport, H. (2012). \textit{Journal of Economic Literature}, 50(3), 681--730.
+
+\bibitem[Docquier et~al.(2016)]{docquier2016}
+Docquier, F., et~al. (2016). \textit{Journal of Development Economics}, 120, 209--223.
+
+\bibitem[Downs(1957)]{downs1957}
+Downs, A. (1957). \textit{An economic theory of democracy}. Harper and Row.
+
+\bibitem[Feenstra et~al.(2015)]{feenstra2015}
+Feenstra, R.~C., et~al. (2015). \textit{American Economic Review}, 105(10), 3150--3182.
+
+\bibitem[{Freedom in the World}(n.d.)]{freedom_world}
+Freedom in the World. (n.d.). Freedom House.
+
+\bibitem[Grier and Grier(2021)]{grier2021}
+Grier, K.~B., \& Grier, R.~M. (2021). \textit{Journal of Comparative Economics}, 49(1), 59--72.
+
+\bibitem[Gwartney et~al.(2023)]{gwartney2023}
+Gwartney, J., et~al. (2023). \textit{Economic Freedom of the World: 2023 Annual Report}. Fraser Institute.
+
+\bibitem[Hall(2016)]{hall2016}
+Hall, J.~C. (2016). \textit{Journal of Economics and Finance}, 40, 829--840.
+
+\bibitem[Hall and Lawson(2014)]{hall2014}
+Hall, J.~C., \& Lawson, R.~A. (2014). \textit{Contemporary Economic Policy}, 32, 1--19.
+
+\bibitem[Hirschman(1970)]{hirschman1970}
+Hirschman, A.~O. (1970). \textit{Exit, voice, and loyalty}. Harvard University Press.
+
+\bibitem[Kaufmann et~al.(1999)]{kaufmann1999}
+Kaufmann, D., et~al. (1999). World Bank Policy Research Working Paper No.\ 2196.
+
+\bibitem[Konte(2016)]{konte2016}
+Konte, M. (2016). \textit{Journal of Comparative Economics}, 44(4), 1002--1022.
+
+\bibitem[Lawson et~al.(2020)]{lawson2020}
+Lawson, R.~A., et~al. (2020). \textit{Contemporary Economic Policy}, 38(4), 622--642.
+
+\bibitem[Lawson et~al.(2023)]{lawson2023}
+Lawson, R.~A., et~al. (2023). \textit{Southern Economic Journal}, 90, 1099--1135.
+
+\bibitem[Levitt(1998)]{levitt1998}
+Levitt, P. (1998). \textit{International Migration Review}, 32(4), 926--948.
+
+\bibitem[Li et~al.(2017)]{li2017}
+Li, X., et~al. (2017). \textit{World Economy}, 40, 1454--1472.
+
+\bibitem[Meierrieks and Renner(2017)]{meierrieks2017}
+Meierrieks, D., \& Renner, L. (2017). \textit{Journal of Population Economics}, 30, 977--1005.
+
+\bibitem[Mercier(2016)]{mercier2016}
+Mercier, M. (2016). \textit{Journal of Development Economics}, 122, 76--91.
+
+\bibitem[Nowrasteh et~al.(2019)]{nowrasteh2019}
+Nowrasteh, A., et~al. (2019). \textit{World Bank Economic Review}.
+
+\bibitem[Nowrasteh and Powell(2020)]{nowrasteh2020}
+Nowrasteh, A., \& Powell, B. (2020). \textit{Wretched refuse?} Cambridge University Press.
+
+\bibitem[Olson(1965)]{olson1965}
+Olson, M. (1965). \textit{The logic of collective action}. Harvard University Press.
+
+\bibitem[Olson(2000)]{olson2000}
+Olson, M. (2000). \textit{Power and prosperity}. Basic Books.
+
+\bibitem[Padilla and Cachanosky(2018)]{padilla2018}
+Padilla, A., \& Cachanosky, N. (2018). \textit{Public Choice}, 174(3--4), 351--405.
+
+\bibitem[Peri(2012)]{peri2012}
+Peri, G. (2012). \textit{Review of Economics and Statistics}, 94(1), 348--358.
+
+\bibitem[Powell(2004)]{powell2004}
+Powell, B. (2004). \textit{Public Choice}, 120, 353--357.
+
+\bibitem[Powell et~al.(2017)]{powell2017}
+Powell, B., et~al. (2017). \textit{Journal of Economic Behavior \& Organization}, 141, 83--95.
+
+\bibitem[Psacharopoulos(1994)]{psacharopoulos1994}
+Psacharopoulos, G. (1994). \textit{World Development}, 22(9), 1325--1343.
+
+\bibitem[Ratha et~al.(2024)]{ratha2024}
+Ratha, D., et~al. (2024). Migration and Development Brief 40. World Bank.
+
+\bibitem[Spilimbergo(2009)]{spilimbergo2009}
+Spilimbergo, A. (2009). \textit{American Economic Review}, 99(1), 528--543.
+
+\bibitem[Tiebout(1956)]{tiebout1956}
+Tiebout, C.~M. (1956). \textit{Journal of Political Economy}, 64, 416--424.
+
+\bibitem[{WID}(n.d.)]{wid}
+WID. (n.d.). World Inequality Database.
+
+\bibitem[{World Bank}(n.d.)]{worldbank}
+World Bank. (n.d.). World Development Indicators.
+
+\bibitem[{World Bank Group}(2025)]{worldbankgroup2025}
+World Bank Group. (2025). Metadata Glossary. DataBank.
+
+\bibitem[Yao et~al.(2021)]{yao2021}
+Yao, L., et~al. (2021). \textit{Public Choice}, 189(3), 427--463.
+
+\end{thebibliography}
+
+\end{document}

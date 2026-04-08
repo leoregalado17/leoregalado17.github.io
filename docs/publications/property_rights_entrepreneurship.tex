@@ -1,0 +1,402 @@
+\documentclass[12pt]{article}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{natbib}
+\usepackage{setspace}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{fancybox}
+\usepackage{enumitem}
+
+\geometry{margin=1in}
+\doublespacing
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=blue,
+    urlcolor=blue,
+    pdftitle={Property rights and entrepreneurship},
+    pdfauthor={Leonel A. Regalado Cardoso}
+}
+
+% Title information
+\title{\textbf{Property rights and entrepreneurship}}
+
+\author{
+    Leonel A. Regalado Cardoso\thanks{Free Market Institute, Texas Tech University, Texas, USA. Correspondence: \href{mailto:lregalad@ttu.edu}{lregalad@ttu.edu}. ORCID: \href{https://orcid.org/0009-0008-3915-8995}{0009-0008-3915-8995}}
+}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+    This article examines the relationship between the quality of property rights institutions and entrepreneurial activity, using panel data from 90 countries between 2004 and 2018. The results provide evidence of a U-shaped association: at low levels of property rights enforcement, entrepreneurship rates are elevated because of necessity-driven activity; as institutions improve moderately, total entrepreneurship initially declines but, at higher levels of property rights protection, opportunity-driven entrepreneurship rises, increasing overall entrepreneurial activity.
+\end{abstract}
+
+\noindent\textbf{Keywords:} Economic Freedom of the World Index, entrepreneurship, Global Entrepreneurship Monitor, property rights, rule of law
+
+\noindent\textbf{JEL Classification:} L26, P14
+
+\bigskip
+\noindent\textit{Published in} Economic Affairs, \textit{45}(3), 509--521, 2025.\\
+\noindent DOI: \href{https://doi.org/10.1111/ecaf.70007}{10.1111/ecaf.70007}
+
+\newpage
+
+%% ============================================================
+\section{Introduction}\label{sec:introduction}
+%% ============================================================
+
+[Content of this section from published paper.]\footnote{The Global Entrepreneurship Monitor (GEM) changed its methodology in 2019, which is why the sample period ends in 2018.}
+
+%% ============================================================
+\section{Theoretical Framework}\label{sec:theoretical_framework}
+%% ============================================================
+
+[Content of this section from published paper.]
+
+%% ============================================================
+\section{Methodology}\label{sec:methodology}
+%% ============================================================
+
+[Content of this section from published paper.]
+
+The main specification is:
+\begin{equation}\label{eq:main}
+    \text{Entrepreneurial activity}_{it} = \beta_1 + \beta_2 \cdot \text{Property rights}_{it} + \beta_3 \cdot \text{Property rights}_{it}^{2} + \mathbf{X}_{it}\boldsymbol{\beta} + u_i + \varepsilon_{it}
+\end{equation}
+where $\mathbf{X}_{it}$ is the matrix of control variables and $u_i$ are random effects.
+
+%% -----------------------------------
+\subsection{Sample}\label{subsec:sample}
+%% -----------------------------------
+
+[Content of this section from published paper.]\footnote{See \url{https://www.gemconsortium.org/wiki/1149}.}\footnote{See \url{https://www.gemconsortium.org/wiki/1154}.}\footnote{See \url{https://www.gemconsortium.org/wiki/1177}.}\footnote{See \url{https://www.gemconsortium.org/wiki/1180}.}
+
+The sample comprises 822 observations from 90 countries over the period 2004--2018, drawn from the Fraser Institute's Economic Freedom of the World (EFW) index and the Global Entrepreneurship Monitor (GEM).
+
+%% -----------------------------------
+\subsection{Dependent Variables}\label{subsec:dependent_variables}
+%% -----------------------------------
+
+[Content of this section from published paper.]
+
+The dependent variable is decomposed into opportunity-driven and necessity-driven components, estimated separately:
+\begin{equation}\label{eq:opportunity}
+    \text{Opportunity}_{it} = \beta_1 + \beta_2 \cdot \text{Property rights}_{it} + \mathbf{X}_{it}\boldsymbol{\beta} + u_i + \varepsilon_{it}
+\end{equation}
+
+\begin{equation}\label{eq:necessity}
+    \text{Necessity}_{it} = \beta_1 + \beta_2 \cdot \text{Property rights}_{it} + \mathbf{X}_{it}\boldsymbol{\beta} + u_i + \varepsilon_{it}
+\end{equation}
+
+%% -----------------------------------
+\subsection{Independent Variable}\label{subsec:independent_variable}
+%% -----------------------------------
+
+[Content of this section from published paper.]\footnote{The Legal System and Property Rights sub-index of the EFW is composed of eight components: judicial independence, impartial courts, protection of property rights, military interference in rule of law and politics, integrity of the legal system, legal enforcement of contracts, regulatory costs of the sale of real property, and reliability of police.}
+
+%% -----------------------------------
+\subsection{Control Variables}\label{subsec:control_variables}
+%% -----------------------------------
+
+[Content of this section from published paper.]
+
+\begin{table}[H]
+    \centering
+    \caption{Variable description}
+    \label{tab:variable_description}
+    \small
+    \begin{tabularx}{\textwidth}{l l X l}
+        \toprule
+        \textbf{Type} & \textbf{Variable} & \textbf{Definition} & \textbf{Source} \\
+        \midrule
+        Dependent & Total Entrepreneurial Activity & Percentage of 18--64 population who are either nascent entrepreneurs or owner-managers of a new business & \citet{GEM} \\
+        Dependent & Opportunity Entrepreneurship & Opportunity-driven entrepreneurial activity, as percentage of total & \\
+        Dependent & Necessity Entrepreneurship & Necessity-driven entrepreneurial activity, as percentage of total & \\
+        \midrule
+        Independent & Property Rights & Legal System and Property Rights score in EFW; 0 to 10 & \citet{Gwartney2021} \\
+        Independent & GDP Per Capita (PPP) & Per capita GDP (constant 2017 Dollars) at PPP & \citet{WorldBank} \\
+        Independent & Real GDP Growth & & \\
+        Independent & Unemployment & & \\
+        Independent & Population Growth & & \\
+        \bottomrule
+    \end{tabularx}
+\end{table}
+
+%% -----------------------------------
+\subsection{Type of Model}\label{subsec:type_of_model}
+%% -----------------------------------
+
+[Content of this section from published paper.]
+
+\begin{table}[H]
+    \centering
+    \caption{Central tendency measures}
+    \label{tab:central_tendency}
+    \small
+    \begin{tabular}{l l r r r r r}
+        \toprule
+        & \textbf{Variable} & \textbf{Mean} & \textbf{Median} & \textbf{Std.\ dev.} & \textbf{Min} & \textbf{Max} \\
+        \midrule
+        \multirow{3}{*}{Dependent}
+        & Total Entrepreneurial Activity & 11.247 & 9.06 & 7.443 & 1.48 & 41.46 \\
+        & Opportunity Entrepreneurship & 0.658 & 0.702 & 0.234 & 0.026 & 1.887 \\
+        & Necessity Entrepreneurship & 0.384 & 0.302 & 0.255 & 0.032 & 0.961 \\
+        \midrule
+        \multirow{5}{*}{Independent}
+        & Property Rights & 6.343 & 6.231 & 1.495 & 2.813 & 8.998 \\
+        & GDP Per Capita (PPP) & 30,977.0 & 27,242.49 & 19,691.25 & 1,397.798 & 116,283.7 \\
+        & Real GDP Growth & 2.924 & 2.876 & 3.384 & $-$14.248 & 25.176 \\
+        & Unemployment & 8.055 & 7.945 & 5.249 & 0.11 & 33.93 \\
+        & Population Growth & 0.851 & 0.783 & 1.278 & $-$4.533 & 15.177 \\
+        \bottomrule
+    \end{tabular}
+    \par\smallskip
+    \footnotesize Source: \citet{GEM}, \citet{Gwartney2021}, \citet{WorldBank}.
+\end{table}
+
+%% ============================================================
+\section{Data Analysis}\label{sec:data_analysis}
+%% ============================================================
+
+[Content of this section from published paper.]
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{fig1_tea_histogram.png}
+    \caption{Total entrepreneurial activity histogram.}
+    \label{fig:tea_histogram}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{fig2_property_rights_histogram.png}
+    \caption{Property rights sub-index histogram.}
+    \label{fig:property_rights_histogram}
+\end{figure}
+
+%% ============================================================
+\section{Results}\label{sec:results}
+%% ============================================================
+
+[Content of this section from published paper.]
+
+\begin{table}[H]
+    \centering
+    \caption{Regression results}
+    \label{tab:regression_results}
+    \small
+    \begin{tabular}{l c c c c c}
+        \toprule
+        & (1) & (2) & (3) & (4) & (5) \\
+        \textbf{Variables} & \textbf{Total EA} & \textbf{Total EA} & \textbf{Total EA} & \textbf{Opportunity} & \textbf{Necessity} \\
+        \midrule
+        Property Rights & $-$5.590*** & $-$0.506 & $-$5.745*** & 0.0432*** & $-$0.0142*** \\
+        & (2.024) & (0.379) & (2.116) & (0.0109) & (0.00477) \\[6pt]
+        Property Rights squared & 0.418** & & 0.331* & & \\
+        & (0.163) & & (0.171) & & \\[6pt]
+        GDP Per Capita & $-$0.000159*** & $-$0.000154*** & $-$0.00834 & $-$1.13e-06 & $-$4.42e-07 \\
+        & (2.85e-05) & (2.84e-05) & (0.00483) & (7.82e-07) & (3.49e-07) \\[6pt]
+        GDP Growth & 0.00586 & 0.00294 & $-$0.107*** & $-$0.000560 & 0.00228 \\
+        & (0.0480) & (0.0482) & (0.0503) & (0.00254) & (0.00139) \\[6pt]
+        Unemployment & $-$0.173*** & $-$0.177*** & $-$0.107*** & $-$0.00382** & 0.00271*** \\
+        & (0.0505) & (0.0506) & (0.0503) & (0.00181) & (0.000810) \\[6pt]
+        Population Growth & 0.677*** & 0.711*** & 0.392** & $-$0.00383 & $-$0.00616 \\
+        & (0.178) & (0.179) & (0.174) & (0.00780) & (0.00383) \\[6pt]
+        Constant & 33.44*** & 18.89*** & 33.81*** & $-$0.0952 & 0.825*** \\
+        & (6.932) & (2.168) & (6.366) & (0.0707) & (0.0341) \\
+        \midrule
+        Year dummies & Yes & Yes & Yes & Yes & Yes \\
+        Observations & 804 & 804 & 804 & 796 & 796 \\
+        Number of countries & 87 & 87 & 87 & 87 & 87 \\
+        $R^2$ & 0.448 & 0.4169 & 0.3453 & 0.332 & 0.817 \\
+        \bottomrule
+    \end{tabular}
+    \par\smallskip
+    \footnotesize Note: Standard errors are in parentheses. ***$p<0.01$, **$p<0.05$, *$p<0.1$.
+\end{table}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{fig3_predicted_values.png}
+    \caption{Predicted values for entrepreneurial activity, opportunity entrepreneurship, and necessity entrepreneurship (lines), and actual values for entrepreneurial activity plotted against property rights (scatter).}
+    \label{fig:predicted_values}
+\end{figure}
+
+\begin{table}[H]
+    \centering
+    \caption{Comparison of estimated values}
+    \label{tab:estimated_values}
+    \begin{tabular}{l c c}
+        \toprule
+        & \textbf{Entrepreneurial Activity} & \textbf{Property Rights} \\
+        \midrule
+        Max predicted value (Total EA) & 15.297 & 2.813 \\
+        Min predicted value (Total EA) & 9.025 & 6.686 \\
+        Difference & $-$6.272 & 3.873 \\
+        Difference (in Std dev) & $-$0.843 & 2.591 \\
+        \bottomrule
+    \end{tabular}
+    \par\smallskip
+    \footnotesize Sources: Own predicted values, \citet{Gwartney2021}.
+\end{table}
+
+%% ============================================================
+\section{Conclusion}\label{sec:conclusion}
+%% ============================================================
+
+[Content of this section from published paper.]
+
+%% ============================================================
+\appendix
+\section*{Appendix: Robustness Check}\label{sec:appendix}
+\addcontentsline{toc}{section}{Appendix: Robustness Check}
+%% ============================================================
+
+\begin{table}[H]
+    \centering
+    \caption{Robustness check: Rule of Law}
+    \label{tab:robustness_rule_of_law}
+    \small
+    \begin{tabular}{l c c c c c}
+        \toprule
+        & (1) & (2) & (3) & (4) & (5) \\
+        \textbf{Variables} & \textbf{Total EA} & \textbf{Total EA} & \textbf{Total EA} & \textbf{Opportunity} & \textbf{Necessity} \\
+        \midrule
+        Rule of Law & $-$2.099*** & $-$1.181* & $-$3.905*** & 0.0686*** & $-$0.0312*** \\
+        & (0.757) & (0.665) & (0.675) & (0.0181) & (0.00746) \\[6pt]
+        Rule of Law squared & 1.204*** & & 0.826* & & \\
+        & (0.478) & & (0.490) & & \\[6pt]
+        GDP Per Capita & $-$0.000153*** & $-$0.000143*** & $-$0.0345 & $-$1.23e-06 & $-$6.71e-08 \\
+        & (3.06e-05) & (3.04e-05) & (0.0490) & (8.24e-07) & (3.55e-07) \\[6pt]
+        GDP Growth & $-$0.0125 & $-$0.0107 & $-$0.00834 & $-$0.000341 & 0.00232* \\
+        & (0.0489) & (0.0491) & (0.0483) & (0.00258) & (0.00141) \\[6pt]
+        Unemployment & $-$0.186*** & $-$0.193*** & $-$0.146*** & $-$0.00371** & 0.00279*** \\
+        & (0.0512) & (0.0513) & (0.0516) & (0.00185) & (0.000821) \\[6pt]
+        Population Growth & 0.673*** & 0.660*** & 0.403** & $-$0.00804 & $-$0.00590 \\
+        & (0.178) & (0.178) & (0.173) & (0.00745) & (0.00359) \\[6pt]
+        Constant & 15.72*** & 16.42*** & 13.39*** & 0.226*** & 0.744*** \\
+        & (1.127) & (1.096) & (1.057) & (0.0418) & (0.0223) \\
+        \midrule
+        Year dummies & Yes & Yes & Yes & Yes & Yes \\
+        Observations & 792 & 792 & 792 & 784 & 784 \\
+        Number of countries & 85 & 85 & 85 & 85 & 85 \\
+        $R^2$ & 0.4566 & 0.4186 & 0.3699 & 0.3328 & 0.8201 \\
+        \bottomrule
+    \end{tabular}
+    \par\smallskip
+    \footnotesize Note: Standard errors are in parentheses. ***$p<0.01$, **$p<0.05$, *$p<0.1$.
+\end{table}
+
+%% ============================================================
+\newpage
+\begin{thebibliography}{99}
+
+\bibitem[Aidis et~al.(2007)]{Aidis2007}
+Aidis, R., Estrin, S., \& Mickiewicz, T. (2007). Entrepreneurial Entry: Which Institutions Matter? \textit{TIGER Working Paper Series No.~103}.
+
+\bibitem[Alchian(2006)]{Alchian2006}
+Alchian, A. (2006). Property Rights and Economic Behavior. In \textit{Vol.~2, Collected Works of Armen A.~Alchian}. Liberty Fund.
+
+\bibitem[Amor{\'o}s et~al.(2016)]{Amoros2016}
+Amor{\'o}s, J., Borraz, F., \& Veiga, L. (2016). Entrepreneurship and Socioeconomic Indicators in Latin America. \textit{Latin American Research Review}, \textit{51}(4), 186--201.
+
+\bibitem[Angulo-Guerrero et~al.(2017)]{AnguloGuerrero2017}
+Angulo-Guerrero, M., P{\'e}rez-Moreno, S., \& Abad-Guerrero, I. (2017). How economic freedom affects opportunity and necessity entrepreneurship in the OECD countries. \textit{Journal of Business Research}, \textit{73}, 30--37.
+
+\bibitem[Baumol(1990)]{Baumol1990}
+Baumol, W. (1990). Entrepreneurship: Productive, Unproductive, and Destructive. \textit{Journal of Political Economy}, \textit{98}(5), 893--921.
+
+\bibitem[Borenstein et~al.(2013)]{Borenstein2013}
+Borenstein, M., Hedges, L., Higgins, J., \& Rothstein, H. (2013). \textit{Introduction to Meta-analysis}. Wiley.
+
+\bibitem[Bosma et~al.(2020)]{Bosma2020}
+Bosma, N., Hill, S., Ionescu-Somers, A., Kelley, D., Levie, J., \& Tarnawa, A. (2020). \textit{GEM Global Report 2019/2020}. Global Entrepreneurship Monitor.
+
+\bibitem[Brieger et~al.(2021)]{Brieger2021}
+Brieger, S., Baro, G., Criaco, G., \& Terjesen, S. (2021). Entrepreneurs' age, institutions, and social value creation goals: A multi-country study. \textit{Small Business Economics}, \textit{57}(1), 425--453.
+
+\bibitem[Dvoulet{\'y} \& Orel(2020)]{Dvoulety2020}
+Dvoulet{\'y}, O., \& Orel, M. (2020). Determinants of solo and employer entrepreneurship in Visegr{\'a}d countries. \textit{Entrepreneurial Business and Economics Review}, \textit{8}(4), 123--137.
+
+\bibitem[Estrin et~al.(2009)]{Estrin2009}
+Estrin, S., Korosteleva, J., \& Mickiewicz, T. (2009). Better Means More: Property Rights and High-Growth Aspiration Entrepreneurship. \textit{IZA Discussion Paper No.~4396}.
+
+\bibitem[Fuentelsaz et~al.(2015)]{Fuentelsaz2015}
+Fuentelsaz, L., Gonz{\'a}lez, C., Maicas, J., \& Montero, J. (2015). How different formal institutions affect opportunity and necessity entrepreneurship. \textit{BRQ Business Research Quarterly}, \textit{18}(4), 246--258.
+
+\bibitem[Georgiou(2009)]{Georgiou2009}
+Georgiou, M. (2009). Entrepreneurship and Human Rights. \textit{SSRN}, unpublished manuscript.
+
+\bibitem[Global Entrepreneurship Monitor(n.d.)]{GEM}
+Global Entrepreneurship Monitor. (n.d.). GEM data. Retrieved from \url{https://www.gemconsortium.org/data}.
+
+\bibitem[Gwartney et~al.(2021)]{Gwartney2021}
+Gwartney, J., Lawson, R., Hall, J., \& Murphy, R. (2021). \textit{Economic Freedom of the World: 2021 Annual Report}. Fraser Institute.
+
+\bibitem[Kirzner(1973)]{Kirzner1973}
+Kirzner, I. (1973). \textit{Competition and Entrepreneurship}. University of Chicago Press.
+
+\bibitem[Klein(2010)]{Klein2010}
+Klein, P. (2010). Opportunity discovery and entrepreneurial action. In \textit{The Capitalist and the Entrepreneur}. Ludwig von Mises Institute.
+
+\bibitem[Knight(1921)]{Knight1921}
+Knight, F. (1921). \textit{Risk, Uncertainty, and Profit}. Houghton Mifflin.
+
+\bibitem[Loukil(2020)]{Loukil2020}
+Loukil, K. (2020). Entrepreneurship and economic freedom: An empirical analysis. \textit{Theoretical and Applied Economics}, \textit{27}(1), 21--40.
+
+\bibitem[McMullen et~al.(2008)]{McMullen2008}
+McMullen, J., Bagby, D., \& Palich, L. (2008). Economic freedom and the motivation to engage in entrepreneurial action. \textit{Entrepreneurship Theory and Practice}, \textit{32}(5), 875--895.
+
+\bibitem[North(1990)]{North1990}
+North, D. (1990). \textit{Institutions, Institutional Change and Economic Performance}. Cambridge University Press.
+
+\bibitem[Qin(2021)]{Qin2021}
+Qin, S. (2021). Entrepreneurship and economic freedom: A cross-country analysis. \textit{International Journal of Entrepreneurial Knowledge}, \textit{9}(1), 112--126.
+
+\bibitem[Reynolds et~al.(2002)]{Reynolds2002}
+Reynolds, P., Bygrave, W., Autio, E., Cox, L., \& Hay, M. (2002). \textit{GEM Global Entrepreneurship Monitor: 2002 Executive Report}. Global Entrepreneurship Monitor.
+
+\bibitem[Schumpeter(1934)]{Schumpeter1934}
+Schumpeter, J. (1934). \textit{The Theory of Economic Development}. Harvard University Press.
+
+\bibitem[von Mises(1949)]{vonMises1949}
+von Mises, L. (1949). \textit{Human Action}. Ludwig von Mises Institute (1998 ed.).
+
+\bibitem[von Mises(1951)]{vonMises1951}
+von Mises, L. (1951). \textit{Profit and Loss}. Ludwig von Mises Institute (2008 ed.).
+
+\bibitem[Wooldridge(2009)]{Wooldridge2009}
+Wooldridge, J. (2009). M{\'e}todos avanzados para datos de panel. In \textit{Introducci{\'o}n a la econometr{\'\i}a} (4th ed., pp.~481--505). CENGAGE Learning.
+
+\bibitem[World Bank(n.d.)]{WorldBank}
+World Bank. (n.d.). \textit{World Development Indicators}. Retrieved from \url{https://databank.worldbank.org/source/world-development-indicators}.
+
+\bibitem[World Bank Group(2025)]{WorldBankGroup2025}
+World Bank Group. (2025). Metadata Glossary. \textit{DataBank}. Retrieved from \url{https://databank.worldbank.org/metadataglossary/world-development-indicators}.
+
+\end{thebibliography}
+
+%% ============================================================
+\bigskip
+\noindent\fbox{\parbox{\dimexpr\textwidth-2\fboxsep-2\fboxrule}{%
+\textbf{How to cite this article:} Regalado Cardoso, L.~A. (2025). Property rights and entrepreneurship. \textit{Economic Affairs}, \textit{45}(3), 509--521. \url{https://doi.org/10.1111/ecaf.70007}
+}}
+
+\end{document}
