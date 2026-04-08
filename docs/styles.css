@@ -148,6 +148,19 @@ body.quarto-dark .interest-pill {
   border-color: rgba(204, 0, 0, 0.3);
 }
 
+body.quarto-dark a {
+  color: #ff6666;
+}
+
+body.quarto-dark a:hover {
+  color: #ff9999;
+}
+
+body.quarto-dark .navbar a,
+body.quarto-dark .navbar .nav-link {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
 body.quarto-dark .edu-item {
   background: rgba(255, 255, 255, 0.05);
 }
@@ -302,7 +315,24 @@ body.quarto-dark .featured-card {
 /* Paper titles in research page */
 .paper-title {
   font-weight: 600;
-  color: var(--bs-emphasis-color);
+  color: var(--bs-body-color);
+}
+
+.paper-title a {
+  color: var(--bs-body-color) !important;
+}
+
+.paper-title a:hover {
+  color: var(--bs-primary) !important;
+}
+
+body.quarto-dark .paper-title,
+body.quarto-dark .paper-title a {
+  color: #fff !important;
+}
+
+body.quarto-dark .paper-title a:hover {
+  color: #ff6666 !important;
 }
 
 /* Explore My Research CTA on research page */
