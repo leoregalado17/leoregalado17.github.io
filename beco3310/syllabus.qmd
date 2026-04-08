@@ -1,0 +1,106 @@
+---
+title: "Syllabus"
+subtitle: "Applied Business Economics (BECO 3310) | Fall 2025"
+toc: false
+---
+
+```{=html}
+<a href="../beco3310.html" class="back-link">&larr; Back to all materials</a>
+
+<div class="syllabus-container">
+
+<div class="syllabus-section">
+  <h3>Instructor</h3>
+  <p><strong>Leonel Regalado</strong><br>
+  Research Assistant, Free Market Institute<br>
+  PhD Student, Agricultural and Applied Economics<br>
+  Texas Tech University<br>
+  <a href="mailto:lregalad@ttu.edu">lregalad@ttu.edu</a></p>
+</div>
+
+<div class="syllabus-section">
+  <h3>Course Description</h3>
+  <p>This course is designed to give students the tools of the economic way of thinking and help them apply those tools to everyday professional and business decisions. We will use economic principles to understand how businesses set strategies, respond to competition, and allocate resources within economic models.</p>
+  <p>I will give out lectures using slides. There are assigned readings for each session, and I will provide the slides in advance, so students can have them during the session to take further notes or go back when they need to.</p>
+</div>
+
+<div class="syllabus-section">
+  <h3>Prerequisites</h3>
+  <p>C- or higher in ECO 2305 or AAEC 2305.</p>
+</div>
+
+<div class="syllabus-section">
+  <h3>Course Learning Outcomes</h3>
+  <p>After completing this course, students will be able to:</p>
+  <ol>
+    <li>Apply supply and demand analysis to evaluate outcomes in competitive markets.</li>
+    <li>Explain and use the concept of elasticity for demand and supply, and demonstrate how it can improve forecasting and decision-making in business contexts.</li>
+    <li>Analyze economic costs, cost minimization, and profit maximization, and explain how firms and markets influence one another in contestable environments.</li>
+    <li>Identify the sources of market power, describe how firms use it, and assess its implications across the spectrum from monopoly to perfect competition.</li>
+    <li>Evaluate both the intended and unintended consequences of government intervention in markets, including its direct and indirect effects on firms.</li>
+  </ol>
+</div>
+
+<div class="syllabus-section">
+  <h3>Assessment</h3>
+  <p>Throughout the semester there will be many homework assignments and quizzes. There will be three exams, as well as a makeup exam which will drop the lowest grade in the other three exams. This makeup exam is optional.</p>
+  <p>Exams will have both multiple choice and short essay questions. Questions may come from assigned readings, slides, or lecture content.</p>
+</div>
+
+<div class="syllabus-section">
+  <h3>Grade Determination</h3>
+  <table class="grade-table">
+    <tr><td>Exam 1</td><td>20%</td></tr>
+    <tr><td>Exam 2</td><td>20%</td></tr>
+    <tr><td>Exam 3</td><td>20%</td></tr>
+    <tr><td>Homework</td><td>30%</td></tr>
+    <tr><td>Quiz Questions</td><td>10%</td></tr>
+  </table>
+  <h4>Grading Scale</h4>
+  <table class="grade-table">
+    <tr><td>A</td><td>90% +</td></tr>
+    <tr><td>B</td><td>80% &ndash; 89.99%</td></tr>
+    <tr><td>C</td><td>70% &ndash; 79.99%</td></tr>
+    <tr><td>D</td><td>60% &ndash; 69.99%</td></tr>
+  </table>
+</div>
+
+<div class="syllabus-section">
+  <h3>Required Textbook</h3>
+  <p>Mankiw, N. Gregory. 2019. <em>Principles of Microeconomics</em>. 10th Edition. Boston, MA.</p>
+  <p>If there are any additional mandatory readings, these will be provided via Canvas.</p>
+</div>
+
+<div class="syllabus-section">
+  <h3>Missed Exam Policy</h3>
+  <p>Medical and family emergencies are acceptable excuses for missing an exam. Given one of these cases, please contact me regarding the scheduling of a makeup exam.</p>
+  <p>If you are a member of a TTU club/team with a scheduled event/trip and will miss an exam, you must notify me at least one week prior to the scheduled exam so we can arrange a makeup exam.</p>
+</div>
+
+<div class="syllabus-section">
+  <h3>Disability Accommodations</h3>
+  <p>Any student who, because of a disability, may require special arrangements in order to meet the course requirements should obtain appropriate verification from Texas Tech's Student Disability Services. In the case of exam accommodations, I will be happy to provide them provided that the student contacts me at least a week in advance of an exam for which you are requesting accommodations.</p>
+</div>
+
+<div class="syllabus-section">
+  <h3>ADA Statement</h3>
+  <p>Any student who, because of a disability, may require special arrangements in order to meet the course requirements should contact the instructor as soon as possible to make any necessary arrangements. Students should present appropriate verification from Student Disability Services during the instructor's office hours. For additional information, please contact Student Disability Services in West Hall or call 806-742-2405.</p>
+</div>
+
+<div class="syllabus-section">
+  <h3>Academic Integrity Statement</h3>
+  <p>Academic integrity is taking responsibility for one's own class and/or course work, being individually accountable, and demonstrating intellectual honesty and ethical behavior. Academic integrity is a personal choice to abide by the standards of intellectual honesty and responsibility. Because education is a shared effort to achieve learning through the exchange of ideas, students, faculty, and staff have the collective responsibility to build mutual trust and respect. Ethical behavior and independent thought are essential for the highest level of academic achievement, which then must be measured. Adhering to the standards of academic integrity ensures grades are earned honestly. Academic integrity is the foundation upon which students, faculty, and staff build their educational and professional careers.</p>
+</div>
+
+<div class="syllabus-section">
+  <h3>Statement of Accommodation for Pregnant Students</h3>
+  <p>To support the academic success of pregnant and parenting students and students with pregnancy related conditions, the University offers reasonable modifications based on the student's particular needs. Any student who is pregnant or parenting a child up to age 18 or has conditions related to pregnancy may contact Alex Faris, the Texas Tech University designated Pregnancy and Parenting Liaison, to discuss support available through the University. The Liaison can be reached by emailing <a href="mailto:alfaris@ttu.edu">alfaris@ttu.edu</a>.</p>
+</div>
+
+<div class="syllabus-section">
+  <h3>Religious Holy Day Statement</h3>
+  <p>"Religious holy day" means a holy day observed by a religion whose places of worship are exempt from property taxation under Texas Tax Code &sect;11.20. A student who intends to observe a religious holy day should make that intention known in writing to the instructor prior to the absence. A student who is absent from classes for the observance of a religious holy day shall be allowed to take an examination or complete an assignment scheduled for that day within a reasonable time after the absence.</p>
+</div>
+
+</div>
+```

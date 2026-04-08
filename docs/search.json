@@ -4,14 +4,14 @@
     "href": "teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "Rawls College of Business, Texas Tech University | Fall 2025\n\n\n\n\nUniversidad Francisco Marroquín | Spring & Fall 2025"
+    "text": "Rawls College of Business, Texas Tech University | Fall 2025\nAccess Course Materials\n\n\n\n\nUniversidad Francisco Marroquín | Spring & Fall 2025"
   },
   {
     "objectID": "teaching.html#instructor-with-full-responsibility",
     "href": "teaching.html#instructor-with-full-responsibility",
     "title": "Teaching",
     "section": "",
-    "text": "Rawls College of Business, Texas Tech University | Fall 2025\n\n\n\n\nUniversidad Francisco Marroquín | Spring & Fall 2025"
+    "text": "Rawls College of Business, Texas Tech University | Fall 2025\nAccess Course Materials\n\n\n\n\nUniversidad Francisco Marroquín | Spring & Fall 2025"
   },
   {
     "objectID": "teaching.html#teaching-assistant",
@@ -47,6 +47,237 @@
     "title": "Explore My Research",
     "section": "",
     "text": "My research focuses on migration, entrepreneurship, and political economy, with an emphasis on how institutions, policy environments, and economic incentives shape individual behavior and long-run development outcomes. Click a topic below to filter.\n\n\n\n\nTopics\n\n\nAll\n\n\nMigration\n\n\nEntrepreneurship\n\n\nFiscal & Monetary Policy\n\n\nStatus\n\n Published  Working Papers\n\n\n\n\n\n\nMigration Working Paper\n\n\nDid the Syrian Refugee Crisis impact European economic freedom?\n\n\nwith Benjamin Powell\n\n\n\nA prominent theoretical argument for immigration restrictions holds that large inflows from institutionally weaker countries could erode destination-country institutions. The Syrian refugee crisis offers the hardest possible test of this claim. Syria scored 4.53 on the Economic Freedom of the World (EFW) index while host countries scored approximately 8.0, a gap of 3.5 points. Refugees are less self-selected than voluntary migrants, and the scale was unprecedented: Germany absorbed over one million Syrians, Sweden took in 2.2% of its population.\n\n\nWe apply the synthetic control method to construct counterfactual EFW trajectories for Germany, Austria, and Sweden using a donor pool of 21 European countries where the Syrian-born population remained below 0.1%. The most notable donors are the United Kingdom (carrying 47% of Austria’s weight, 57% of Germany’s, and 39% of Sweden’s), the Czech Republic, France, Ireland, and Poland. We stack the three country-level analyses by aligning treatment years and averaging effects.\n\n\n\n\n\n\nStacked synthetic control: treated countries versus their synthetic counterfactual. Hover over the lines to see exact EFW values at each period.\n\n\n\n\n\nPost-treatment effects with p-values. Hover over each bar to see the exact treatment effect and statistical significance.\n\n\n\nThe Syrian refugee surge did not meaningfully impact destination countries’ economic freedom. All post-treatment point estimates are negative but small; the largest gap is just 0.18 points in period 6, and most are statistically insignificant. Only period 6 reaches conventional significance (p = 0.05), with a joint p-value of 0.106. Sweden is the most striking case: despite having the highest refugee ratio and fastest naturalization pathway (58% naturalized by 2023), it shows no significant effects in any year. Results are robust to dropping the UK from the donor pool, using all pre-treatment lags without covariates, and adding immigrant stock as a covariate.\n\n\nThe Syrian case is particularly informative because the conditions for detecting erosion are maximally favorable. If institutional erosion were going to happen anywhere, it should have happened here. That it did not suggests that the mechanisms through which immigrants theoretically degrade institutions either do not operate or offset each other in practice.\n\n\n\n\n\n\nEntrepreneurship Working Paper\n\n\nDo corruption reforms spur entrepreneurship?\n\n\n \n\n\n\nPavlik et al. (2023) showed that sustained anti-corruption reforms cause economic growth, but through what channel? If corruption raises business costs through bribes and legal uncertainty, reducing it should encourage new ventures. This paper tests whether anti-corruption reforms boost entrepreneurship.\n\n\nThe key methodological challenge is staggered treatment adoption. Traditional two-way fixed effects DiD suffers from “forbidden comparisons” that bias estimates. This paper applies the Callaway and Sant’Anna (2021) DiD estimator, which computes group-time-specific treatment effects using only not-yet-treated or never-treated units as controls. Treatment is defined as a sustained 5-year improvement of more than 0.20 in the World Bank’s Control of Corruption index.\n\n\nThe analysis uses two complementary datasets: the World Bank Group Entrepreneurship Survey (formal firm registrations per 1,000 working-age people, 20 treated countries) and the Global Entrepreneurship Monitor (total, opportunity-driven, and necessity-driven TEA, 10 treated countries).\n\n\n\n\n\nEvent study for formal firm registrations (World Bank data): pre-treatment trends support parallel trends, but post-treatment effects are consistently negative and statistically insignificant.\n\n\n\n\n\nEvent study for total early-stage entrepreneurial activity (GEM data): no discernible change in either direction after anti-corruption reform.\n\n\n\n\nAnti-corruption reforms have no statistically significant effect on any measure of entrepreneurship. Formal registrations show a slight negative point estimate (ATT = −0.70, s.e. = 0.54). Total TEA is essentially flat (ATT = −0.51, s.e. = 1.42). Necessity-driven TEA shows the largest decline (−2.68) but remains insignificant. Pre-treatment periods consistently include zero, supporting parallel trends.\n\n\nThe divergence between formal data (slight decline) and GEM data (no change) suggests reforms may temporarily reshape the form of entrepreneurship, shifting activity between formal and informal sectors, without changing overall business creation rates. The growth benefits documented by Pavlik et al. must therefore flow through other channels: investment, human capital, or productivity improvements within existing firms.\n\n\n\n\n\n\nMigration Published\n\n\nEmigration and origin country economic institutions\n\n\nwith Benjamin Powell · Public Choice, 2025\n\n\n\nDoes emigration improve or erode economic institutions in origin countries? Drawing on public choice theory and Hirschman’s exit-voice framework, this paper identifies four channels: the absence channel (dissatisfied citizens leave, shifting the median voter toward the status quo), the prospect channel (governments reform to retain mobile citizens), the diaspora channel (emigrants transmit liberal norms back home), and the return channel (returnees bring human capital and new ideas). These channels predict an inverted-U: moderate emigration improves institutions, but extreme levels deplete human capital and civic participation.\n\n\nWe test this using panel data on emigration from 132 countries to 20 OECD destinations (1980-2010) and the Economic Freedom of the World (EFW) index. Specifications include two-way fixed effects, quadratic terms, skill-specific disaggregation, and instrumental variables.\n\n\n\n\n\nPredicted total effect of emigrant stock on EFW change, showing the inverted-U relationship peaking near 20% of the population abroad.\n\n\n\n\n\nSkill-specific effects: medium- and high-skill emigrant stocks drive institutional improvements, with high-skill effects never turning negative within the observed range.\n\n\n\n\nThe results confirm the inverted-U hypothesis. Emigrant stocks are positively and significantly associated with improvements in economic freedom, peaking at about 20% of the population abroad (a 0.90-point improvement on the 10-point EFW scale). Only above 47% does the effect turn negative, and only Guyana exceeds that threshold. This positive association is larger for countries with weaker initial institutions, consistent with the diaspora channel.\n\n\nMedium- and high-skill emigrant stocks drive the result. High-skill emigration never turns negative within the observed range, suggesting persistent institutional spillovers. Contemporaneous flows show no significant effect, and IV estimates confirm that the negative OLS association for high-skill flows reflects reverse causality. The policy implication: allowing greater emigration from low-freedom countries could promote development through institutional improvement, a channel that adds to the already large estimated gains from freer migration.\n\n\n\n\n\n\nEntrepreneurship Published\n\n\nProperty rights and entrepreneurship\n\n\nEconomic Affairs, 45(3), 509-521, 2025\n\n\n\nThe literature assumes a linear relationship between property rights and entrepreneurship. This paper challenges that assumption, proposing and testing a U-shaped (nonlinear) relationship. The logic: at low levels of property rights, necessity-driven entrepreneurship dominates as people start businesses out of survival. As institutions improve, formal jobs absorb this activity and total entrepreneurship declines. Beyond a threshold, opportunity-driven entrepreneurship accelerates and total activity rises again.\n\n\nThe empirical analysis uses panel data from the Global Entrepreneurship Monitor across 90 countries (2004-2018, 822 observations), paired with the Fraser Institute’s Legal System and Property Rights sub-index. The baseline is a random-effects panel regression of TEA on property rights and its square, controlling for GDP per capita, GDP growth, unemployment, and population growth.\n\n\n\n\n\nThe U-shaped relationship: predicted TEA (solid curve) is driven by declining necessity entrepreneurship and rising opportunity entrepreneurship as property rights improve.\n\n\n\n\nThe results confirm the U-shape. The linear term is negative and significant (−5.590, p&lt;0.01), the quadratic term positive and significant (+0.418, p&lt;0.05), with a Wald test confirming the squared term matters (p = 0.011). The minimum occurs at a score of approximately 6.69, comparable to Chile. A purely linear specification yields an insignificant coefficient, demonstrating it misses the true relationship entirely.\n\n\nSeparate regressions reveal the mechanism: each additional point in property rights increases opportunity entrepreneurship by 0.0432 pp (p&lt;0.01) while decreasing necessity entrepreneurship by 0.0142 pp (p&lt;0.01). The gain in opportunity ventures is more than three times the decline in necessity ventures. Results are robust to using the World Bank’s Rule of Law index instead.\n\n\nThe policy implication: policymakers should not be discouraged if modest institutional improvements do not immediately produce a surge in business creation. The initial decline reflects a healthy transition away from survivalist informality. The payoff comes with sustained reform past the trough.\n\n\n\n\n\n\nFiscal & Monetary Policy Working Paper\n\n\nDebt Constraints in Emerging Economies: Synthetic Control Evidence from Guatemala\n\n\n \n\n\n\nFollowing a severe macroeconomic crisis in the 1980s (inflation at 60%, exchange rate collapse), Guatemala adopted two landmark fiscal rules: a 1991 Monetary Board resolution limiting central bank lending to the government, and a 1993 constitutional amendment outright prohibiting it. Did these rules produce genuine fiscal discipline?\n\n\nThe paper uses the synthetic control method with 17 donor countries from Latin America, Asia, and Africa (1970-2004). The synthetic Guatemala is composed of Belize (29%), El Salvador (23%), Bangladesh (22%), Paraguay (21%), and Uganda (5%), achieving strong pre-treatment fit (RMSPE = 3.87).\n\n\n\n\n\n\nGuatemala’s actual debt-to-GDP versus its synthetic counterfactual. Hover to see exact values at each year.\n\n\n\n\n\nTreatment effects (gap between actual and synthetic debt-to-GDP) with p-values. Hover to see exact values and significance levels.\n\n\n\nAfter 1991, Guatemala’s debt-to-GDP falls sharply while the synthetic remains elevated, producing an average gap of approximately −15 percentage points. Significance strengthens in later periods, reaching the 1% level from 2001 through 2003.\n\n\nThe key contribution is disentangling the mechanism. Central bank debt fell from $0.9 billion to $0.1 billion (the rule bound on its target), but total external debt actually increased from $2.6 billion to $3.3 billion. The government shifted borrowing to non-central-bank sources. The debt-to-GDP improvement came primarily because nominal GDP nearly tripled, driven by 123% cumulative inflation, and surging remittances ($130M to $563M) allowed for a controlled and slow depreciation.\n\n\nThe lesson: narrow fiscal rules can bind on their specific target, but do not guarantee broader discipline. Governments substitute toward other borrowing channels, and improving ratios can mask rising absolute debt when inflation outpaces new borrowing. Comprehensive frameworks covering total borrowing may be necessary for genuine fiscal consolidation."
+  },
+  {
+    "objectID": "beco3310/syllabus.html",
+    "href": "beco3310/syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "← Back to all materials\n\n\n\n\n  Instructor\n  Leonel Regalado\n  Research Assistant, Free Market Institute\n  PhD Student, Agricultural and Applied Economics\n  Texas Tech University\n  lregalad@ttu.edu\n\n\n\n  Course Description\n  This course is designed to give students the tools of the economic way of thinking and help them apply those tools to everyday professional and business decisions. We will use economic principles to understand how businesses set strategies, respond to competition, and allocate resources within economic models.\n  I will give out lectures using slides. There are assigned readings for each session, and I will provide the slides in advance, so students can have them during the session to take further notes or go back when they need to.\n\n\n\n  Prerequisites\n  C- or higher in ECO 2305 or AAEC 2305.\n\n\n\n  Course Learning Outcomes\n  After completing this course, students will be able to:\n  \n    Apply supply and demand analysis to evaluate outcomes in competitive markets.\n    Explain and use the concept of elasticity for demand and supply, and demonstrate how it can improve forecasting and decision-making in business contexts.\n    Analyze economic costs, cost minimization, and profit maximization, and explain how firms and markets influence one another in contestable environments.\n    Identify the sources of market power, describe how firms use it, and assess its implications across the spectrum from monopoly to perfect competition.\n    Evaluate both the intended and unintended consequences of government intervention in markets, including its direct and indirect effects on firms.\n  \n\n\n\n  Assessment\n  Throughout the semester there will be many homework assignments and quizzes. There will be three exams, as well as a makeup exam which will drop the lowest grade in the other three exams. This makeup exam is optional.\n  Exams will have both multiple choice and short essay questions. Questions may come from assigned readings, slides, or lecture content.\n\n\n\n  Grade Determination\n  \n\n\n\nExam 1\n20%\n\n\nExam 2\n20%\n\n\nExam 3\n20%\n\n\nHomework\n30%\n\n\nQuiz Questions\n10%\n\n\n\n\n  Grading Scale\n  \n\n\n\nA\n90% +\n\n\nB\n80% – 89.99%\n\n\nC\n70% – 79.99%\n\n\nD\n60% – 69.99%\n\n\n\n\n\n\n\n  Required Textbook\n  Mankiw, N. Gregory. 2019. Principles of Microeconomics. 10th Edition. Boston, MA.\n  If there are any additional mandatory readings, these will be provided via Canvas.\n\n\n\n  Missed Exam Policy\n  Medical and family emergencies are acceptable excuses for missing an exam. Given one of these cases, please contact me regarding the scheduling of a makeup exam.\n  If you are a member of a TTU club/team with a scheduled event/trip and will miss an exam, you must notify me at least one week prior to the scheduled exam so we can arrange a makeup exam.\n\n\n\n  Disability Accommodations\n  Any student who, because of a disability, may require special arrangements in order to meet the course requirements should obtain appropriate verification from Texas Tech's Student Disability Services. In the case of exam accommodations, I will be happy to provide them provided that the student contacts me at least a week in advance of an exam for which you are requesting accommodations.\n\n\n\n  ADA Statement\n  Any student who, because of a disability, may require special arrangements in order to meet the course requirements should contact the instructor as soon as possible to make any necessary arrangements. Students should present appropriate verification from Student Disability Services during the instructor's office hours. For additional information, please contact Student Disability Services in West Hall or call 806-742-2405.\n\n\n\n  Academic Integrity Statement\n  Academic integrity is taking responsibility for one's own class and/or course work, being individually accountable, and demonstrating intellectual honesty and ethical behavior. Academic integrity is a personal choice to abide by the standards of intellectual honesty and responsibility. Because education is a shared effort to achieve learning through the exchange of ideas, students, faculty, and staff have the collective responsibility to build mutual trust and respect. Ethical behavior and independent thought are essential for the highest level of academic achievement, which then must be measured. Adhering to the standards of academic integrity ensures grades are earned honestly. Academic integrity is the foundation upon which students, faculty, and staff build their educational and professional careers.\n\n\n\n  Statement of Accommodation for Pregnant Students\n  To support the academic success of pregnant and parenting students and students with pregnancy related conditions, the University offers reasonable modifications based on the student's particular needs. Any student who is pregnant or parenting a child up to age 18 or has conditions related to pregnancy may contact Alex Faris, the Texas Tech University designated Pregnancy and Parenting Liaison, to discuss support available through the University. The Liaison can be reached by emailing alfaris@ttu.edu.\n\n\n\n  Religious Holy Day Statement\n  \"Religious holy day\" means a holy day observed by a religion whose places of worship are exempt from property taxation under Texas Tax Code §11.20. A student who intends to observe a religious holy day should make that intention known in writing to the instructor prior to the absence. A student who is absent from classes for the observance of a religious holy day shall be allowed to take an examination or complete an assignment scheduled for that day within a reasonable time after the absence."
+  },
+  {
+    "objectID": "beco3310/hw2.html",
+    "href": "beco3310/hw2.html",
+    "title": "Homework 2",
+    "section": "",
+    "text": "← Back to all materials\n\n\n\n\n  \n  Figure 1\n\n\nFigure 1 shows the cost curves for an individual spinach farm.\n\n\n  1. Refer to Figure 1 above: If the market price for spinach is $3, should the farm continue to produce in the short-run? Intuitively explain why or why not.\n\n\n\n  2. Refer to Figure 1 above: If the market price for spinach is $5, should the farm continue to produce in the short-run? Intuitively explain why or why not.\n\n\n\n  3. Refer to Figure 1 above: If the market price for spinach is $4, should the farm continue to produce in the short-run? Intuitively explain why or why not.\n\n\n\n  4. List the four assumptions of the perfectly competitive market.\n\n\n\n  5. Intuitively explain why competitive firms choose the quantity that maximizes profit.\n\n\n\n  6. Suppose last year you opened a bakery. You had $90,000 in explicit costs which included wages to your employees, equipment and rent for the bakery, and the costs of ingredients. You also incurred $61,000 in implicit costs, including the $60,000/year salary you earned at your previous job. Over the course of the year, you sold 20,000 baked goods at an average price of $10 each.\n  \n    What were your accounting profits last year?\n    What were your economic profits last year?\n  \n\n\n\n  7. Intuitively explain why running shoes are not a standardized, or homogenous, product and inappropriate to be used as an example in the perfectly competitive market model."
+  },
+  {
+    "objectID": "beco3310/class29.html",
+    "href": "beco3310/class29.html",
+    "title": "Class 29: Entrepreneurship: An Austrian Economics Perspective",
+    "section": "",
+    "text": "← Back to all classes\n\n\n  \n    \n  \n  \n    ⛶ Open Full Screen"
+  },
+  {
+    "objectID": "beco3310/class27.html",
+    "href": "beco3310/class27.html",
+    "title": "Class 27: Special Topic",
+    "section": "",
+    "text": "← Back to all classes\n\n\n  \n    \n  \n  \n    ⛶ Open Full Screen"
+  },
+  {
+    "objectID": "beco3310/class25.html",
+    "href": "beco3310/class25.html",
+    "title": "Class 25: Asymmetric Information Problems",
+    "section": "",
+    "text": "← Back to all classes\n\n\n  \n    \n  \n  \n    ⛶ Open Full Screen"
+  },
+  {
+    "objectID": "beco3310/class23.html",
+    "href": "beco3310/class23.html",
+    "title": "Class 23: Externalities & Transaction Costs",
+    "section": "",
+    "text": "← Back to all classes\n\n\n  \n    \n  \n  \n    ⛶ Open Full Screen"
+  },
+  {
+    "objectID": "beco3310/class21.html",
+    "href": "beco3310/class21.html",
+    "title": "Class 21: Monopoly I: Introduction & Profit-Maximization",
+    "section": "",
+    "text": "← Back to all classes\n\n\n  \n    \n  \n  \n    ⛶ Open Full Screen"
+  },
+  {
+    "objectID": "beco3310/class19.html",
+    "href": "beco3310/class19.html",
+    "title": "Class 19: Competitive Markets II: Profit-Maximization & Shutdown Decisions",
+    "section": "",
+    "text": "← Back to all classes\n\n\n  \n    \n  \n  \n    ⛶ Open Full Screen"
+  },
+  {
+    "objectID": "beco3310/class17.html",
+    "href": "beco3310/class17.html",
+    "title": "Class 17: Theory of the Firm III: Cost in the Short- & Long-Run",
+    "section": "",
+    "text": "← Back to all classes\n\n\n  \n    \n  \n  \n    ⛶ Open Full Screen"
+  },
+  {
+    "objectID": "beco3310/class15.html",
+    "href": "beco3310/class15.html",
+    "title": "Class 15: Theory of the Firm I: Costs of Production",
+    "section": "",
+    "text": "← Back to all classes\n\n\n  \n    \n  \n  \n    ⛶ Open Full Screen"
+  },
+  {
+    "objectID": "beco3310/class13.html",
+    "href": "beco3310/class13.html",
+    "title": "Class 13: Messing with the Market I: Ceilings & Floors",
+    "section": "",
+    "text": "← Back to all classes\n\n\n  \n    \n  \n  \n    ⛶ Open Full Screen"
+  },
+  {
+    "objectID": "beco3310/class11.html",
+    "href": "beco3310/class11.html",
+    "title": "Class 11: Demand Elasticity",
+    "section": "",
+    "text": "← Back to all classes\n\n\n  \n    \n  \n  \n    ⛶ Open Full Screen"
+  },
+  {
+    "objectID": "beco3310/class09.html",
+    "href": "beco3310/class09.html",
+    "title": "Class 9: Equilibrium II: Analyzing Changes in Equilibrium",
+    "section": "",
+    "text": "← Back to all classes\n\n\n  \n    \n  \n  \n    ⛶ Open Full Screen"
+  },
+  {
+    "objectID": "beco3310/class07.html",
+    "href": "beco3310/class07.html",
+    "title": "Class 7: Supply",
+    "section": "",
+    "text": "← Back to all classes\n\n\n  \n    \n  \n  \n    ⛶ Open Full Screen"
+  },
+  {
+    "objectID": "beco3310/class05.html",
+    "href": "beco3310/class05.html",
+    "title": "Class 5: Gains from Trade",
+    "section": "",
+    "text": "← Back to all classes\n\n\n  \n    \n  \n  \n    ⛶ Open Full Screen"
+  },
+  {
+    "objectID": "beco3310/class03.html",
+    "href": "beco3310/class03.html",
+    "title": "Class 3: Basic Principles II: Principles in Practice",
+    "section": "",
+    "text": "← Back to all classes\n\n\n  \n    \n  \n  \n    ⛶ Open Full Screen"
+  },
+  {
+    "objectID": "beco3310.html",
+    "href": "beco3310.html",
+    "title": "Applied Business Economics (BECO 3310)",
+    "section": "",
+    "text": "← Back to Teaching\n\n\n\nThis course covers fundamental principles of microeconomics applied to business decision-making. Topics include supply and demand, market efficiency, firm theory, market structures, externalities, and public choice.\n\n\n\n\n\n\n\n  Materials\n  Class Slides\n  Homework\n  Syllabus\n\n\n\n\n\n\n\n\nPart 1: Foundations of Economics\n\n\n\nClass 2\nBasic Principles I: The Big Ideas\nAccess Materials\n\n\n\nClass 3\nBasic Principles II: Principles in Practice\nAccess Materials\n\n\n\nClass 4\nThe Price System\nAccess Materials\n\n\n\nClass 5\nGains from Trade\nAccess Materials\n\n\n\nClass 6\nDemand\nAccess Materials\n\n\n\nClass 7\nSupply\nAccess Materials\n\n\n\nClass 8\nEquilibrium I: Supply & Demand Meet\nAccess Materials\n\n\n\nClass 9\nEquilibrium II: Analyzing Changes in Equilibrium\nAccess Materials\n\n\n\nClass 10\nMarket Efficiency\nAccess Materials\n\n\n\nClass 11\nDemand Elasticity\nAccess Materials\n\n\n\nClass 12\nSupply Elasticity\nAccess Materials\n\n\n\nPart 2: Markets & the Firm\n\n\n\nClass 13\nMessing with the Market I: Ceilings & Floors\nAccess Materials\n\n\n\nClass 14\nMessing with the Market II: Taxes\nAccess Materials\n\n\n\nClass 15\nTheory of the Firm I: Costs of Production\nAccess Materials\n\n\n\nClass 16\nTheory of the Firm II: Various Measures of Cost\nAccess Materials\n\n\n\nClass 17\nTheory of the Firm III: Cost in the Short- & Long-Run\nAccess Materials\n\n\n\nClass 18\nCompetitive Markets I: Introduction and Profit Maximization\nAccess Materials\n\n\n\nClass 19\nCompetitive Markets II: Profit-Maximization & Shutdown Decisions\nAccess Materials\n\n\n\nClass 20\nCompetitive Markets III: Supply Curves in Competitive Markets\nAccess Materials\n\n\n\nPart 3: Market Structures & Failures\n\n\n\nClass 21\nMonopoly I: Introduction & Profit-Maximization\nAccess Materials\n\n\n\nClass 22\nMonopoly II: Welfare & Price-Discrimination\nAccess Materials\n\n\n\nClass 23\nExternalities & Transaction Costs\nAccess Materials\n\n\n\nClass 24\nPublic Goods: An Externality Application\nAccess Materials\n\n\n\nClass 25\nAsymmetric Information Problems\nAccess Materials\n\n\n\nClass 26\nPublic Choice and Regulation\nAccess Materials\n\n\n\nPart 4: Special Topics\n\n\n\nClass 27\nSpecial Topic\nAccess Materials\n\n\n\nClass 28\nThe History of Money\nAccess Materials\n\n\n\nClass 29\nEntrepreneurship: An Austrian Economics Perspective\nAccess Materials\n\n\n\n\n\n\n\n\nHomework Assignments\n\n\n\nPart 1\nHomework 1\nConsumer & producer surplus, price floors, elasticity, trade\nView Homework\n\n\n\nPart 2\nHomework 2\nCost curves, competitive markets, profit maximization\nView Homework\n\n\n\nPart 3\nHomework 3\nMonopoly, externalities, public goods, asymmetric information, public choice\nView Homework\n\n\n\n\n\n\n\n\n\n\n\n  Instructor\n  Leonel Regalado\n  Research Assistant, Free Market Institute\n  PhD Student, Agricultural and Applied Economics\n  Texas Tech University\n  lregalad@ttu.edu\n\n\n\n  Course Description\n  This course is designed to give students the tools of the economic way of thinking and help them apply those tools to everyday professional and business decisions. We will use economic principles to understand how businesses set strategies, respond to competition, and allocate resources within economic models.\n  I will give out lectures using slides. There are assigned readings for each session, and I will provide the slides in advance, so students can have them during the session to take further notes or go back when they need to.\n\n\n\n  Prerequisites\n  C- or higher in ECO 2305 or AAEC 2305.\n\n\n\n  Course Learning Outcomes\n  After completing this course, students will be able to:\n  \n    Apply supply and demand analysis to evaluate outcomes in competitive markets.\n    Explain and use the concept of elasticity for demand and supply, and demonstrate how it can improve forecasting and decision-making in business contexts.\n    Analyze economic costs, cost minimization, and profit maximization, and explain how firms and markets influence one another in contestable environments.\n    Identify the sources of market power, describe how firms use it, and assess its implications across the spectrum from monopoly to perfect competition.\n    Evaluate both the intended and unintended consequences of government intervention in markets, including its direct and indirect effects on firms.\n  \n\n\n\n  Assessment\n  Throughout the semester there will be many homework assignments and quizzes. There will be three exams, as well as a makeup exam which will drop the lowest grade in the other three exams. This makeup exam is optional.\n  Exams will have both multiple choice and short essay questions. Questions may come from assigned readings, slides, or lecture content.\n\n\n\n  Grade Determination\n  \n\n\n\nExam 1\n20%\n\n\nExam 2\n20%\n\n\nExam 3\n20%\n\n\nHomework\n30%\n\n\nQuiz Questions\n10%\n\n\n\n\n  Grading Scale\n  \n\n\n\nA\n90% +\n\n\nB\n80% – 89.99%\n\n\nC\n70% – 79.99%\n\n\nD\n60% – 69.99%\n\n\n\n\n\n\n\n  Required Textbook\n  Mankiw, N. Gregory. 2019. Principles of Microeconomics. 10th Edition. Boston, MA.\n  If there are any additional mandatory readings, these will be provided via Canvas.\n\n\n\n  Missed Exam Policy\n  Medical and family emergencies are acceptable excuses for missing an exam. Given one of these cases, please contact me regarding the scheduling of a makeup exam.\n  If you are a member of a TTU club/team with a scheduled event/trip and will miss an exam, you must notify me at least one week prior to the scheduled exam so we can arrange a makeup exam.\n\n\n\n  Disability Accommodations\n  Any student who, because of a disability, may require special arrangements in order to meet the course requirements should obtain appropriate verification from Texas Tech's Student Disability Services. In the case of exam accommodations, I will be happy to provide them provided that the student contacts me at least a week in advance of an exam for which you are requesting accommodations.\n\n\n\n  ADA Statement\n  Any student who, because of a disability, may require special arrangements in order to meet the course requirements should contact the instructor as soon as possible to make any necessary arrangements. Students should present appropriate verification from Student Disability Services during the instructor's office hours. For additional information, please contact Student Disability Services in West Hall or call 806-742-2405.\n\n\n\n  Academic Integrity Statement\n  Academic integrity is taking responsibility for one's own class and/or course work, being individually accountable, and demonstrating intellectual honesty and ethical behavior. Academic integrity is a personal choice to abide by the standards of intellectual honesty and responsibility. Because education is a shared effort to achieve learning through the exchange of ideas, students, faculty, and staff have the collective responsibility to build mutual trust and respect. Ethical behavior and independent thought are essential for the highest level of academic achievement, which then must be measured. Adhering to the standards of academic integrity ensures grades are earned honestly. Academic integrity is the foundation upon which students, faculty, and staff build their educational and professional careers.\n\n\n\n  Statement of Accommodation for Pregnant Students\n  To support the academic success of pregnant and parenting students and students with pregnancy related conditions, the University offers reasonable modifications based on the student's particular needs. Any student who is pregnant or parenting a child up to age 18 or has conditions related to pregnancy may contact Alex Faris, the Texas Tech University designated Pregnancy and Parenting Liaison, to discuss support available through the University. The Liaison can be reached by emailing alfaris@ttu.edu.\n\n\n\n  Religious Holy Day Statement\n  \"Religious holy day\" means a holy day observed by a religion whose places of worship are exempt from property taxation under Texas Tax Code §11.20. A student who intends to observe a religious holy day should make that intention known in writing to the instructor prior to the absence. A student who is absent from classes for the observance of a religious holy day shall be allowed to take an examination or complete an assignment scheduled for that day within a reasonable time after the absence."
+  },
+  {
+    "objectID": "beco3310/class02.html",
+    "href": "beco3310/class02.html",
+    "title": "Class 2: Basic Principles I: The Big Ideas",
+    "section": "",
+    "text": "← Back to all classes\n\n\n  \n    \n  \n  \n    ⛶ Open Full Screen"
+  },
+  {
+    "objectID": "beco3310/class04.html",
+    "href": "beco3310/class04.html",
+    "title": "Class 4: The Price System",
+    "section": "",
+    "text": "← Back to all classes\n\n\n  \n    \n  \n  \n    ⛶ Open Full Screen"
+  },
+  {
+    "objectID": "beco3310/class06.html",
+    "href": "beco3310/class06.html",
+    "title": "Class 6: Demand",
+    "section": "",
+    "text": "← Back to all classes\n\n\n  \n    \n  \n  \n    ⛶ Open Full Screen"
+  },
+  {
+    "objectID": "beco3310/class08.html",
+    "href": "beco3310/class08.html",
+    "title": "Class 8: Equilibrium I: Supply & Demand Meet",
+    "section": "",
+    "text": "← Back to all classes\n\n\n  \n    \n  \n  \n    ⛶ Open Full Screen"
+  },
+  {
+    "objectID": "beco3310/class10.html",
+    "href": "beco3310/class10.html",
+    "title": "Class 10: Market Efficiency",
+    "section": "",
+    "text": "← Back to all classes\n\n\n  \n    \n  \n  \n    ⛶ Open Full Screen"
+  },
+  {
+    "objectID": "beco3310/class12.html",
+    "href": "beco3310/class12.html",
+    "title": "Class 12: Supply Elasticity",
+    "section": "",
+    "text": "← Back to all classes\n\n\n  \n    \n  \n  \n    ⛶ Open Full Screen"
+  },
+  {
+    "objectID": "beco3310/class14.html",
+    "href": "beco3310/class14.html",
+    "title": "Class 14: Messing with the Market II: Taxes",
+    "section": "",
+    "text": "← Back to all classes\n\n\n  \n    \n  \n  \n    ⛶ Open Full Screen"
+  },
+  {
+    "objectID": "beco3310/class16.html",
+    "href": "beco3310/class16.html",
+    "title": "Class 16: Theory of the Firm II: Various Measures of Cost",
+    "section": "",
+    "text": "← Back to all classes\n\n\n  \n    \n  \n  \n    ⛶ Open Full Screen"
+  },
+  {
+    "objectID": "beco3310/class18.html",
+    "href": "beco3310/class18.html",
+    "title": "Class 18: Competitive Markets I: Introduction and Profit Maximization",
+    "section": "",
+    "text": "← Back to all classes\n\n\n  \n    \n  \n  \n    ⛶ Open Full Screen"
+  },
+  {
+    "objectID": "beco3310/class20.html",
+    "href": "beco3310/class20.html",
+    "title": "Class 20: Competitive Markets III: Supply Curves in Competitive Markets",
+    "section": "",
+    "text": "← Back to all classes\n\n\n  \n    \n  \n  \n    ⛶ Open Full Screen"
+  },
+  {
+    "objectID": "beco3310/class22.html",
+    "href": "beco3310/class22.html",
+    "title": "Class 22: Monopoly II: Welfare & Price-Discrimination",
+    "section": "",
+    "text": "← Back to all classes\n\n\n  \n    \n  \n  \n    ⛶ Open Full Screen"
+  },
+  {
+    "objectID": "beco3310/class24.html",
+    "href": "beco3310/class24.html",
+    "title": "Class 24: Public Goods: An Externality Application",
+    "section": "",
+    "text": "← Back to all classes\n\n\n  \n    \n  \n  \n    ⛶ Open Full Screen"
+  },
+  {
+    "objectID": "beco3310/class26.html",
+    "href": "beco3310/class26.html",
+    "title": "Class 26: Public Choice and Regulation",
+    "section": "",
+    "text": "← Back to all classes\n\n\n  \n    \n  \n  \n    ⛶ Open Full Screen"
+  },
+  {
+    "objectID": "beco3310/class28.html",
+    "href": "beco3310/class28.html",
+    "title": "Class 28: The History of Money",
+    "section": "",
+    "text": "← Back to all classes\n\n\n  \n    \n  \n  \n    ⛶ Open Full Screen"
+  },
+  {
+    "objectID": "beco3310/hw1.html",
+    "href": "beco3310/hw1.html",
+    "title": "Homework 1",
+    "section": "",
+    "text": "← Back to all materials\n\n\n\n\n  Homework 1 of 3\n  Area calculation formulas:\n  \n    ½ × base × height for triangles\n    length × width for rectangles\n  \n\n\n\n  \n  Figure 1\n\n\n\n  1. Refer to Figure 1 above: List and calculate the consumer surplus & producer surplus in the market for doctor's visits when in competitive equilibrium, using the letters provided in the triangles & rectangles.\n\n\n\n  2. Refer to Figure 1 above: Suppose the government limits the amount of doctor's visits to be made to 300. Label the consumer surplus, producer surplus, & deadweight loss, using the letters provided in the triangles & rectangles. Calculate the area of each.\n\n\n\n  \n  Figure 2\n\n\n\n  3. Refer to Figure 2 above: List and calculate the consumer surplus & producer surplus in the market for tomatoes when in competitive equilibrium, using the letters provided in the triangles & rectangles.\n\n\n\n  4. Refer to Figure 2 above: Suppose the government imposes a price floor of $4 in the market for tomatoes. Label the consumer surplus, producer surplus, & deadweight loss, using the letters provided in the triangles & rectangles. Calculate the area of each.\n\n\n\n  5. Explain what will happen to the equilibrium price, quantity, and economic welfare (consumer & producer surplus) if the price floor is non-binding.\n\n\n\n  \n  Figure 3\n\n\n\n  6. Use the graph above to do the following: Explain what would happen to price and quantity if the following circumstances happened:\n  \n    Demand increases\n    Supply increases\n    Demand and supply increase\n    Demand decreases while supply increases\n    Supply decreases while demand increases a little bit\n  \n\n\n\n  7. Elasticity: Answer the following questions\n  \n    A 10% increase in the price of movie tickets causes the quantity demanded to fall by 25%. Is the demand elastic or inelastic?\n    The price of salt rises by 20%, but the quantity demanded only falls by 1%. Is the demand elastic or inelastic?\n    A 5% increase in the price of coffee leads to a 15% increase in the quantity supplied. Is the supply elastic or inelastic?\n    When consumer income increases by 10%, the demand for instant noodles falls by 8%. Is this good normal, inferior, or a luxury?\n    When income rises by 15%, the demand for international vacations rises by 30%. Is this good normal, inferior, or a luxury?\n    The price of Coca-Cola increases, and as a result, the demand for Pepsi rises. Are Coca-Cola and Pepsi substitutes or complements?\n    The price of smartphones decreases, and the demand for phone cases increases. Are smartphones and phone cases substitutes or complements?\n  \n\n\n\n  8. Using what you've learned from the reading \"I, Pencil,\" explain:\n  \n    How does \"I, Pencil\" illustrate the idea that no single person knows how to make something as simple as a pencil? What does this reveal about the role of specialized knowledge in economics?\n    What role does the \"invisible hand\" play in coordinating all the people and resources involved in making a pencil, even though none of them intend to make a pencil specifically?\n    The essay highlights materials from around the world (cedar, graphite, rubber, etc.). How does \"I, Pencil\" help us understand the importance of global trade and interdependence in modern economies?"
+  },
+  {
+    "objectID": "beco3310/hw3.html",
+    "href": "beco3310/hw3.html",
+    "title": "Homework 3",
+    "section": "",
+    "text": "← Back to all materials\n\n\n\n\n  Material/Lectures Covered: Monopoly I & II, Externalities & Transaction Costs, Public Goods, Asymmetric Information, Public Choice\n\n\n\n  1. For each of the following examples, determine whether there is an external cost or benefit associated with use of the good and explain why.\n  \n    Flu Vaccines\n    Cigarettes\n    Loud Music\n  \n\n\n\n  2. The graph below shows a market in which there is a positive externality. Label the area(s) for deadweight loss.\n  \n    \n  \n\n\n\n  3. The graph below shows a market in which there is a negative externality. Label the area(s) for deadweight loss.\n  \n    \n  \n\n\n\n  4. Place private goods, public goods, club goods, and common pool resources in their respective spot in the goods matrix below.\n  \n    \n  \n\n\n\n  5. Going back to our example from class about used cars, are people right to be skeptical about used car markets? Intuitively explain why or why not.\n\n\n\n  6. About private goods, public goods, club goods, and common pool resources. Give one example of each and briefly explain why they are that type.\n\n\n\n  7. When one says that public choice is \"politics without romance,\" what does that mean? Intuitively explain using the language and tools of economics from class.\n\n\n\n  8. Draw a graph of a monopoly (seen several times in class) and explain where on the graph the monopoly will produce (quantity) and what price it will charge."
   },
   {
     "objectID": "cv.html",

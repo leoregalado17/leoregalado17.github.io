@@ -7,6 +7,8 @@ title: "Teaching"
 ### Applied Business Economics (BECO 3310)
 **Rawls College of Business, Texas Tech University** | Fall 2025
 
+<a href="beco3310.html" class="access-btn">Access Course Materials</a>
+
 ---
 
 ### Economics Seminar (2 sections)

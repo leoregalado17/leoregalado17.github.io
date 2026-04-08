@@ -3,10 +3,13 @@ project:
   output-dir: docs
   render:
     - "*.qmd"
+    - "beco3310/*.qmd"
   resources:
     - cv.pdf
     - publications/**
     - images/research/**
+    - beco3310/pdfs/**
+    - beco3310/hw_images/**
     - CNAME
     - logo.png
     - favicon.png
