@@ -8,3 +8,7 @@ cv.out
 cv.synctex.gz
 
 **/*.quarto_ipynb
+
+# Raw research files
+know my research/
+.claude/
