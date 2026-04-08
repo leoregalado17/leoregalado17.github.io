@@ -101,8 +101,13 @@ body.quarto-dark h1,
 body.quarto-dark h2,
 body.quarto-dark h3,
 body.quarto-dark h4,
-body.quarto-dark .anchored {
-  color: var(--bs-emphasis-color) !important;
+body.quarto-dark .anchored,
+body.quarto-dark .card-title,
+body.quarto-dark .card-title a,
+body.quarto-dark .featured-card h4,
+body.quarto-dark .hero-name,
+body.quarto-dark .edu-item strong {
+  color: #fff !important;
 }
 
 .hero-subtitle {
@@ -503,7 +508,7 @@ a:hover {
   font-size: 1.1rem;
   font-weight: 600;
   margin: 0 0 0.3rem;
-  color: var(--bs-emphasis-color) !important;
+  color: var(--bs-body-color) !important;
 }
 
 .card-title a:hover {
