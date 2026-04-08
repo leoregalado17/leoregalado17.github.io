@@ -103,6 +103,24 @@ a:hover {
   border-color: var(--bs-primary);
 }
 
+/* --- Status checkboxes --- */
+.status-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.88rem;
+  color: var(--bs-body-color);
+  cursor: pointer;
+  margin-bottom: 0.3rem;
+}
+
+.status-checkbox input[type="checkbox"] {
+  accent-color: var(--bs-primary);
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
 /* --- Year dividers --- */
 .year-divider {
   display: flex;

@@ -14,13 +14,17 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 <button class="topic-btn" data-filter="migration">Migration</button>
 <button class="topic-btn" data-filter="entrepreneurship">Entrepreneurship</button>
 <button class="topic-btn" data-filter="fiscal">Fiscal & Monetary Policy</button>
+
+<h5 class="sidebar-heading" style="margin-top:1.2rem;">Status</h5>
+<label class="status-checkbox"><input type="checkbox" class="status-filter" value="published" checked> Published</label>
+<label class="status-checkbox"><input type="checkbox" class="status-filter" value="working" checked> Working Papers</label>
 </div>
 
 <!-- Main content area -->
 <div class="explorer-content">
 
 <!-- ── Syria Refugees Paper ── -->
-<div class="paper-card" data-topic="migration">
+<div class="paper-card" data-topic="migration" data-status="working">
 <div class="card-header-row">
 <span class="topic-label topic-migration">Migration</span>
 <span class="status-badge badge-working">Working Paper</span>
@@ -54,7 +58,7 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 
 
 <!-- ── Corruption Paper ── -->
-<div class="paper-card" data-topic="entrepreneurship">
+<div class="paper-card" data-topic="entrepreneurship" data-status="working">
 <div class="card-header-row">
 <span class="topic-label topic-entrepreneurship">Entrepreneurship</span>
 <span class="status-badge badge-working">Working Paper</span>
@@ -91,7 +95,7 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 
 
 <!-- ── Emigration Paper ── -->
-<div class="paper-card" data-topic="migration">
+<div class="paper-card" data-topic="migration" data-status="published">
 <div class="card-header-row">
 <span class="topic-label topic-migration">Migration</span>
 <span class="status-badge badge-published">Published</span>
@@ -130,7 +134,7 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 
 
 <!-- ── Property Rights Paper ── -->
-<div class="paper-card" data-topic="entrepreneurship">
+<div class="paper-card" data-topic="entrepreneurship" data-status="published">
 <div class="card-header-row">
 <span class="topic-label topic-entrepreneurship">Entrepreneurship</span>
 <span class="status-badge badge-published">Published</span>
@@ -162,7 +166,7 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 </div>
 
 <!-- ── Fiscal Rules Guatemala Paper ── -->
-<div class="paper-card" data-topic="fiscal">
+<div class="paper-card" data-topic="fiscal" data-status="working">
 <div class="card-header-row">
 <span class="topic-label topic-fiscal">Fiscal & Monetary Policy</span>
 <span class="status-badge badge-working">Working Paper</span>
@@ -205,29 +209,37 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
 
-  // ── Topic filter logic ──
+  // ── Filter logic (topic + status) ──
   var buttons = document.querySelectorAll(".topic-btn");
   var cards = document.querySelectorAll(".paper-card");
-  var dividers = document.querySelectorAll(".year-divider");
+  var checkboxes = document.querySelectorAll(".status-filter");
+
+  function applyFilters() {
+    var activeBtn = document.querySelector(".topic-btn.active");
+    var topicFilter = activeBtn ? activeBtn.getAttribute("data-filter") : "all";
+
+    var activeStatuses = [];
+    checkboxes.forEach(function (cb) {
+      if (cb.checked) activeStatuses.push(cb.value);
+    });
+
+    cards.forEach(function (card) {
+      var topicMatch = (topicFilter === "all" || card.getAttribute("data-topic") === topicFilter);
+      var statusMatch = activeStatuses.indexOf(card.getAttribute("data-status")) !== -1;
+      card.style.display = (topicMatch && statusMatch) ? "" : "none";
+    });
+  }
 
   buttons.forEach(function (btn) {
     btn.addEventListener("click", function () {
       buttons.forEach(function (b) { b.classList.remove("active"); });
       btn.classList.add("active");
-      var filter = btn.getAttribute("data-filter");
-      cards.forEach(function (card) {
-        card.style.display = (filter === "all" || card.getAttribute("data-topic") === filter) ? "" : "none";
-      });
-      dividers.forEach(function (divider) {
-        var next = divider.nextElementSibling;
-        var hasVisible = false;
-        while (next && !next.classList.contains("year-divider")) {
-          if (next.classList.contains("paper-card") && next.style.display !== "none") { hasVisible = true; break; }
-          next = next.nextElementSibling;
-        }
-        divider.style.display = hasVisible ? "" : "none";
-      });
+      applyFilters();
     });
+  });
+
+  checkboxes.forEach(function (cb) {
+    cb.addEventListener("change", applyFilters);
   });
 
   // ── Chart styling to match presentation figures ──
