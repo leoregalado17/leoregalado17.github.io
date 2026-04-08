@@ -1,43 +1,66 @@
 ---
-title: "Leonel A. Regalado Cardoso"
-about:
-  template: trestles
-  image: profile.jpg
-  image-width: 14em
-  image-shape: round
-  links:
-    - icon: envelope
-      text: Email
-      href: mailto:lregalad@ttu.edu
-    - icon: github
-      text: GitHub
-      href: https://github.com/leoregalado17
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/leonel-regalado/
+title: ""
+toc: false
+page-layout: full
 ---
 
+<div class="hero-section">
+
+<div class="hero-photo-col">
+<img src="profile.jpg" alt="Leonel A. Regalado Cardoso" class="hero-photo">
+<div class="hero-social">
+<a href="mailto:lregalad@ttu.edu" title="Email"><i class="bi bi-envelope-fill"></i></a>
+<a href="https://github.com/leoregalado17" target="_blank" title="GitHub"><i class="bi bi-github"></i></a>
+<a href="https://www.linkedin.com/in/leonel-regalado/" target="_blank" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+</div>
+</div>
+
+<div class="hero-text-col">
+
+<h2 class="hero-name">Leonel A. Regalado Cardoso</h2>
+<p class="hero-subtitle">
+Ph.D. Student, Agricultural & Applied Economics<br>
+Texas Tech University | Free Market Institute
+</p>
+
+<div class="interest-pills">
+<span class="interest-pill">Migration</span>
+<span class="interest-pill">Entrepreneurship</span>
+<span class="interest-pill">Political Economy</span>
+</div>
+
+<p class="hero-bio">
 I am a Ph.D. student in the Department of Agricultural and Applied Economics at Texas Tech University and a Research Assistant at the Free Market Institute. I also serve as a Graduate Instructor in the Area of Energy Commerce & Business Economics at the Rawls College of Business.
+</p>
 
-I earned my B.A. in Economics from Universidad Francisco Marroquín and completed a Postgraduate Certificate in Money, Banking, and Central Banking at The University of Buckingham. My research focuses on migration, entrepreneurship, and political economy, with an emphasis on how institutions, policy environments, and economic incentives influence individual behavior and long-run development outcomes. More broadly, my work seeks to understand how institutional changes shape economic opportunity and entrepreneurial activity across countries and regions.
-
-## Research Interests
-
-- Migration
-- Entrepreneurship
-- Political Economy
-- Institutional Economics
+<p class="hero-bio">
+My research focuses on migration, entrepreneurship, and political economy, with an emphasis on how institutions, policy environments, and economic incentives influence individual behavior and long-run development outcomes.
+</p>
 
 ## Education
 
-**Texas Tech University** | Lubbock, TX
-Ph.D. in Agricultural and Applied Economics | Expected Spring 2027
+<div class="education-grid">
+<div class="edu-item">
+<strong>Texas Tech University</strong>
+<span>Ph.D. in Agricultural & Applied Economics</span>
+<em>Expected Spring 2027</em>
+</div>
+<div class="edu-item">
+<strong>Texas Tech University</strong>
+<span>M.S. in Agricultural & Applied Economics</span>
+<em>2025</em>
+</div>
+<div class="edu-item">
+<strong>Universidad Francisco Marroquin</strong>
+<span>B.A. in Economics, minor in Finance</span>
+<em>2023</em>
+</div>
+<div class="edu-item">
+<strong>University of Buckingham</strong>
+<span>PGCert in Money, Banking & Central Banking</span>
+<em>2022</em>
+</div>
+</div>
 
-**Texas Tech University** | Lubbock, TX
-M.S. in Agricultural and Applied Economics | 2025
-
-**Universidad Francisco Marroquín** | Guatemala City, Guatemala
-B.A. in Economics, minor in Finance | 2023
-
-**University of Buckingham** | Buckingham, United Kingdom
-Postgraduate Certificate in Money, Banking, and Central Banking | 2022
+</div>
+</div>

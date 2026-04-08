@@ -1,5 +1,202 @@
 /* Custom styles for academic website */
 
+/* ================================================
+   Global Transitions & Hover Animations
+   ================================================ */
+
+a {
+  transition: color 0.2s ease;
+}
+
+.navbar .nav-link {
+  position: relative;
+  transition: color 0.2s ease;
+}
+
+.navbar .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: var(--bs-primary);
+  transition: width 0.25s ease, left 0.25s ease;
+}
+
+.navbar .nav-link:hover::after,
+.navbar .nav-link.active::after {
+  width: 100%;
+  left: 0;
+}
+
+/* ================================================
+   Homepage Hero
+   ================================================ */
+
+.hero-section {
+  display: flex;
+  gap: 3rem;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.hero-photo-col {
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.hero-photo {
+  width: 13em;
+  height: 13em;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--bs-border-color);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero-photo:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.15);
+}
+
+.hero-social {
+  display: flex;
+  gap: 0.6rem;
+  margin-top: 1rem;
+  justify-content: center;
+}
+
+.hero-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1px solid var(--bs-border-color);
+  color: var(--bs-body-color);
+  font-size: 1.1rem;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+  text-decoration: none;
+}
+
+.hero-social a:hover {
+  background: var(--bs-primary);
+  color: #fff;
+  border-color: var(--bs-primary);
+  text-decoration: none;
+}
+
+.hero-text-col h2.hero-name {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+  color: var(--bs-emphasis-color);
+}
+
+.hero-subtitle {
+  font-size: 1rem;
+  color: var(--bs-secondary-color);
+  margin-bottom: 1.2rem;
+  line-height: 1.5;
+}
+
+.hero-bio {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: var(--bs-body-color);
+  margin-bottom: 1.5rem;
+}
+
+/* Research interest pills */
+.interest-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.interest-pill {
+  display: inline-block;
+  padding: 0.3rem 0.85rem;
+  border-radius: 20px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  background: rgba(204, 0, 0, 0.08);
+  color: var(--bs-primary);
+  border: 1px solid rgba(204, 0, 0, 0.2);
+}
+
+[data-bs-theme="dark"] .interest-pill {
+  background: rgba(204, 0, 0, 0.15);
+  border-color: rgba(204, 0, 0, 0.3);
+}
+
+/* Education grid */
+.education-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.edu-item {
+  padding: 0.8rem 1rem;
+  border-left: 3px solid var(--bs-primary);
+  background: var(--bs-tertiary-bg);
+  border-radius: 0 6px 6px 0;
+}
+
+.edu-item strong {
+  display: block;
+  font-size: 0.92rem;
+  color: var(--bs-emphasis-color);
+}
+
+.edu-item span {
+  font-size: 0.82rem;
+  color: var(--bs-secondary-color);
+}
+
+.edu-item em {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--bs-secondary-color);
+  font-style: normal;
+}
+
+/* Hero container override - ensure it has enough width */
+.hero-section {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem 1.5rem;
+}
+
+/* Hero responsive */
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+  }
+
+  .hero-text-col h2.hero-name {
+    font-size: 1.6rem;
+  }
+
+  .interest-pills {
+    justify-content: center;
+  }
+
+  .education-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* Paper titles in research page */
 .paper-title {
   font-weight: 600;
@@ -185,13 +382,14 @@ a:hover {
   border-radius: 8px;
   padding: 1.25rem 1.4rem;
   margin-bottom: 1rem;
-  transition: box-shadow 0.15s, border-color 0.15s;
+  transition: box-shadow 0.25s ease, border-color 0.25s ease, transform 0.25s ease;
   background: var(--bs-body-bg);
 }
 
 .paper-card:hover {
   border-color: var(--bs-primary);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
 }
 
 .card-header-row {
