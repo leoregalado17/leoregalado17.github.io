@@ -32,8 +32,9 @@ website:
         text: Teaching
       - href: presentations.qmd
         text: Presentations
-      - href: cv.qmd
+      - href: cv.pdf
         text: CV
+        target: _blank
     right:
       - icon: envelope
         href: mailto:lregalad@ttu.edu
