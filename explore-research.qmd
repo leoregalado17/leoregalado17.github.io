@@ -31,9 +31,11 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 </div>
 <h4 class="card-title">Did the Syrian Refugee Crisis impact European economic freedom?</h4>
 <p class="card-meta">with Benjamin Powell</p>
+<p class="card-hook">Using synthetic control methods, we find no evidence that the Syrian refugee surge eroded economic freedom in Germany, Austria, or Sweden.</p>
+<details class="card-expand"><summary>Read more</summary>
 <div class="card-description">
 
-<p>A prominent theoretical argument for immigration restrictions holds that large inflows from institutionally weaker countries could erode destination-country institutions. The Syrian refugee crisis offers the hardest possible test of this claim. Syria scored 4.53 on the Economic Freedom of the World (EFW) index while host countries scored approximately 8.0, a gap of 3.5 points. Refugees are less self-selected than voluntary migrants, and the scale was unprecedented: Germany absorbed over one million Syrians, Sweden took in 2.2% of its population.</p>
+<p>The Syrian refugee crisis offers the hardest possible test of the claim that immigration erodes institutions. Syria scored 4.53 on the Economic Freedom of the World (EFW) index while host countries scored approximately 8.0, a gap of 3.5 points. Refugees are less self-selected than voluntary migrants, and the scale was unprecedented: Germany absorbed over one million Syrians, Sweden took in 2.2% of its population.</p>
 
 <p>We apply the <strong>synthetic control method</strong> to construct counterfactual EFW trajectories for Germany, Austria, and Sweden using a donor pool of 21 European countries where the Syrian-born population remained below 0.1%. The most notable donors are the United Kingdom (carrying 47% of Austria's weight, 57% of Germany's, and 39% of Sweden's), the Czech Republic, France, Ireland, and Poland. We stack the three country-level analyses by aligning treatment years and averaging effects.</p>
 
@@ -50,6 +52,7 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 <p>The Syrian case is particularly informative because the conditions for detecting erosion are maximally favorable. If institutional erosion were going to happen anywhere, it should have happened here. That it did not suggests that the mechanisms through which immigrants theoretically degrade institutions either do not operate or offset each other in practice.</p>
 
 </div>
+</details>
 </div>
 
 
@@ -61,11 +64,11 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 </div>
 <h4 class="card-title">Do corruption reforms spur entrepreneurship?</h4>
 <p class="card-meta">&nbsp;</p>
+<p class="card-hook">Sustained anti-corruption reforms have no statistically significant effect on any measure of entrepreneurship, suggesting growth gains flow through other channels.</p>
+<details class="card-expand"><summary>Read more</summary>
 <div class="card-description">
 
-<p>Pavlik et al. (2023) showed that sustained anti-corruption reforms cause economic growth, but through what channel? If corruption raises business costs through bribes and legal uncertainty, reducing it should encourage new ventures. This paper tests whether anti-corruption reforms boost entrepreneurship.</p>
-
-<p>The key methodological challenge is staggered treatment adoption. Traditional two-way fixed effects DiD suffers from "forbidden comparisons" that bias estimates. This paper applies the <strong>Callaway and Sant'Anna (2021) DiD estimator</strong>, which computes group-time-specific treatment effects using only not-yet-treated or never-treated units as controls. Treatment is defined as a sustained 5-year improvement of more than 0.20 in the World Bank's Control of Corruption index.</p>
+<p>Pavlik et al. (2023) showed that sustained anti-corruption reforms cause economic growth, but through what channel? This paper applies the <strong>Callaway and Sant'Anna (2021) DiD estimator</strong>, which properly handles staggered treatment adoption, to test whether reducing corruption boosts business creation. Treatment is defined as a sustained 5-year improvement of more than 0.20 in the World Bank's Control of Corruption index.</p>
 
 <p>The analysis uses two complementary datasets: the World Bank Group Entrepreneurship Survey (formal firm registrations per 1,000 working-age people, 20 treated countries) and the Global Entrepreneurship Monitor (total, opportunity-driven, and necessity-driven TEA, 10 treated countries).</p>
 
@@ -80,11 +83,12 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 </figure>
 </div>
 
-<p><strong>Anti-corruption reforms have no statistically significant effect on any measure of entrepreneurship.</strong> Formal registrations show a slight negative point estimate (ATT&nbsp;=&nbsp;&minus;0.70, s.e.&nbsp;=&nbsp;0.54). Total TEA is essentially flat (ATT&nbsp;=&nbsp;&minus;0.51, s.e.&nbsp;=&nbsp;1.42). Necessity-driven TEA shows the largest decline (&minus;2.68) but remains insignificant. Pre-treatment periods consistently include zero, supporting parallel trends.</p>
+<p>Formal registrations show a slight negative point estimate (ATT&nbsp;=&nbsp;&minus;0.70, s.e.&nbsp;=&nbsp;0.54). Total TEA is essentially flat (ATT&nbsp;=&nbsp;&minus;0.51, s.e.&nbsp;=&nbsp;1.42). Necessity-driven TEA shows the largest decline (&minus;2.68) but remains insignificant.</p>
 
 <p>The divergence between formal data (slight decline) and GEM data (no change) suggests reforms may temporarily reshape the <em>form</em> of entrepreneurship, shifting activity between formal and informal sectors, without changing overall business creation rates. The growth benefits documented by Pavlik et al. must therefore flow through other channels: investment, human capital, or productivity improvements within existing firms.</p>
 
 </div>
+</details>
 </div>
 
 
@@ -96,9 +100,11 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 </div>
 <h4 class="card-title"><a href="https://link.springer.com/article/10.1007/s11127-025-01336-8" target="_blank">Emigration and origin country economic institutions</a></h4>
 <p class="card-meta">with Benjamin Powell &middot; <em>Public Choice</em>, 2025</p>
+<p class="card-hook">Moderate emigration improves origin-country economic institutions through an inverted-U relationship, driven by medium- and high-skill emigrant stocks.</p>
+<details class="card-expand"><summary>Read more</summary>
 <div class="card-description">
 
-<p>Does emigration improve or erode economic institutions in origin countries? Drawing on public choice theory and Hirschman's exit-voice framework, this paper identifies four channels: the <em>absence channel</em> (dissatisfied citizens leave, shifting the median voter toward the status quo), the <em>prospect channel</em> (governments reform to retain mobile citizens), the <em>diaspora channel</em> (emigrants transmit liberal norms back home), and the <em>return channel</em> (returnees bring human capital and new ideas). These channels predict an inverted-U: moderate emigration improves institutions, but extreme levels deplete human capital and civic participation.</p>
+<p>Drawing on public choice theory and Hirschman's exit-voice framework, this paper identifies four channels through which emigration affects origin-country institutions: the <em>absence channel</em>, the <em>prospect channel</em>, the <em>diaspora channel</em>, and the <em>return channel</em>. These predict an inverted-U: moderate emigration improves institutions, but extreme levels deplete human capital and civic participation.</p>
 
 <p>We test this using panel data on emigration from 132 countries to 20 OECD destinations (1980-2010) and the Economic Freedom of the World (EFW) index. Specifications include two-way fixed effects, quadratic terms, skill-specific disaggregation, and instrumental variables.</p>
 
@@ -118,6 +124,7 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 <p>Medium- and high-skill emigrant stocks drive the result. High-skill emigration never turns negative within the observed range, suggesting persistent institutional spillovers. Contemporaneous flows show no significant effect, and IV estimates confirm that the negative OLS association for high-skill flows reflects reverse causality. The policy implication: allowing greater emigration from low-freedom countries could promote development through institutional improvement, a channel that adds to the already large estimated gains from freer migration.</p>
 
 </div>
+</details>
 </div>
 
 
@@ -129,9 +136,11 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 </div>
 <h4 class="card-title"><a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/ecaf.70007" target="_blank">Property rights and entrepreneurship</a></h4>
 <p class="card-meta"><em>Economic Affairs</em>, 45(3), 509-521, 2025</p>
+<p class="card-hook">Property rights and total entrepreneurship follow a U-shaped relationship: necessity entrepreneurship falls first, then opportunity entrepreneurship rises.</p>
+<details class="card-expand"><summary>Read more</summary>
 <div class="card-description">
 
-<p>The literature assumes a linear relationship between property rights and entrepreneurship. This paper challenges that assumption, proposing and testing a <strong>U-shaped (nonlinear) relationship</strong>. The logic: at low levels of property rights, necessity-driven entrepreneurship dominates as people start businesses out of survival. As institutions improve, formal jobs absorb this activity and total entrepreneurship declines. Beyond a threshold, opportunity-driven entrepreneurship accelerates and total activity rises again.</p>
+<p>The literature assumes a linear relationship between property rights and entrepreneurship. This paper challenges that assumption, proposing and testing a <strong>U-shaped (nonlinear) relationship</strong>. At low levels, necessity-driven entrepreneurship dominates. As institutions improve, formal jobs absorb this activity. Beyond a threshold, opportunity-driven entrepreneurship accelerates and total activity rises again.</p>
 
 <p>The empirical analysis uses panel data from the Global Entrepreneurship Monitor across 90 countries (2004-2018, 822 observations), paired with the Fraser Institute's Legal System and Property Rights sub-index. The baseline is a random-effects panel regression of TEA on property rights and its square, controlling for GDP per capita, GDP growth, unemployment, and population growth.</p>
 
@@ -149,6 +158,7 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 <p>The policy implication: policymakers should not be discouraged if modest institutional improvements do not immediately produce a surge in business creation. The initial decline reflects a healthy transition away from survivalist informality. The payoff comes with sustained reform past the trough.</p>
 
 </div>
+</details>
 </div>
 
 <!-- ── Fiscal Rules Guatemala Paper ── -->
@@ -159,6 +169,8 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 </div>
 <h4 class="card-title">Debt Constraints in Emerging Economies: Synthetic Control Evidence from Guatemala</h4>
 <p class="card-meta">&nbsp;</p>
+<p class="card-hook">Guatemala's fiscal rules reduced central bank lending but did not produce genuine fiscal discipline; the debt-to-GDP improvement was driven by inflation, not austerity.</p>
+<details class="card-expand"><summary>Read more</summary>
 <div class="card-description">
 
 <p>Following a severe macroeconomic crisis in the 1980s (inflation at 60%, exchange rate collapse), Guatemala adopted two landmark fiscal rules: a 1991 Monetary Board resolution limiting central bank lending to the government, and a 1993 constitutional amendment outright prohibiting it. Did these rules produce genuine fiscal discipline?</p>
@@ -180,6 +192,7 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 <p>The lesson: narrow fiscal rules can bind on their specific target, but do not guarantee broader discipline. Governments substitute toward other borrowing channels, and improving ratios can mask rising absolute debt when inflation outpaces new borrowing. Comprehensive frameworks covering total borrowing may be necessary for genuine fiscal consolidation.</p>
 
 </div>
+</details>
 </div>
 
 </div>

@@ -575,11 +575,54 @@ a:hover {
   margin: 0 0 0.6rem;
 }
 
+/* --- Card hook (one-line summary, always visible) --- */
+.card-hook {
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--bs-body-color);
+  margin: 0 0 0.5rem;
+}
+
+/* --- Expandable details --- */
+.card-expand {
+  margin: 0;
+}
+
+.card-expand summary {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--bs-primary);
+  cursor: pointer;
+  list-style: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.card-expand summary::-webkit-details-marker {
+  display: none;
+}
+
+.card-expand summary::after {
+  content: "\f282";
+  font-family: "bootstrap-icons";
+  font-size: 0.75rem;
+  transition: transform 0.2s ease;
+}
+
+.card-expand[open] summary::after {
+  transform: rotate(180deg);
+}
+
+.card-expand summary:hover {
+  text-decoration: underline;
+}
+
 .card-description {
   font-size: 0.92rem;
   line-height: 1.55;
   color: var(--bs-body-color);
-  margin: 0;
+  margin: 0.8rem 0 0;
 }
 
 /* --- Figures inside cards --- */
