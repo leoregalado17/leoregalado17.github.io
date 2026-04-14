@@ -704,6 +704,11 @@ body.quarto-dark .topic-fiscal {
   color: #155724;
 }
 
+.badge-under-review {
+  background: #fff3cd;
+  color: #856404;
+}
+
 .badge-working {
   background: #d1ecf1;
   color: #0c5460;
@@ -712,6 +717,11 @@ body.quarto-dark .topic-fiscal {
 body.quarto-dark .badge-published {
   background: #1a4d2a;
   color: #7cf0a0;
+}
+
+body.quarto-dark .badge-under-review {
+  background: #4d4420;
+  color: #f0d97c;
 }
 
 body.quarto-dark .badge-working {
