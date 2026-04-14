@@ -49,7 +49,7 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 
 <p><strong>The Syrian refugee surge did not meaningfully impact destination countries' economic freedom.</strong> All post-treatment point estimates are negative but small; the largest gap is just 0.18 points in period 6, and most are statistically insignificant. Only period 6 reaches conventional significance (p&nbsp;=&nbsp;0.05), with a joint p-value of 0.106. Sweden is the most striking case: despite having the highest refugee ratio and fastest naturalization pathway (58% naturalized by 2023), it shows <em>no</em> significant effects in any year. Results are robust to dropping the UK from the donor pool, using all pre-treatment lags without covariates, and adding immigrant stock as a covariate.</p>
 
-<p>The Syrian case is particularly informative because the conditions for detecting erosion are maximally favorable. If institutional erosion were going to happen anywhere, it should have happened here. That it did not suggests that the mechanisms through which immigrants theoretically degrade institutions either do not operate or offset each other in practice.</p>
+<p>The Syrian case is particularly informative because the conditions for detecting erosion are maximally favorable. If institutional erosion were going to happen anywhere, it should have happened here.</p>
 
 </div>
 </details>
@@ -106,7 +106,7 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 
 <p>Drawing on public choice theory and Hirschman's exit-voice framework, this paper identifies four channels through which emigration affects origin-country institutions: the <em>absence channel</em>, the <em>prospect channel</em>, the <em>diaspora channel</em>, and the <em>return channel</em>. These predict an inverted-U: moderate emigration improves institutions, but extreme levels deplete human capital and civic participation.</p>
 
-<p>We test this using panel data on emigration from 132 countries to 20 OECD destinations (1980-2010) and the Economic Freedom of the World (EFW) index. Specifications include two-way fixed effects, quadratic terms, skill-specific disaggregation, and instrumental variables.</p>
+<p>We test this using panel data on emigration from 132 countries to 20 OECD destinations (1980-2010) and the Economic Freedom of the World (EFW) index. Specifications include two-way fixed effects, quadratic terms, and skill-specific disaggregation.</p>
 
 <div class="card-figures">
 <figure>
@@ -119,9 +119,9 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 </figure>
 </div>
 
-<p>The results confirm the <strong>inverted-U hypothesis</strong>. Emigrant stocks are positively and significantly associated with improvements in economic freedom, peaking at about 20% of the population abroad (a 0.90-point improvement on the 10-point EFW scale). Only above 47% does the effect turn negative, and only Guyana exceeds that threshold. This positive association is <em>larger for countries with weaker initial institutions</em>, consistent with the diaspora channel.</p>
+<p>The results confirm the <strong>inverted-U hypothesis</strong>. Emigrant stocks are positively and significantly associated with improvements in economic freedom, peaking at about 20% of the population abroad (a 0.90-point improvement on the 10-point EFW scale). Only above 47% does the effect turn negative, and only Guyana exceeds that threshold.</p>
 
-<p>Medium- and high-skill emigrant stocks drive the result. High-skill emigration never turns negative within the observed range, suggesting persistent institutional spillovers. Contemporaneous flows show no significant effect, and IV estimates confirm that the negative OLS association for high-skill flows reflects reverse causality. The policy implication: allowing greater emigration from low-freedom countries could promote development through institutional improvement, a channel that adds to the already large estimated gains from freer migration.</p>
+<p>Medium- and high-skill emigrant stocks drive the result. High-skill emigration never turns negative within the observed range, suggesting persistent institutional spillovers. The policy implication: allowing greater emigration from low-freedom countries could promote development through institutional improvement, a channel that adds to the already large estimated gains from freer migration.</p>
 
 </div>
 </details>
