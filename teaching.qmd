@@ -7,12 +7,18 @@ title: "Teaching"
 ### Applied Business Economics (BECO 3310)
 **Rawls College of Business, Texas Tech University** | Fall 2025
 
+Fundamental principles of microeconomics applied to business decision-making, covering supply and demand, market efficiency, firm theory, and market structures.
+
 <a href="beco3310.html" class="access-btn">Access Course Materials</a>
 
 ---
 
 ### Economics Seminar (2 sections)
 **Universidad Francisco Marroquín** | Spring & Fall 2025
+
+A discussion-based seminar exploring the theory of the entrepreneur, from Kirzner's opportunity discovery to Schumpeter's creative destruction and Baumol's productive and unproductive entrepreneurship.
+
+<a href="seminario.html" class="access-btn">Access Course Materials</a>
 
 ---
 

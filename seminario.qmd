@@ -1,0 +1,182 @@
+---
+title: "Economics Seminar 3"
+subtitle: "Universidad Francisco Marroquín, Faculty of Economics"
+toc: false
+---
+
+```{=html}
+<a href="teaching.html" class="back-link">&larr; Back to Teaching</a>
+
+<div class="course-header">
+<p class="course-desc">
+Economics seminars are designed to strengthen critical analysis, argumentation, and effective communication skills in specialized discussions. These spaces allow students to develop their ability to debate complex economic topics, formulate relevant questions, and propose well-founded solutions.
+</p>
+</div>
+
+<div class="course-layout">
+
+<!-- Sidebar -->
+<div class="course-sidebar">
+  <div class="sidebar-heading">Program</div>
+  <button class="course-tab active" onclick="showTab('syllabus')">Course Program</button>
+  <button class="course-tab" onclick="showTab('readings')">Reading Schedule</button>
+</div>
+
+<!-- Main content -->
+<div class="course-main">
+
+<!-- ==================== COURSE PROGRAM TAB ==================== -->
+<div class="tab-content" id="tab-syllabus">
+
+<div class="syllabus-container">
+
+<div class="syllabus-section">
+  <h3>Instructor</h3>
+  <p><strong>Leonel Regalado</strong><br>
+  Universidad Francisco Marroquín<br>
+  Faculty of Economics</p>
+  <p><strong>Teaching Assistant:</strong> Juan Daniel Alfaro</p>
+</div>
+
+<div class="syllabus-section">
+  <h3>Course Description</h3>
+  <p>Economics seminars are designed to strengthen critical analysis, argumentation, and effective communication skills in specialized discussions. These spaces allow students to develop their ability to debate complex economic topics, formulate relevant questions, and propose well-founded solutions.</p>
+</div>
+
+<div class="syllabus-section">
+  <h3>Prerequisites</h3>
+  <p>Economic topics learned throughout the degree. Students are expected to be able to go in-depth on the various topics covered in class, as this is the third and final economics seminar.</p>
+</div>
+
+<div class="syllabus-section">
+  <h3>Connection with Other Courses</h3>
+  <p>This economics seminar connects with the rest of the courses in the program by complementing the theoretical and analytical foundations previously acquired, applying them in deep and critical discussions on key economic topics.</p>
+</div>
+
+<div class="syllabus-section">
+  <h3>Learning Objectives</h3>
+  <p>This economics seminar seeks to develop critical and analytical competencies through the identification, analysis, and discussion of complex economic topics, applying theoretical models and practical tools.</p>
+</div>
+
+<div class="syllabus-section">
+  <h3>Activities</h3>
+
+  <h4>Participation</h4>
+  <p>Students should prepare by reading and conducting a deep analysis of the materials. Some helpful strategies include annotating the reading, highlighting important points, or separately writing down the topics or questions you consider most important. Participation will be evaluated based on the quality of contributions, which is based on understanding of the material and contribution to the ongoing discussion. Avoid saying "I think that..." or "I feel that..."</p>
+
+  <h4>Reading Guides</h4>
+  <p>Reading guides must be structured as follows:</p>
+  <ol>
+    <li>Synthesis of the reading (min. 250, max. 300 words)</li>
+    <li>2 new words or terms found in the reading, with their meaning explained (max. 30 words per term)</li>
+    <li>Description of the author (max. 50 words)</li>
+    <li>2 questions about the material (these should be brought up during class to encourage discussion and deeper analysis)</li>
+    <li>2 references found within the text (texts cited within the reading; if it is a book without citations, find two related external references) with descriptions (max. 40 words per reference)</li>
+  </ol>
+  <p>All sources must be properly cited in APA format; otherwise, the section will not be valid and will be deducted from the grade.</p>
+  <p><strong>AI Policy:</strong> Any indication of artificial intelligence use in the writing of the guide will invalidate the entire guide, resulting in a score of 0.</p>
+  <p><strong>Deadline:</strong> Reading guides must be submitted by 10:00 PM the day before the session. Submissions after this time will be received at 75% of the grade, while guides submitted after the start of class will not be accepted.</p>
+
+  <h4>Post-Seminar Reflection</h4>
+  <p>In a paragraph of 75 to 100 words, synthesize what you learned during the seminar session and any curiosities you were left with. These must be uploaded no later than the day after the session.</p>
+
+  <h4>Final Project</h4>
+  <p>To be determined.</p>
+</div>
+
+</div>
+
+</div><!-- end tab-syllabus -->
+
+<!-- ==================== READING SCHEDULE TAB ==================== -->
+<div class="tab-content" id="tab-readings" style="display:none">
+
+<h2>Reading Schedule</h2>
+
+<div class="class-grid">
+
+<div class="class-card">
+<div class="class-number">Session 1</div>
+<h4>Kirzner's Theory of the Entrepreneur: Opportunity Discovery Framework</h4>
+<ul style="font-size: 0.9rem; margin-top: 0.5rem; text-align: left;">
+  <li>Israel Kirzner, "The Theory of Entrepreneurial Discovery," in <em>How Markets Work</em></li>
+  <li>Richard Langlois, "Risk and Uncertainty," in <em>Elgar Companion</em></li>
+</ul>
+</div>
+
+<div class="class-card">
+<div class="class-number">Session 2</div>
+<h4>Entrepreneurship and Freedom</h4>
+<ul style="font-size: 0.9rem; margin-top: 0.5rem; text-align: left;">
+  <li>Israel Kirzner, "Entrepreneurship, Choice and Freedom," pp. 3&ndash;17, in <em>The Collected Works of Israel M. Kirzner</em>, ed. P. Boettke and F. Sautet (2018), Liberty Fund</li>
+</ul>
+</div>
+
+<div class="class-card">
+<div class="class-number">Session 3</div>
+<h4>Advertising and Marketing</h4>
+<ul style="font-size: 0.9rem; margin-top: 0.5rem; text-align: left;">
+  <li>"Selling Costs, Quality and Competition"</li>
+  <li>"Advertising, Consumer Knowledge, and the Economics of Information"</li>
+  <li>"Advertising, Information, and Persuasion"</li>
+  <li>"Waste, Consumer Sovereignty, and Advertising"</li>
+  <li>In Israel Kirzner, <em>Competition and Entrepreneurship</em></li>
+</ul>
+</div>
+
+<div class="class-card">
+<div class="class-number">Session 4</div>
+<h4>Schumpeter's Theory: Creative Destruction</h4>
+<ul style="font-size: 0.9rem; margin-top: 0.5rem; text-align: left;">
+  <li>Schumpeter, J.A. (1934/2008), <em>The Theory of Economic Development: An Inquiry into Profits, Capital, Credit, Interest and the Business Cycle</em>, Transaction Publishers</li>
+</ul>
+</div>
+
+<div class="class-card">
+<div class="class-number">Session 5</div>
+<h4>Innovation</h4>
+<ul style="font-size: 0.9rem; margin-top: 0.5rem; text-align: left;">
+  <li>Matt Ridley, <em>How Innovation Works</em>, Chapters 1, 2, 3, 5</li>
+</ul>
+</div>
+
+<div class="class-card">
+<div class="class-number">Session 6</div>
+<h4>Productive, Unproductive, and Destructive Entrepreneurship</h4>
+<ul style="font-size: 0.9rem; margin-top: 0.5rem; text-align: left;">
+  <li>William J. Baumol, "Entrepreneurship: Productive, Unproductive, and Destructive," <em>Journal of Business Venturing</em>, Vol. 11, Issue 1, 1996, pp. 3&ndash;22</li>
+</ul>
+</div>
+
+<div class="class-card">
+<div class="class-number">Session 7</div>
+<h4>Entrepreneurship and the Infinity of Resources</h4>
+<ul style="font-size: 0.9rem; margin-top: 0.5rem; text-align: left;">
+  <li>Julian L. Simon, "Can the Supply of Natural Resources&mdash;Especially Energy&mdash;Really Be Infinite? Yes!"</li>
+</ul>
+</div>
+
+<div class="class-card">
+<div class="class-number">Session 8</div>
+<h4>Rent Seeking and Entrepreneurship</h4>
+<ul style="font-size: 0.9rem; margin-top: 0.5rem; text-align: left;">
+  <li>Candela, Rosolino and Geloso, Vincent, "The Lightship in Economics," <em>Public Choice</em>, Vol. 176, No. 3 (2018): 479&ndash;506</li>
+</ul>
+</div>
+
+</div>
+
+</div><!-- end tab-readings -->
+
+</div><!-- end course-main -->
+</div><!-- end course-layout -->
+
+<script>
+function showTab(tab) {
+  document.querySelectorAll('.tab-content').forEach(el => el.style.display = 'none');
+  document.querySelectorAll('.course-tab').forEach(el => el.classList.remove('active'));
+  document.getElementById('tab-' + tab).style.display = 'block';
+  event.target.classList.add('active');
+}
+</script>
+```
