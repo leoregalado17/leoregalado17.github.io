@@ -57,6 +57,17 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 </div>
 
 
+<!-- ── Cuban Businessmen Paper ── -->
+<div class="paper-card" data-topic="migration" data-status="working">
+<div class="card-header-row">
+<span class="topic-label topic-migration">Migration</span>
+<span class="status-badge badge-working">Working Paper</span>
+</div>
+<h4 class="card-title">From Das Kapital to Venture Capital: Cuban Entrepreneurial Elites Exiled in South Florida</h4>
+<p class="card-meta">with Carlos Martinez</p>
+<p class="card-hook">Coming soon...</p>
+</div>
+
 <!-- ── Corruption Paper ── -->
 <div class="paper-card" data-topic="entrepreneurship" data-status="working">
 <div class="card-header-row">
