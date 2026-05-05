@@ -82,16 +82,16 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 <figcaption>Havana business locations, 1958.</figcaption>
 </figure>
 <figure>
-<img src="images/research/cuban_businesses_by_zip_year.png" alt="Cuban-owned businesses in South Florida by ZIP and year">
-<figcaption>Cuban-owned businesses in South Florida by ZIP and year.</figcaption>
+<img src="images/research/cuban_businesses_by_zip_year.png" alt="Cuban-proprietor-owned businesses in South Florida by ZIP and year">
+<figcaption>Cuban-proprietor-owned businesses in South Florida by ZIP and year.</figcaption>
 </figure>
 <figure>
-<img src="images/research/florida_businesses_by_county.png" alt="Cuban-owned businesses across Florida by county">
-<figcaption>Cuban-owned businesses across Florida by county.</figcaption>
+<img src="images/research/florida_businesses_by_county.png" alt="Cuban-proprietor-owned businesses across Florida by county">
+<figcaption>Cuban-proprietor-owned businesses across Florida by county.</figcaption>
 </figure>
 <figure>
-<img src="images/research/miami_dade_business_map.png" alt="Cuban-owned business locations in Miami-Dade County">
-<figcaption>Cuban-owned business locations in Miami-Dade County.</figcaption>
+<img src="images/research/miami_dade_business_map.png" alt="Cuban-proprietor-owned business locations in Miami-Dade County">
+<figcaption>Cuban-proprietor-owned business locations in Miami-Dade County.</figcaption>
 </figure>
 </div>
 
