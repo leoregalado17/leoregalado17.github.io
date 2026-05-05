@@ -69,6 +69,34 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 <h4 class="card-title">From Das Kapital to Venture Capital: Cuban Entrepreneurial Elites Exiled in South Florida</h4>
 <p class="card-meta">with Carlos Martinez</p>
 <p class="card-hook">Coming soon...</p>
+<details class="card-expand"><summary>See figures</summary>
+<div class="card-description">
+
+<div class="card-figures">
+<figure>
+<img src="images/research/cuba_province_map.png" alt="Cuban businesses by province, 1958">
+<figcaption>Cuban businesses by province, 1958.</figcaption>
+</figure>
+<figure>
+<img src="images/research/havana_business_map.png" alt="Havana business locations, 1958">
+<figcaption>Havana business locations, 1958.</figcaption>
+</figure>
+<figure>
+<img src="images/research/cuban_businesses_by_zip_year.png" alt="Cuban-owned businesses in South Florida by ZIP and year">
+<figcaption>Cuban-owned businesses in South Florida by ZIP and year.</figcaption>
+</figure>
+<figure>
+<img src="images/research/florida_businesses_by_county.png" alt="Cuban-owned businesses across Florida by county">
+<figcaption>Cuban-owned businesses across Florida by county.</figcaption>
+</figure>
+<figure>
+<img src="images/research/miami_dade_business_map.png" alt="Cuban-owned business locations in Miami-Dade County">
+<figcaption>Cuban-owned business locations in Miami-Dade County.</figcaption>
+</figure>
+</div>
+
+</div>
+</details>
 </div>
 
 <!-- ── Corruption Paper ── -->
