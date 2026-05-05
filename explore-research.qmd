@@ -17,7 +17,7 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 
 <h5 class="sidebar-heading" style="margin-top:1.2rem;">Status</h5>
 <label class="status-checkbox"><input type="checkbox" class="status-filter" value="published" checked> Published</label>
-<label class="status-checkbox"><input type="checkbox" class="status-filter" value="under-review" checked> Under Review</label>
+<label class="status-checkbox"><input type="checkbox" class="status-filter" value="under-review" checked> R&R</label>
 <label class="status-checkbox"><input type="checkbox" class="status-filter" value="working" checked> Working Papers</label>
 </div>
 
@@ -28,10 +28,10 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 <div class="paper-card" data-topic="migration" data-status="under-review">
 <div class="card-header-row">
 <span class="topic-label topic-migration">Migration</span>
-<span class="status-badge badge-under-review">Under Review</span>
+<span class="status-badge badge-under-review">R&R</span>
 </div>
 <h4 class="card-title">Did the Syrian Refugee Crisis impact European economic freedom?</h4>
-<p class="card-meta">with Benjamin Powell</p>
+<p class="card-meta">with Benjamin Powell &middot; R&amp;R at the <em>Journal of Comparative Economics</em></p>
 <p class="card-hook">Using synthetic control methods, we find no evidence that the Syrian refugee surge eroded economic freedom in Germany, Austria, or Sweden.</p>
 <details class="card-expand"><summary>Read more</summary>
 <div class="card-description">
