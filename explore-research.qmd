@@ -58,9 +58,12 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 
 
 <!-- ── Cuban Businessmen Paper ── -->
-<div class="paper-card" data-topic="migration" data-status="working">
+<div class="paper-card" data-topic="migration entrepreneurship" data-status="working">
 <div class="card-header-row">
+<div class="topic-label-group">
 <span class="topic-label topic-migration">Migration</span>
+<span class="topic-label topic-entrepreneurship">Entrepreneurship</span>
+</div>
 <span class="status-badge badge-working">Working Paper</span>
 </div>
 <h4 class="card-title">From Das Kapital to Venture Capital: Cuban Entrepreneurial Elites Exiled in South Florida</h4>
@@ -233,7 +236,8 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     cards.forEach(function (card) {
-      var topicMatch = (topicFilter === "all" || card.getAttribute("data-topic") === topicFilter);
+      var cardTopics = (card.getAttribute("data-topic") || "").split(/\s+/);
+      var topicMatch = (topicFilter === "all" || cardTopics.indexOf(topicFilter) !== -1);
       var statusMatch = activeStatuses.indexOf(card.getAttribute("data-status")) !== -1;
       card.style.display = (topicMatch && statusMatch) ? "" : "none";
     });

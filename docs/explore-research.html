@@ -421,9 +421,12 @@ The Syrian case is particularly informative because the conditions for detecting
 </details>
 </div>
 <!-- ── Cuban Businessmen Paper ── -->
-<div class="paper-card" data-topic="migration" data-status="working">
+<div class="paper-card" data-topic="migration entrepreneurship" data-status="working">
 <div class="card-header-row">
-<p><span class="topic-label topic-migration">Migration</span> <span class="status-badge badge-working">Working Paper</span></p>
+<div class="topic-label-group">
+<p><span class="topic-label topic-migration">Migration</span> <span class="topic-label topic-entrepreneurship">Entrepreneurship</span></p>
+</div>
+<p><span class="status-badge badge-working">Working Paper</span></p>
 </div>
 <h4 class="card-title anchored">
 From Das Kapital to Venture Capital: Cuban Entrepreneurial Elites Exiled in South Florida
@@ -650,7 +653,8 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     cards.forEach(function (card) {
-      var topicMatch = (topicFilter === "all" || card.getAttribute("data-topic") === topicFilter);
+      var cardTopics = (card.getAttribute("data-topic") || "").split(/\s+/);
+      var topicMatch = (topicFilter === "all" || cardTopics.indexOf(topicFilter) !== -1);
       var statusMatch = activeStatuses.indexOf(card.getAttribute("data-status")) !== -1;
       card.style.display = (topicMatch && statusMatch) ? "" : "none";
     });

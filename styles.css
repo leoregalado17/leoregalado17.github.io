@@ -650,6 +650,13 @@ a:hover {
   font-style: italic;
 }
 
+/* --- Topic label group (when a paper has multiple topics) --- */
+.topic-label-group {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
 /* --- Topic labels --- */
 .topic-label {
   font-size: 0.72rem;
