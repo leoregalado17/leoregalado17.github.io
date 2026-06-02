@@ -19,7 +19,7 @@ page-layout: full
 
 <h2 class="hero-name">Leonel A. Regalado Cardoso</h2>
 <p class="hero-subtitle">
-Ph.D. Student, Agricultural & Applied Economics<br>
+Ph.D. Candidate, Agricultural & Applied Economics<br>
 Texas Tech University | Free Market Institute
 </p>
 
@@ -30,7 +30,7 @@ Texas Tech University | Free Market Institute
 </div>
 
 <p class="hero-bio">
-I am a Ph.D. student in the Department of Agricultural and Applied Economics at Texas Tech University and a Research Assistant at the Free Market Institute. I also serve as a Graduate Instructor in the Area of Energy Commerce & Business Economics at the Rawls College of Business.
+I am a Ph.D. candidate in the Department of Agricultural and Applied Economics at Texas Tech University and a Research Assistant at the Free Market Institute. I also serve as a Graduate Instructor in the Area of Energy Commerce & Business Economics at the Rawls College of Business.
 </p>
 
 <p class="hero-bio">
