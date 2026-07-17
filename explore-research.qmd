@@ -17,7 +17,7 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 
 <h5 class="sidebar-heading" style="margin-top:1.2rem;">Status</h5>
 <label class="status-checkbox"><input type="checkbox" class="status-filter" value="published" checked> Published</label>
-<label class="status-checkbox"><input type="checkbox" class="status-filter" value="under-review" checked> R&R</label>
+<label class="status-checkbox"><input type="checkbox" class="status-filter" value="under-review" checked> Under Review / R&R</label>
 <label class="status-checkbox"><input type="checkbox" class="status-filter" value="working" checked> Working Papers</label>
 </div>
 
@@ -205,13 +205,13 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 </div>
 
 <!-- ── Fiscal Rules Guatemala Paper ── -->
-<div class="paper-card" data-topic="fiscal" data-status="working">
+<div class="paper-card" data-topic="fiscal" data-status="under-review">
 <div class="card-header-row">
 <span class="topic-label topic-fiscal">Fiscal & Monetary Policy</span>
-<span class="status-badge badge-working">Working Paper</span>
+<span class="status-badge badge-under-review">Under Review</span>
 </div>
-<h4 class="card-title">Debt Constraints in Emerging Economies: Synthetic Control Evidence from Guatemala</h4>
-<p class="card-meta">&nbsp;</p>
+<h4 class="card-title">Debt Constraints in Emerging Economies: Evidence from Guatemala</h4>
+<p class="card-meta">Under review at <em>Public Finance Review</em></p>
 <p class="card-hook">Guatemala's fiscal rules reduced central bank lending but did not produce genuine fiscal discipline; the debt-to-GDP improvement was driven by inflation, not austerity.</p>
 <details class="card-expand"><summary>Read more</summary>
 <div class="card-description">
