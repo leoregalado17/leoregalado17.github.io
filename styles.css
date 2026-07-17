@@ -359,6 +359,28 @@ body.quarto-dark .paper-title a:hover {
   color: #ff6666 !important;
 }
 
+/* Compact paper listings on research page */
+.research-list h2 {
+  font-size: 1.25rem;
+  margin-top: 1.1rem;
+  padding-top: 0.2rem;
+}
+
+.research-list h3 {
+  font-size: 1.02rem;
+  font-weight: 600;
+  margin: 0.5rem 0 0.15rem;
+}
+
+.research-list p {
+  font-size: 0.9rem;
+  margin-bottom: 0.35rem;
+}
+
+.research-list hr {
+  margin: 0.65rem 0;
+}
+
 /* Explore My Research CTA on research page */
 .explore-cta {
   margin: 1.5rem 0;

@@ -13,6 +13,8 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 
 ---
 
+::: {.research-list}
+
 ## Peer-Reviewed Publications
 
 ### [Emigration and origin country economic institutions](https://link.springer.com/article/10.1007/s11127-025-01336-8){.paper-title target="_blank"}
@@ -53,3 +55,5 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 ## Referee Service
 
 *Public Choice* · *Journal of New Finance*
+
+:::
