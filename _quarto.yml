@@ -32,8 +32,6 @@ website:
         text: Research
       - href: explore-research.qmd
         text: Explore My Research
-      - href: guatemala-massacres.qmd
-        text: Guatemala Massacres
       - href: teaching.qmd
         text: Teaching
       - href: presentations.qmd
@@ -41,6 +39,10 @@ website:
       - href: cv.pdf
         text: CV
         target: _blank
+      - text: Other
+        menu:
+          - href: guatemala-massacres.qmd
+            text: Guatemala Massacres
     right:
       - icon: envelope
         href: mailto:lregalad@ttu.edu
