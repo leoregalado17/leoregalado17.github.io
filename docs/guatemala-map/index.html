@@ -289,7 +289,10 @@
     .tl-read .y { font-size: 16px; }
     .tl-read .c { font-size: 10.5px; }
     .tl-scale { font-size: 9.5px; }
-    #map { flex: 0 0 36vh; }
+    /* fixed, not vh: the embed is intentionally taller than the phone
+       viewport, and a vh-sized map would just grow with it and swallow the
+       extra room meant for the panel */
+    #map { flex: 0 0 300px; }
     #panel { width: 100%; flex: 1; border-left: none;
              border-top: 1px solid var(--hairline); }
     /* Reading one massacre needs room, not a map: on a phone the panel would
