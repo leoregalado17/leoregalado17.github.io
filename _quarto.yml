@@ -42,7 +42,7 @@ website:
       - text: Other
         menu:
           - href: guatemala-massacres.qmd
-            text: Guatemala Massacres
+            text: Guatemalan Civil War
     right:
       - icon: envelope
         href: mailto:lregalad@ttu.edu
