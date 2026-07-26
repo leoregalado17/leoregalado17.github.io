@@ -37,6 +37,9 @@
     --map-border: #3a3a37;
     --point:      #141414;
     --point-ring: #ffffff;
+    --ui-strong:  #860000;   /* active year bar */
+    --ui-mid:     #ca0e08;   /* ranked-list bars */
+    --ui-soft:    #ffa899;   /* inactive year bars */
     --shadow: 0 4px 16px rgba(0,0,0,0.10);
   }
   @media (prefers-color-scheme: dark) {
@@ -51,12 +54,18 @@
       --border:    rgba(222,226,230,0.16);
       --accent:    #f06656;    /* brand hue re-stepped for the dark surface */
       --accent-ink:#1a1010;
-      --zero:      #36302f;
-      --seq-1: #750000; --seq-2: #a50000; --seq-3: #d51f16;
-      --seq-4: #ee6151; --seq-5: #ff9382;
-      --map-border: #8a827e;
-      --point:      #f7f2f0;
-      --point-ring: #1a1a1a;
+      /* same direction as light mode — darker always means more. The
+         choropleth reads as a light field on the dark basemap; inverting it
+         made the map appear to flip when the site's theme was toggled. */
+      --zero:      #dcd8d7;
+      --seq-1: #ffa292; --seq-2: #fa7b6a; --seq-3: #e24537;
+      --seq-4: #b50000; --seq-5: #800000;
+      --map-border: #3a3a37;
+      --point:      #141414;
+      --point-ring: #ffffff;
+      --ui-strong:  #f06656;
+      --ui-mid:     #ee6151;
+      --ui-soft:    #7a4038;
       --shadow: 0 4px 16px rgba(0,0,0,0.45);
     }
   }
@@ -71,12 +80,15 @@
     --border:    rgba(222,226,230,0.16);
     --accent:    #f06656;
     --accent-ink:#1a1010;
-    --zero:      #36302f;
-    --seq-1: #750000; --seq-2: #a50000; --seq-3: #d51f16;
-    --seq-4: #ee6151; --seq-5: #ff9382;
-    --map-border: #8a827e;
-    --point:      #f7f2f0;
-    --point-ring: #1a1a1a;
+    --zero:      #dcd8d7;
+    --seq-1: #ffa292; --seq-2: #fa7b6a; --seq-3: #e24537;
+    --seq-4: #b50000; --seq-5: #800000;
+    --map-border: #3a3a37;
+    --point:      #141414;
+    --point-ring: #ffffff;
+    --ui-strong:  #f06656;
+    --ui-mid:     #ee6151;
+    --ui-soft:    #7a4038;
     --shadow: 0 4px 16px rgba(0,0,0,0.45);
   }
 
@@ -139,11 +151,11 @@
              padding-bottom: 3px; }
   .tl-bar { flex: 1; height: 100%; display: flex; align-items: flex-end;
             cursor: pointer; }
-  .tl-bar span { display: block; width: 100%; background: var(--seq-2);
+  .tl-bar span { display: block; width: 100%; background: var(--ui-soft);
                  border-radius: 2px 2px 0 0; min-height: 0; }
-  .tl-bar.on span { background: var(--seq-5); }
-  .tl-bar:hover span { background: var(--seq-4); }
-  .tl-bar.zero span { background: var(--zero); height: 2px !important; }
+  .tl-bar.on span { background: var(--ui-strong); }
+  .tl-bar:hover span { background: var(--ui-mid); }
+  .tl-bar.zero span { background: var(--hairline); height: 2px !important; }
   .tl-bar.zero.on span { background: var(--ink-3); }
   #tl-slider { width: 100%; margin: 0; accent-color: var(--accent);
                display: block; height: 18px; }
@@ -182,7 +194,7 @@
   .lst .nm small { color: var(--ink-3); font-size: 11.5px; }
   .lst .ct { font-size: 12.5px; color: var(--ink-2);
              font-variant-numeric: tabular-nums; min-width: 26px; text-align: right; }
-  .lst .bar-wrap { flex: 0 0 84px; height: 8px; background: var(--zero);
+  .lst .bar-wrap { flex: 0 0 84px; height: 8px; background: var(--hairline);
                    border-radius: 4px; overflow: hidden; }
   .lst .bar { display: block; height: 100%; background: var(--seq-4);
               border-radius: 4px; }
@@ -277,7 +289,7 @@
     .tl-read .y { font-size: 16px; }
     .tl-read .c { font-size: 10.5px; }
     .tl-scale { font-size: 9.5px; }
-    #map { flex: 0 0 40vh; }
+    #map { flex: 0 0 36vh; }
     #panel { width: 100%; flex: 1; border-left: none;
              border-top: 1px solid var(--hairline); }
     /* Reading one massacre needs room, not a map: on a phone the panel would
@@ -371,9 +383,9 @@ const THEME = {
     dot: '#141414', ring: '#ffffff', tiles: 'light_nolabels',
   },
   dark: {
-    seq: ['#750000','#a50000','#d51f16','#ee6151','#ff9382'],
-    zero: '#36302f', border: '#8a827e',
-    dot: '#f7f2f0', ring: '#1a1a1a', tiles: 'dark_nolabels',
+    seq: ['#ffa292','#fa7b6a','#e24537','#b50000','#800000'],
+    zero: '#dcd8d7', border: '#3a3a37',
+    dot: '#141414', ring: '#ffffff', tiles: 'dark_nolabels',
   },
 };
 const darkQuery = window.matchMedia('(prefers-color-scheme: dark)');
@@ -452,9 +464,8 @@ function recordsIn(dept, muni) {
 }
 const yearSuffix = () => state.year == null ? '' : ' in ' + state.year;
 const nationwideMunis = () => state.level === 'country' && state.basis === 'muni';
-/* the ramp runs light->dark on the light surface and dark->bright on the dark
-   one, so the sentence describing it has to follow the theme */
-const rampHint = () => isDark() ? 'Brighter = more.' : 'Darker = more.';
+// the ramp runs light->dark in both themes, so this never changes
+const rampHint = () => 'Darker = more.';
 
 /* ---------- map ---------- */
 const map = L.map('map', { zoomSnap: 0.25 });

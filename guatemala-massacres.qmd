@@ -43,12 +43,15 @@ Source: REMHI / ODHAG, *Guatemala: Nunca Más* (1998),
   /* phones: give the embedded app as much height as we reasonably can — it
      has its own header, map and detail panel to fit inside */
   @media (max-width: 820px) {
-    #gt-map { height: calc(100vh - 120px); min-height: 560px; }
+    /* nearly the whole viewport: the embed has its own header, map and detail
+       panel to fit, and anything shorter squeezes the panel. Kept just under
+       100vh so the page still scrolls naturally past it. */
+    #gt-map { height: calc(100vh - 70px); min-height: 620px; }
   }
 </style>
 
 <iframe id="gt-map"
-        src="guatemala-map/index.html?v=dc87e08dec"
+        src="guatemala-map/index.html?v=0d1b8550e9"
         title="Interactive map of massacres of the Guatemalan civil war"
         loading="lazy">
 </iframe>
