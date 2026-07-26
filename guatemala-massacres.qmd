@@ -9,7 +9,7 @@ Memoria Histórica* — "Guatemala: Nunca Más", ODHAG 1998), built from 5,397
 witness testimonies. Click a department, then a municipality, to reach
 individual sites — each with its date, the range of death tolls witnesses
 reported, the named victims, the responsible force and REMHI's narrative.
-Press **Play years** to watch the violence move across the country.
+Press **Play years** to watch the events unfold across the country.
 
 ::: {.callout-note collapse="true"}
 ## About the data and its limits
