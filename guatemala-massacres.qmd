@@ -48,7 +48,7 @@ Source: REMHI / ODHAG, *Guatemala: Nunca Más* (1998),
 </style>
 
 <iframe id="gt-map"
-        src="guatemala-map/index.html"
+        src="guatemala-map/index.html?v=dc87e08dec"
         title="Interactive map of massacres of the Guatemalan civil war"
         loading="lazy">
 </iframe>
