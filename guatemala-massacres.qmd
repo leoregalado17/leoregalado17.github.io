@@ -1,0 +1,65 @@
+---
+title: "Massacres of the Guatemalan Civil War"
+page-layout: full
+description: "An interactive map of massacres documented by the REMHI project, 1970–1995."
+---
+
+The 530 massacres documented in the **REMHI** database (*Recuperación de la
+Memoria Histórica* — "Guatemala: Nunca Más", ODHAG 1998), built from 5,397
+witness testimonies. Click a department, then a municipality, to reach
+individual sites — each with its date, the range of death tolls witnesses
+reported, the named victims, the responsible force and REMHI's narrative.
+Press **Play years** to watch the violence move across the country.
+
+::: {.callout-note collapse="true"}
+## About the data and its limits
+
+REMHI recorded what witnesses told Catholic-church interviewers in the
+mid-1990s. It is **not** a census of massacres: regions with a weaker church
+presence are underrepresented, and the death tolls are witness reports rather
+than verified counts, so the map shows the median of what witnesses said
+alongside the full range they gave.
+
+Coordinates are not in the source database — they were matched from place
+names against the GeoNames gazetteer. Every record carries a precision flag,
+and events that could only be located to a municipality are listed rather than
+drawn as points, so nothing on the map claims more precision than the
+testimony supports. 82 of the 530 massacres have no year recorded and are
+excluded while a single year is selected.
+
+Data, code and a full codebook:
+[github.com/leoregalado17/guatemassacres](https://github.com/leoregalado17/guatemassacres).
+Source: REMHI / ODHAG, *Guatemala: Nunca Más* (1998),
+[remhi.org.gt/bd](https://www.remhi.org.gt/bd/).
+:::
+
+```{=html}
+<iframe id="gt-map"
+        src="guatemala-map/index.html"
+        title="Interactive map of massacres of the Guatemalan civil war"
+        loading="lazy"
+        style="width:100%; height:calc(100vh - 190px); min-height:620px;
+               border:1px solid var(--bs-border-color); border-radius:8px;">
+</iframe>
+
+<script>
+// Keep the embedded map in step with the site's light/dark toggle. Quarto
+// stamps `quarto-dark` / `quarto-light` on <body>; the map accepts a
+// {theme:'dark'|'light'} message and re-themes itself (ramp, basemap tiles
+// and all). Without this the iframe would follow the OS setting instead of
+// the visitor's choice on this site.
+(function () {
+  var frame = document.getElementById('gt-map');
+  if (!frame) return;
+  var target = location.origin && location.origin !== 'null' ? location.origin : '*';
+  function push() {
+    if (!frame.contentWindow) return;
+    var theme = document.body.classList.contains('quarto-dark') ? 'dark' : 'light';
+    frame.contentWindow.postMessage({ theme: theme }, target);
+  }
+  frame.addEventListener('load', push);
+  new MutationObserver(push).observe(document.body,
+    { attributes: true, attributeFilter: ['class'] });
+})();
+</script>
+```

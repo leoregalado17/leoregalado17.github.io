@@ -10,6 +10,7 @@ project:
     - images/research/**
     - beco3310/pdfs/**
     - beco3310/hw_images/**
+    - guatemala-map/**
     - CNAME
     - logo.png
     - favicon.png
@@ -31,6 +32,8 @@ website:
         text: Research
       - href: explore-research.qmd
         text: Explore My Research
+      - href: guatemala-massacres.qmd
+        text: Guatemala Massacres
       - href: teaching.qmd
         text: Teaching
       - href: presentations.qmd
