@@ -100,13 +100,13 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 </div>
 
 <!-- ── Corruption Paper ── -->
-<div class="paper-card" data-topic="entrepreneurship" data-status="working">
+<div class="paper-card" data-topic="entrepreneurship" data-status="under-review">
 <div class="card-header-row">
 <span class="topic-label topic-entrepreneurship">Entrepreneurship</span>
-<span class="status-badge badge-working">Working Paper</span>
+<span class="status-badge badge-under-review">Under Review</span>
 </div>
 <h4 class="card-title">Do corruption reforms spur entrepreneurship?</h4>
-<p class="card-meta">&nbsp;</p>
+<p class="card-meta">Under review at <em>Small Business Economics</em></p>
 <p class="card-hook">Sustained anti-corruption reforms have no statistically significant effect on any measure of entrepreneurship, suggesting growth gains flow through other channels.</p>
 <details class="card-expand"><summary>Read more</summary>
 <div class="card-description">
