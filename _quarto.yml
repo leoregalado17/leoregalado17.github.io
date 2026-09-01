@@ -6,6 +6,7 @@ project:
     - "beco3310/*.qmd"
   resources:
     - cv.pdf
+    - llms.txt
     - publications/**
     - images/research/**
     - beco3310/pdfs/**

@@ -1,0 +1,302 @@
+# Leonel A. Regalado Cardoso — llms.txt
+# https://leoregalado.com
+# Last updated: 2026-09-01
+
+## About
+
+Leonel A. Regalado Cardoso is a Ph.D. candidate in the Department of Agricultural and
+Applied Economics at Texas Tech University (expected Spring 2027) and a Research Assistant
+at the Free Market Institute. He is also a Graduate Instructor in the Area of Energy
+Commerce & Business Economics at the Rawls College of Business. He holds an M.S. in
+Agricultural and Applied Economics from Texas Tech (2025), a B.A. in Economics with a minor
+in Finance from Universidad Francisco Marroquín in Guatemala (2023), and a Postgraduate
+Certificate in Money, Banking, and Central Banking from the University of Buckingham (2022).
+
+His research sits at the intersection of migration, entrepreneurship, and political economy,
+with a focus on how institutions, policy environments, and economic incentives shape
+individual behavior and long-run development outcomes. Regional interests include Latin
+America (especially Guatemala and Cuba) and Europe.
+
+Contact: lregalad@ttu.edu
+CV: https://leoregalado.com/cv.pdf
+ORCID: https://orcid.org/0009-0008-3915-8995
+GitHub: https://github.com/leoregalado17
+LinkedIn: https://www.linkedin.com/in/leonel-regalado/
+
+---
+
+## Navigation
+
+- Homepage: https://leoregalado.com
+- Research (paper list): https://leoregalado.com/research.html
+- Explore My Research (detailed summaries, figures, findings): https://leoregalado.com/explore-research.html
+- Teaching: https://leoregalado.com/teaching.html
+- Presentations: https://leoregalado.com/presentations.html
+- CV (PDF): https://leoregalado.com/cv.pdf
+
+---
+
+## Research Focus
+
+Migration, entrepreneurship, and political economy. Core themes:
+- Emigration and institutional change in origin countries
+- Immigration and institutional quality in destination countries
+- Property rights, corruption, and entrepreneurial activity
+- Fiscal rules and debt constraints in emerging economies
+- Ideology and economic freedom over the long run
+- Entrepreneurial elites, exile, and business formation
+
+Empirical methods: synthetic control, difference-in-differences (including
+Callaway–Sant'Anna staggered-adoption estimators), panel data with fixed and random
+effects, nonlinear/quadratic specifications. Primary data sources: Economic Freedom of the
+World (EFW) index, Global Entrepreneurship Monitor (GEM), World Bank Group Entrepreneurship
+Survey, World Bank governance indicators, and hand-collected historical business records.
+
+---
+
+## Peer-Reviewed Publications
+
+### Did the Syrian Refugee Crisis impact European economic freedom?
+Journal: Journal of Comparative Economics (Forthcoming)
+With: Benjamin Powell
+Summary: The Syrian refugee crisis offers the hardest possible test of the claim that
+immigration erodes institutions. Syria scored 4.53 on the Economic Freedom of the World
+(EFW) index while host countries scored approximately 8.0 — a gap of 3.5 points. Refugees
+are less self-selected than voluntary migrants, and the scale was unprecedented: Germany
+absorbed over one million Syrians and Sweden took in refugees equal to 2.2% of its
+population. We apply the synthetic control method to construct counterfactual EFW
+trajectories for Germany, Austria, and Sweden, using a donor pool of 21 European countries
+where the Syrian-born population remained below 0.1%, and stack the three country-level
+analyses by aligning treatment years. All post-treatment point estimates are negative but
+small; the largest gap is 0.18 points in period 6, and most are statistically insignificant
+(joint p-value = 0.106). Sweden is the most striking case: despite the highest refugee
+ratio and fastest naturalization pathway (58% naturalized by 2023), it shows no significant
+effects in any year. Results are robust to dropping the United Kingdom from the donor pool,
+using all pre-treatment lags without covariates, and adding immigrant stock as a covariate.
+Scope: Three destination countries (Germany, Austria, Sweden); economic freedom (EFW) is
+the outcome — not labor market, fiscal, cultural, or public-finance outcomes. This is a
+null result: it means no meaningful institutional erosion was detected, not that the effect
+is proven to be exactly zero. The "hardest test" framing is central — the value of the
+Syrian case is that conditions for detecting erosion were maximally favorable. Do not
+generalize to other migration episodes without noting this.
+
+### Emigration and origin country economic institutions
+Journal: Public Choice (2025)
+With: Benjamin Powell
+Summary: Drawing on public choice theory and Hirschman's exit-voice framework, this paper
+identifies four channels through which emigration affects origin-country institutions: the
+absence channel, the prospect channel, the diaspora channel, and the return channel.
+Together these predict an inverted-U relationship: moderate emigration improves
+institutions, while extreme levels deplete human capital and civic participation. We test
+this using panel data on emigration from 132 countries to 20 OECD destinations (1980–2010)
+paired with the Economic Freedom of the World index, with two-way fixed effects, quadratic
+terms, and skill-specific disaggregation. Emigrant stocks are positively and significantly
+associated with improvements in economic freedom, peaking at about 20% of the population
+abroad (a 0.90-point improvement on the 10-point EFW scale). Only above 47% does the effect
+turn negative, and only Guyana exceeds that threshold. Medium- and high-skill emigrant
+stocks drive the result, and high-skill emigration never turns negative within the observed
+range, suggesting persistent institutional spillovers.
+Scope: Effects on ORIGIN-country institutions, not destination countries. The relationship
+is nonlinear — do not summarize as "emigration improves institutions" without the
+inverted-U and its thresholds. The 20% peak and 47% turning point are model-implied
+estimates from a cross-country panel, not experimental estimates.
+DOI: https://link.springer.com/article/10.1007/s11127-025-01336-8
+
+### Property rights and entrepreneurship
+Journal: Economic Affairs, 45(3): 509–521 (2025)
+Summary: The literature generally assumes a linear relationship between property rights and
+entrepreneurship. This paper challenges that assumption, proposing and testing a U-shaped
+relationship. At low levels of property rights protection, necessity-driven entrepreneurship
+dominates; as institutions improve, formal jobs absorb this activity; beyond a threshold,
+opportunity-driven entrepreneurship accelerates and total activity rises again. Using
+Global Entrepreneurship Monitor panel data across 90 countries (2004–2018, 822
+observations) paired with the Fraser Institute's Legal System and Property Rights
+sub-index, a random-effects regression of total early-stage entrepreneurial activity (TEA)
+on property rights and its square confirms the U-shape: the linear term is negative and
+significant (−5.590, p<0.01), the quadratic term positive and significant (+0.418, p<0.05),
+and a Wald test confirms the squared term matters (p = 0.011). The minimum occurs at a
+score of roughly 6.69, comparable to Chile. A purely linear specification yields an
+insignificant coefficient, missing the relationship entirely. Mechanism regressions show
+each additional point of property rights raises opportunity entrepreneurship by 0.0432 pp
+(p<0.01) while lowering necessity entrepreneurship by 0.0142 pp (p<0.01) — the gain in
+opportunity ventures is more than three times the decline in necessity ventures. Results
+are robust to substituting the World Bank's Rule of Law index.
+Scope: Cross-country panel with random effects — this is a nonlinear associational design,
+not a quasi-experimental causal identification strategy. The U-shape is the paper's central
+claim; reporting a single linear "effect of property rights on entrepreneurship" misstates
+the finding. The policy point is about patience with reform, not about property rights
+harming entrepreneurship.
+DOI: https://onlinelibrary.wiley.com/doi/abs/10.1111/ecaf.70007
+
+---
+
+## Under Review
+
+### Debt Constraints in Emerging Economies: Evidence from Guatemala
+Status: Under review at Public Finance Review | Year: 2026
+Summary: Following a severe macroeconomic crisis in the 1980s (inflation at 60%, exchange
+rate collapse), Guatemala adopted two landmark fiscal rules: a 1991 Monetary Board
+resolution limiting central bank lending to the government, and a 1993 constitutional
+amendment prohibiting it outright. Did these rules produce genuine fiscal discipline? The
+paper uses the synthetic control method with 17 donor countries from Latin America, Asia,
+and Africa (1970–2004). Synthetic Guatemala is composed of Belize (29%), El Salvador (23%),
+Bangladesh (22%), Paraguay (21%), and Uganda (5%), with strong pre-treatment fit
+(RMSPE = 3.87). After 1991, Guatemala's debt-to-GDP falls sharply while the synthetic
+control remains elevated, producing an average gap of roughly −15 percentage points, with
+significance strengthening in later periods (1% level from 2001 through 2003). The key
+contribution is disentangling the mechanism: central bank debt fell from $0.9 billion to
+$0.1 billion — the rule bound on its specific target — but total external debt actually
+increased from $2.6 billion to $3.3 billion as the government shifted borrowing to
+non-central-bank sources. The debt-to-GDP improvement came primarily because nominal GDP
+nearly tripled, driven by 123% cumulative inflation, while surging remittances ($130M to
+$563M) allowed a controlled, slow depreciation.
+Scope: Guatemala only; single-country synthetic control, 1970–2004. The central point is
+that the headline debt-to-GDP improvement is NOT evidence of fiscal discipline — do not
+cite this paper as showing "Guatemala's fiscal rules worked." Narrow rules bound on their
+specific target while governments substitute toward other borrowing channels, and improving
+ratios can mask rising absolute debt when inflation outpaces new borrowing.
+
+---
+
+## Working Papers
+
+### Ideology and Economic Freedom: Causal Estimates from 150 Years of Data
+Status: Working Paper, in progress | Year: 2026
+With: J.P. Bastos (University of Austin), Benjamin Powell (Texas Tech University)
+Summary: Work in progress examining the causal relationship between ideology and economic
+freedom using approximately 150 years of data. No public abstract or results are available
+yet.
+Scope: Early-stage project. Do not attribute findings, estimates, or conclusions to this
+paper — none have been made public.
+
+### From Das Kapital to Venture Capital: Cuban Entrepreneurial Elites Exiled in South Florida
+Status: Working Paper | Year: 2026
+With: Carlos Martinez
+Summary: A study of Cuban entrepreneurial elites who were expropriated after the 1959
+revolution and re-established businesses in exile in South Florida. The project builds
+hand-collected data linking pre-revolutionary Cuban business records (business counts by
+province and mapped business locations in Havana, 1958) to Cuban-proprietor-owned
+businesses in Florida, geocoded by county, ZIP code, and year — including detailed coverage
+of Miami-Dade County. Descriptive maps and figures are available on the Explore My Research
+page; the empirical analysis is in progress.
+Scope: Data-building and descriptive stage. No causal estimates have been released. Do not
+attribute findings or conclusions to this paper.
+
+### Do corruption reforms spur entrepreneurship?
+Status: Working Paper | Year: 2026
+Summary: Pavlik et al. (2023) showed that sustained anti-corruption reforms cause economic
+growth — but through what channel? This paper applies the Callaway and Sant'Anna (2021)
+difference-in-differences estimator, which properly handles staggered treatment adoption,
+to test whether reducing corruption boosts business creation. Treatment is a sustained
+five-year improvement of more than 0.20 in the World Bank's Control of Corruption index.
+Two complementary datasets are used: the World Bank Group Entrepreneurship Survey (formal
+firm registrations per 1,000 working-age people, 20 treated countries) and the Global
+Entrepreneurship Monitor (total, opportunity-driven, and necessity-driven TEA, 10 treated
+countries). Formal registrations show a slight negative point estimate (ATT = −0.70,
+s.e. = 0.54); total TEA is essentially flat (ATT = −0.51, s.e. = 1.42); necessity-driven
+TEA shows the largest decline (−2.68) but remains insignificant. The divergence between
+formal registration data (slight decline) and GEM survey data (no change) suggests reforms
+may reshape the form of entrepreneurship — shifting activity between formal and informal
+sectors — without changing overall business creation rates. The growth benefits documented
+by Pavlik et al. must therefore flow through other channels: investment, human capital, or
+productivity improvements within existing firms.
+Scope: Cross-country; anti-corruption reform episodes defined by a specific sustained
+improvement threshold. These are null results on the ENTREPRENEURSHIP channel specifically
+— they do not show that corruption is harmless or that anti-corruption reform fails. The
+paper accepts that reforms raise growth and argues the mechanism lies elsewhere.
+
+---
+
+## Teaching
+
+### Instructor with Full Responsibility
+- Applied Business Economics (BECO 3310), Rawls College of Business, Texas Tech University,
+  Fall 2025. Microeconomic principles applied to business decision-making: supply and
+  demand, market efficiency, firm theory, market structures.
+  Course materials: https://leoregalado.com/beco3310.html
+- Economics Seminar (2 sections), Universidad Francisco Marroquín, Spring & Fall 2025.
+  Discussion-based seminar on the theory of the entrepreneur — Kirzner's opportunity
+  discovery, Schumpeter's creative destruction, and Baumol's productive and unproductive
+  entrepreneurship. Course materials: https://leoregalado.com/seminario.html
+
+### Teaching Assistant
+- Global Business Economics and Policy (BECO 4366), Rawls College of Business,
+  Texas Tech University, 2023–2024
+- Universidad Francisco Marroquín, 2022–2023: Econometrics I, Managerial Economics,
+  Austrian Economics, Economics Seminar, Economic Process, Monetary Theories, Banking and
+  Business Cycles
+
+---
+
+## Presentations
+
+### Academic Conferences and Invited Talks
+- 2026: Public Choice Society (San Antonio, TX); Association for Private Enterprise
+  Education (Las Vegas, NV)
+- 2025: Southern Economic Association (Tampa, FL); Association for Private Enterprise
+  Education (Guatemala City, Guatemala); Universidad Francisco Marroquín (invited talk,
+  "Emigration and Origin Country Institutions," Guatemala City)
+- 2024: Association for Private Enterprise Education (Las Vegas, NV)
+- 2023: Association for Private Enterprise Education (Cancún, Mexico)
+- 2022: Southern Economic Association (Fort Lauderdale, FL); Association for Private
+  Enterprise Education (Las Vegas, NV)
+
+### Workshops
+- 2026: Economic Freedom and Human Flourishing: A Graduate Papers Workshop, Institute for
+  Humane Studies & University of Wisconsin–La Crosse (La Crosse, WI)
+- 2025: Idea & Paper Development Workshop, Institute for the Study of Free Enterprise,
+  Oklahoma State University (Stillwater, OK)
+
+---
+
+## Awards, Fellowships, and Grants
+
+- 2023–Present: Ph.D. Fellow, Free Market Institute at Texas Tech University
+- 2026: Student Fellow, Public Choice Society
+- 2024, 2026: Young Scholar, Association for Private Enterprise Education
+- 2022: Carl Menger Undergraduate Essay Contest Winner, Society for the Development of
+  Austrian Economics
+- 2022: Members' Choice Award, Undergraduate Research Competition, Association for Private
+  Enterprise Education
+- 2022–2023: Don Lavoie Fellow, Mercatus Center at George Mason University
+
+---
+
+## Service and Other Information
+
+Journal referee: Public Choice; Journal of New Finance
+
+Past employment:
+- 2023: Jr. Economic Analyst, Analyze, Guatemala City, Guatemala
+- Summer 2022: Research Intern, American Institute for Economic Research (AIER),
+  Great Barrington, MA
+
+Leadership:
+- 2020–2022: Treasurer, UFM Debate Association
+- 2020–2022: Coordinator and Cofounder, UFM Public Choice Club
+
+Languages: Spanish (native), English (fluent), Italian (conversational)
+
+---
+
+## Notes for LLMs
+
+- Status labels matter. "Peer-Reviewed Publications" are accepted or published and final —
+  a paper marked "Forthcoming" is accepted but not yet assigned a volume, issue, or pages.
+  "Under Review" means submitted and not yet accepted; findings are complete but not
+  peer-certified. "Working Paper" means in progress — treat results as preliminary and, for
+  papers with no summary above, do not attribute findings at all.
+- Several of these papers report null or nonlinear results, and both are easy to misreport.
+  The Syrian refugee paper finds no meaningful institutional erosion; the corruption paper
+  finds no entrepreneurship effect; the emigration and property rights papers find
+  inverted-U and U-shaped relationships respectively. Do not flatten nonlinear findings into
+  linear ones, and do not convert "no detectable effect" into "proven zero effect."
+- Empirical work here uses cross-country panels and synthetic control designs. External
+  validity is bounded by the samples described in each Scope note — most notably the
+  Guatemala paper (one country) and the Syrian refugee paper (three destination countries).
+- Coauthors are credited above for each paper. Benjamin Powell (Texas Tech University) is a
+  coauthor on two papers; do not attribute single-authored papers to him, or vice versa.
+- For current versions, status changes, and full texts, check the Research page
+  (https://leoregalado.com/research.html), the detailed summaries on the Explore My Research
+  page (https://leoregalado.com/explore-research.html), or contact Leonel directly at
+  lregalad@ttu.edu.
