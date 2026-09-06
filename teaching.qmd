@@ -11,6 +11,37 @@ Fundamental principles of microeconomics applied to business decision-making, co
 
 <a href="beco3310.html" class="access-btn">Access Course Materials</a>
 
+<details id="teaching-evaluations">
+<summary>Teaching evaluations</summary>
+
+**Fall 2025 · Section 007**  
+52 responses out of 107 students (48.6% response rate). Mean ratings on a five-point agreement scale.
+
+| Evaluation item | Rating / 5 |
+|:--|--:|
+| Course assignments facilitated learning | 4.5 |
+| Course was organized | 4.5 |
+| Opportunities to be successful in course | 4.6 |
+| Overall course helped learn required concepts/skills | 4.5 |
+| Instructor presented material in a way that helped engagement | 4.5 |
+| Instructor helped students understand the relevance of course content | 4.6 |
+| Instructor tailored instruction to a variety of perspectives | 4.5 |
+| Overall, instructor's teaching methods helped students learn course content | 4.5 |
+
+**Selected student comments**
+
+> “The humor in the lectures really helped me stay engaged”
+
+> “Power Points were clear, organized and well done.”
+
+> “He was excellent. He is passionate about the materials and great at taking questions and explaining.”
+
+> “Great job, he is engaged during lectures and seems to not only care about the material he is teaching, but also shows care for us as students as well.”
+
+*Source: Texas Tech University end-of-course evaluations. Comments are selected anonymous responses, quoted verbatim.*
+
+</details>
+
 ---
 
 ### Economics Seminar (2 sections)
@@ -19,6 +50,39 @@ Fundamental principles of microeconomics applied to business decision-making, co
 A discussion-based seminar exploring the theory of the entrepreneur, from Kirzner's opportunity discovery to Schumpeter's creative destruction and Baumol's productive and unproductive entrepreneurship.
 
 <a href="seminario.html" class="access-btn">Access Course Materials</a>
+
+<details id="ufm-teaching-evaluations">
+<summary>Teaching evaluations</summary>
+
+**End-of-semester ratings**
+
+| | Spring 2025 · Economics Seminar III | Fall 2025 · Economics Seminar II |
+|:--|:--|:--|
+| Overall instructor rating | 100/100 | 98.9/100 |
+| Would take another course with this instructor | 4 of 4 (100%) | 7 of 8 (87.5%) |
+| Responses | 4 of 14 (29%) | 8 of 16 (50%) |
+
+*Ratings use UFM's original 100-point scale. Percentages for willingness to take another course refer to respondents.*
+
+**Selected comments from early-semester feedback**
+
+*English translations of anonymous student comments. These surveys were conducted separately from the end-of-semester ratings above.*
+
+Spring 2025 — February 10–21; 11 of 14 students responded (79%):
+
+> “The content, the instructor's way of explaining, and the methodology.”
+
+> “The natural flow of the conversations; I think the topics help create an environment where dialogue flows smoothly.”
+
+Fall 2025 — August 25–September 5; 10 of 16 students responded (63%):
+
+> “The instructor clearly knows a lot and is very good at explaining.”
+
+> “I like how we approach the topics and the structure of the course.”
+
+*Source: Universidad Francisco Marroquín instructor and course evaluations, 2025.*
+
+</details>
 
 ---
 

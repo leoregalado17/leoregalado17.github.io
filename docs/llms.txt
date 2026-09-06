@@ -1,6 +1,6 @@
 # Leonel A. Regalado Cardoso — llms.txt
 # https://leoregalado.com
-# Last updated: 2026-09-01
+# Last updated: 2026-09-06
 
 ## About
 
@@ -214,10 +214,27 @@ paper accepts that reforms raise growth and argues the mechanism lies elsewhere.
   Fall 2025. Microeconomic principles applied to business decision-making: supply and
   demand, market efficiency, firm theory, market structures.
   Course materials: https://leoregalado.com/beco3310.html
+  Teaching evaluations (Fall 2025, Section 007): 52 responses out of 107 students
+  (48.6%). Mean ratings on a five-point agreement scale: assignments facilitated
+  learning 4.5; course organization 4.5; opportunities for success 4.6; learning required
+  concepts/skills 4.5; instructor engagement 4.5; relevance of content 4.6; instruction
+  tailored to different perspectives 4.5; teaching methods helped learning 4.5.
+  All eight ratings and four selected anonymous student comments are available at
+  https://leoregalado.com/teaching.html#teaching-evaluations.
 - Economics Seminar (2 sections), Universidad Francisco Marroquín, Spring & Fall 2025.
   Discussion-based seminar on the theory of the entrepreneur — Kirzner's opportunity
   discovery, Schumpeter's creative destruction, and Baumol's productive and unproductive
   entrepreneurship. Course materials: https://leoregalado.com/seminario.html
+  End-of-semester teaching evaluations: Spring 2025, Economics Seminar III — overall
+  instructor rating 100/100, 4 of 14
+  students responded (29%); all 4 respondents would take another course with the instructor.
+  Fall 2025, Economics Seminar II — overall instructor rating 98.9/100, 8 of 16 students
+  responded (50%); 7 of 8 respondents (87.5%) would take another course with the instructor.
+  These are UFM's original ratings and should not be converted to TTU's five-point scale.
+  Four selected comments, translated from Spanish, come from separate early-semester
+  surveys: February 10–21, 2025 (11 of 14 responses, 79%) and August 25–September 5,
+  2025 (10 of 16 responses, 63%). Ratings and selected comments:
+  https://leoregalado.com/teaching.html#ufm-teaching-evaluations.
 
 ### Teaching Assistant
 - Global Business Economics and Policy (BECO 4366), Rawls College of Business,
