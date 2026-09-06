@@ -77,7 +77,7 @@ keep that entry if the config is reorganized.
 
 ## Verifying
 
-The Quarto preview server is configured in `.claude/launch.json` as `website` (port 8080).
+The Quarto preview server is configured in `.Codex/launch.json` as `website` (port 8080).
 Use it to check visual changes. Note that the preview server serves `.txt` without a
 charset, so accented characters in `llms.txt` look garbled locally; GitHub Pages serves it
 as `text/plain; charset=utf-8`, so this is a local artifact only, not a real bug.
