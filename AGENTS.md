@@ -43,29 +43,35 @@ Service` at the bottom), and `llms.txt`. Awards, teaching, and employment appear
 
 ## Building the CV
 
-Two CVs are built from one source. `cv.tex` is the full CV (3 pages). `focused.tex` sets
-`\def\focusedcv{1}` and then inputs `cv.tex`, omitting Leadership and using compact
-formatting to stay within two pages. **The website navbar serves the focused version** —
-`focused.pdf` is the CV a visitor gets. The full `cv.pdf` stays in the repo and is still
-deployed, so the older `/cv.pdf` URL keeps working.
+Two CVs are built from one source, and only one of them is published.
 
-`pdflatex` is not on `PATH`. After any CV edit, build BOTH (twice each) and verify the
-focused one is still two pages:
+- **`cv.tex` → `cv.pdf` (2 pages)** — the focused CV. This is the version the website
+  serves: the navbar "CV" link, `cv.qmd`'s redirect, and the `CV:` line in `llms.txt` all
+  point at `cv.pdf`. Compact spacing and no Leadership section are the DEFAULT.
+- **`cv-extended.tex` → `cv-extended.pdf` (3 pages)** — the full CV. It sets
+  `\def\extendedcv{1}` and inputs `cv.tex`, which restores the looser spacing and adds the
+  Leadership section. **This one is deliberately NOT published** — keep it out of `docs/`
+  and out of `resources:` in `_quarto.yml`.
+
+Edit content in `cv.tex` only; `cv-extended.tex` is a four-line wrapper. Anything wrapped
+in `\ifdefined\extendedcv ... \fi` appears in the extended version alone.
+
+`pdflatex` is not on `PATH`. After any CV edit, build BOTH (twice each), verify page
+counts, and copy only `cv.pdf` into `docs/`:
 
 ```bash
 /Library/TeX/texbin/pdflatex -interaction=nonstopmode cv.tex
 /Library/TeX/texbin/pdflatex -interaction=nonstopmode cv.tex
-/Library/TeX/texbin/pdflatex -interaction=nonstopmode focused.tex
-/Library/TeX/texbin/pdflatex -interaction=nonstopmode focused.tex
-pdfinfo focused.pdf | awk '/^Pages/{print}'   # must be 2
-cp cv.pdf docs/cv.pdf
-cp focused.pdf docs/focused.pdf
-rm -f cv.aux cv.log cv.out focused.aux focused.log focused.out
+/Library/TeX/texbin/pdflatex -interaction=nonstopmode cv-extended.tex
+/Library/TeX/texbin/pdflatex -interaction=nonstopmode cv-extended.tex
+pdfinfo cv.pdf | awk '/^Pages/{print}'            # must be 2
+pdfinfo cv-extended.pdf | awk '/^Pages/{print}'   # 3
+cp cv.pdf docs/cv.pdf                             # do NOT copy cv-extended.pdf
+rm -f cv.aux cv.log cv.out cv-extended.aux cv-extended.log cv-extended.out
 ```
 
-Commit all four PDFs (`cv.pdf`, `docs/cv.pdf`, `focused.pdf`, `docs/focused.pdf`). Both
-are listed under `resources:` in `_quarto.yml`. The navbar and `cv.qmd`'s redirect both
-point at `focused.pdf`, as does the `CV:` line in `llms.txt`.
+Commit `cv.tex`, `cv.pdf`, `docs/cv.pdf`, `cv-extended.tex`, and `cv-extended.pdf`. The
+extended PDF lives in the repo root for convenience but never reaches leoregalado.com.
 
 ## Rendering
 

@@ -17,7 +17,7 @@
   {}[\titlerule]
 
 \setlist[itemize]{noitemsep, topsep=2pt}
-\ifdefined\focusedcv
+\ifdefined\extendedcv\else
   \geometry{top=0.65in,bottom=0.65in,left=0.8in,right=0.8in}
   \setstretch{1}
   \titlespacing*{\section}{0pt}{10pt}{5pt}
@@ -36,7 +36,7 @@
     Lubbock, Texas
 \end{center}
 
-\ifdefined\focusedcv\vspace{0pt}\else\vspace{0.2in}\fi
+\ifdefined\extendedcv\vspace{0.2in}\else\vspace{0pt}\fi
 
 %----------------------------------
 \section*{Education}
@@ -148,7 +148,7 @@ Postgraduate Certificate in Money, Banking, and Central Banking \hfill 2022
     \item Public Choice
 \end{itemize}
 
-\ifdefined\focusedcv\else
+\ifdefined\extendedcv
 \textbf{Leadership}
 
 \begin{itemize}

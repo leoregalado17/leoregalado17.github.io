@@ -6,7 +6,6 @@ project:
     - "beco3310/*.qmd"
   resources:
     - cv.pdf
-    - focused.pdf
     - llms.txt
     - publications/**
     - images/research/**
@@ -38,7 +37,7 @@ website:
         text: Teaching
       - href: presentations.qmd
         text: Presentations
-      - href: focused.pdf
+      - href: cv.pdf
         text: CV
         target: _blank
       - text: Other
