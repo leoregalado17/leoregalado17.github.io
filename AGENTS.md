@@ -43,22 +43,29 @@ Service` at the bottom), and `llms.txt`. Awards, teaching, and employment appear
 
 ## Building the CV
 
-The main CV is `cv.tex` / `cv.pdf`. `focused.tex` inputs the same source, omits
-Leadership, and uses compact formatting to target two pages. After any CV update,
-compile `focused.tex` twice too and verify `focused.pdf` stays within two pages.
-The focused version is a separate local deliverable; the website navbar keeps the main CV.
+Two CVs are built from one source. `cv.tex` is the full CV (3 pages). `focused.tex` sets
+`\def\focusedcv{1}` and then inputs `cv.tex`, omitting Leadership and using compact
+formatting to stay within two pages. **The website navbar serves the focused version** —
+`focused.pdf` is the CV a visitor gets. The full `cv.pdf` stays in the repo and is still
+deployed, so the older `/cv.pdf` URL keeps working.
 
-`pdflatex` is not on `PATH`. Compile twice, then copy the PDF into `docs/`:
+`pdflatex` is not on `PATH`. After any CV edit, build BOTH (twice each) and verify the
+focused one is still two pages:
 
 ```bash
 /Library/TeX/texbin/pdflatex -interaction=nonstopmode cv.tex
 /Library/TeX/texbin/pdflatex -interaction=nonstopmode cv.tex
+/Library/TeX/texbin/pdflatex -interaction=nonstopmode focused.tex
+/Library/TeX/texbin/pdflatex -interaction=nonstopmode focused.tex
+pdfinfo focused.pdf | awk '/^Pages/{print}'   # must be 2
 cp cv.pdf docs/cv.pdf
-rm -f cv.aux cv.log cv.out
+cp focused.pdf docs/focused.pdf
+rm -f cv.aux cv.log cv.out focused.aux focused.log focused.out
 ```
 
-Both `cv.pdf` and `docs/cv.pdf` must be committed — the navbar links to `cv.pdf`, and
-`cv.qmd` only redirects to it.
+Commit all four PDFs (`cv.pdf`, `docs/cv.pdf`, `focused.pdf`, `docs/focused.pdf`). Both
+are listed under `resources:` in `_quarto.yml`. The navbar and `cv.qmd`'s redirect both
+point at `focused.pdf`, as does the `CV:` line in `llms.txt`.
 
 ## Rendering
 

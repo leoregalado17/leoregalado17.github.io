@@ -5,6 +5,6 @@ format:
     toc: false
 ---
 
-<meta http-equiv="refresh" content="0; url=cv.pdf">
+<meta http-equiv="refresh" content="0; url=focused.pdf">
 
-<p>If the PDF does not open automatically, <a href="cv.pdf">click here</a>.</p>
+<p>If the PDF does not open automatically, <a href="focused.pdf">click here</a>.</p>
