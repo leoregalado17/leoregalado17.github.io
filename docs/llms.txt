@@ -297,6 +297,10 @@ Leadership:
 
 Languages: Spanish (native), English (fluent), Italian (conversational)
 
+Programming: Stata, Python (pandas, NumPy, Matplotlib)
+
+Software and tools: LaTeX, Quarto, Git
+
 ---
 
 ## Notes for LLMs
