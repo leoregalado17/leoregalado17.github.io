@@ -134,6 +134,7 @@ DOI: https://onlinelibrary.wiley.com/doi/abs/10.1111/ecaf.70007
 
 ### Debt Constraints in Emerging Economies: Evidence from Guatemala
 Status: Under review at Public Finance Review | Year: 2026
+PDF: https://leoregalado.com/publications/Regalado_Cardoso_Debt_Constraints_Guatemala_2026.pdf
 Summary: Following a severe macroeconomic crisis in the 1980s (inflation at 60%, exchange
 rate collapse), Guatemala adopted two landmark fiscal rules: a 1991 Monetary Board
 resolution limiting central bank lending to the government, and a 1993 constitutional
