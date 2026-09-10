@@ -159,6 +159,7 @@ ratios can mask rising absolute debt when inflation outpaces new borrowing.
 
 ### Do corruption reforms spur entrepreneurship?
 Status: Under review at the Journal of Institutional Economics | Year: 2026
+PDF: https://leoregalado.com/publications/Regalado_Cardoso_Corruption_Reforms_Entrepreneurship_2026.pdf
 Summary: Pavlik et al. (2023) showed that sustained anti-corruption reforms cause economic
 growth — but through what channel? This paper applies the Callaway and Sant'Anna (2021)
 difference-in-differences estimator, which properly handles staggered treatment adoption,

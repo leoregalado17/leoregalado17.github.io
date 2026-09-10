@@ -80,7 +80,7 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 
 <div class="featured-card">
 <span class="topic-label topic-entrepreneurship">Entrepreneurship</span>
-<h4>Do corruption reforms spur entrepreneurship?</h4>
+<h4><a href="publications/Regalado_Cardoso_Corruption_Reforms_Entrepreneurship_2026.pdf" target="_blank" rel="noopener">Do corruption reforms spur entrepreneurship?</a></h4>
 <p class="featured-meta">Under review at the <em>Journal of Institutional Economics</em></p>
 <p class="featured-desc">Applying the Callaway and Sant'Anna (2021) DiD estimator, this paper finds that sustained anti-corruption reforms have no significant effect on entrepreneurship, suggesting the growth benefits of reforms flow through other channels.</p>
 <a href="explore-research.html" class="featured-link">Read more &rarr;</a>
