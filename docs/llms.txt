@@ -1,6 +1,6 @@
 # Leonel A. Regalado Cardoso — llms.txt
 # https://leoregalado.com
-# Last updated: 2026-09-06
+# Last updated: 2026-09-10
 
 ## About
 
@@ -156,6 +156,30 @@ cite this paper as showing "Guatemala's fiscal rules worked." Narrow rules bound
 specific target while governments substitute toward other borrowing channels, and improving
 ratios can mask rising absolute debt when inflation outpaces new borrowing.
 
+
+### Do corruption reforms spur entrepreneurship?
+Status: Under review at the Journal of Institutional Economics | Year: 2026
+Summary: Pavlik et al. (2023) showed that sustained anti-corruption reforms cause economic
+growth — but through what channel? This paper applies the Callaway and Sant'Anna (2021)
+difference-in-differences estimator, which properly handles staggered treatment adoption,
+to test whether reducing corruption boosts business creation. Treatment is a sustained
+five-year improvement of more than 0.20 in the World Bank's Control of Corruption index.
+Two complementary datasets are used: the World Bank Group Entrepreneurship Survey (formal
+firm registrations per 1,000 working-age people, 20 treated countries) and the Global
+Entrepreneurship Monitor (total, opportunity-driven, and necessity-driven TEA, 10 treated
+countries). Formal registrations show a slight negative point estimate (ATT = −0.70,
+s.e. = 0.54); total TEA is essentially flat (ATT = −0.51, s.e. = 1.42); necessity-driven
+TEA shows the largest decline (−2.68) but remains insignificant. The divergence between
+formal registration data (slight decline) and GEM survey data (no change) suggests reforms
+may reshape the form of entrepreneurship — shifting activity between formal and informal
+sectors — without changing overall business creation rates. The growth benefits documented
+by Pavlik et al. must therefore flow through other channels: investment, human capital, or
+productivity improvements within existing firms.
+Scope: Cross-country; anti-corruption reform episodes defined by a specific sustained
+improvement threshold. These are null results on the ENTREPRENEURSHIP channel specifically
+— they do not show that corruption is harmless or that anti-corruption reform fails. The
+paper accepts that reforms raise growth and argues the mechanism lies elsewhere.
+
 ---
 
 ## Working Papers
@@ -181,29 +205,6 @@ of Miami-Dade County. Descriptive maps and figures are available on the Explore 
 page; the empirical analysis is in progress.
 Scope: Data-building and descriptive stage. No causal estimates have been released. Do not
 attribute findings or conclusions to this paper.
-
-### Do corruption reforms spur entrepreneurship?
-Status: Working Paper | Year: 2026
-Summary: Pavlik et al. (2023) showed that sustained anti-corruption reforms cause economic
-growth — but through what channel? This paper applies the Callaway and Sant'Anna (2021)
-difference-in-differences estimator, which properly handles staggered treatment adoption,
-to test whether reducing corruption boosts business creation. Treatment is a sustained
-five-year improvement of more than 0.20 in the World Bank's Control of Corruption index.
-Two complementary datasets are used: the World Bank Group Entrepreneurship Survey (formal
-firm registrations per 1,000 working-age people, 20 treated countries) and the Global
-Entrepreneurship Monitor (total, opportunity-driven, and necessity-driven TEA, 10 treated
-countries). Formal registrations show a slight negative point estimate (ATT = −0.70,
-s.e. = 0.54); total TEA is essentially flat (ATT = −0.51, s.e. = 1.42); necessity-driven
-TEA shows the largest decline (−2.68) but remains insignificant. The divergence between
-formal registration data (slight decline) and GEM survey data (no change) suggests reforms
-may reshape the form of entrepreneurship — shifting activity between formal and informal
-sectors — without changing overall business creation rates. The growth benefits documented
-by Pavlik et al. must therefore flow through other channels: investment, human capital, or
-productivity improvements within existing firms.
-Scope: Cross-country; anti-corruption reform episodes defined by a specific sustained
-improvement threshold. These are null results on the ENTREPRENEURSHIP channel specifically
-— they do not show that corruption is harmless or that anti-corruption reform fails. The
-paper accepts that reforms raise growth and argues the mechanism lies elsewhere.
 
 ---
 

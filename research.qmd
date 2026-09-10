@@ -39,6 +39,11 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 
 ---
 
+### Do corruption reforms spur entrepreneurship? {.paper-title}
+*Under review at the Journal of Institutional Economics*
+
+---
+
 ## Working Papers
 
 ### Ideology and Economic Freedom: Causal Estimates from 150 Years of Data {.paper-title}
@@ -48,10 +53,6 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 
 ### From Das Kapital to Venture Capital: Cuban Entrepreneurial Elites Exiled in South Florida {.paper-title}
 *with Carlos Martinez*
-
----
-
-### Do corruption reforms spur entrepreneurship? {.paper-title}
 
 ---
 
