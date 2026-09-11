@@ -186,14 +186,22 @@ paper accepts that reforms raise growth and argues the mechanism lies elsewhere.
 
 ## Working Papers
 
-### Ideology and Economic Freedom: Causal Estimates from 150 Years of Data
-Status: Working Paper, in progress | Year: 2026
+### Leader's Ideology and Economic Freedom
+Status: Working Paper | Year: 2026
 With: J.P. Bastos (University of Austin), Benjamin Powell (Texas Tech University)
-Summary: Work in progress examining the causal relationship between ideology and economic
-freedom using approximately 150 years of data. No public abstract or results are available
-yet.
-Scope: Early-stage project. Do not attribute findings, estimates, or conclusions to this
-paper — none have been made public.
+PDF: https://leoregalado.com/publications/Regalado_Bastos_Powell_Ideology_Economic_Freedom_2026.pdf
+Summary: Revisits the proposition that right-wing governments promote free markets while
+left-wing governments constrain them, providing the first causal estimates of the effect
+of government leaders' ideology on economic freedom. Uses a doubly-robust stacked
+difference-in-differences design that accounts for staggered treatment timing and
+identifies clean ideological transitions after a stable pre-treatment period, in a global
+sample of 153 countries measured with the Economic Freedom of the World index (EFW) and a
+sample of 21 OECD countries back to 1870 measured with the Historical Index of Economic
+Liberty (HIEL). Globally, transitions to either a left- or right-wing government have no
+significant effect. Among OECD countries, transitions to the right have no effect. The two
+most robust findings are a small negative effect of transitions to the left among OECD
+countries, driven by a larger size of government, and a small positive effect of
+transitions to the right among non-OECD countries.
 
 ### From Das Kapital to Venture Capital: Cuban Entrepreneurial Elites Exiled in South Florida
 Status: Working Paper | Year: 2026

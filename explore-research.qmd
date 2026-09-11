@@ -14,6 +14,7 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 <button class="topic-btn" data-filter="migration">Migration</button>
 <button class="topic-btn" data-filter="entrepreneurship">Entrepreneurship</button>
 <button class="topic-btn" data-filter="fiscal">Fiscal & Monetary Policy</button>
+<button class="topic-btn" data-filter="political">Political Economy</button>
 
 <h5 class="sidebar-heading" style="margin-top:1.2rem;">Status</h5>
 <label class="status-checkbox"><input type="checkbox" class="status-filter" value="published" checked> Published</label>
@@ -94,6 +95,28 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 <figcaption>Cuban-proprietor-owned business locations in Miami-Dade County.</figcaption>
 </figure>
 </div>
+
+</div>
+</details>
+</div>
+
+<!-- ── Ideology and Economic Freedom Paper ── -->
+<div class="paper-card" data-topic="political" data-status="working">
+<div class="card-header-row">
+<span class="topic-label topic-political">Political Economy</span>
+<span class="status-badge badge-working">Working Paper</span>
+</div>
+<h4 class="card-title"><a href="publications/Regalado_Bastos_Powell_Ideology_Economic_Freedom_2026.pdf" target="_blank" rel="noopener">Leader's Ideology and Economic Freedom</a></h4>
+<p class="card-meta">with J.P. Bastos and Benjamin Powell</p>
+<p class="card-hook">Do right-wing leaders expand economic freedom and left-wing leaders restrict it? Causal estimates show the effects are small and mostly absent.</p>
+<details class="card-expand"><summary>Read more</summary>
+<div class="card-description">
+
+<p>A long-standing proposition holds that right-wing governments promote free markets while left-wing governments constrain them. This paper provides the first causal estimates of the effect of government leaders' ideology on economic freedom, using a <strong>doubly-robust stacked difference-in-differences</strong> design that accounts for staggered treatment timing and identifies clean ideological transitions following a stable pre-treatment period.</p>
+
+<p>The analysis uses two samples: a global panel of 153 countries measured with the Economic Freedom of the World index, and 21 OECD countries reaching back to 1870 measured with the Historical Index of Economic Liberty.</p>
+
+<p>Globally, transitions to either a left- or a right-wing government have no significant effect on economic freedom, and among OECD countries transitions to the right have no effect either. The two most robust findings are a <strong>small negative effect after transitions to the left among OECD countries</strong>, driven by a larger size of government, and a <strong>small positive effect after transitions to the right among non-OECD countries</strong>.</p>
 
 </div>
 </details>

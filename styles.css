@@ -704,6 +704,11 @@ a:hover {
   color: #1a7a3a;
 }
 
+.topic-political {
+  background: #f3e8fd;
+  color: #6b1aa0;
+}
+
 /* dark mode topic label adjustments */
 body.quarto-dark .topic-migration {
   background: #1a3a4d;
@@ -718,6 +723,11 @@ body.quarto-dark .topic-entrepreneurship {
 body.quarto-dark .topic-fiscal {
   background: #1a4d2a;
   color: #7cf0a0;
+}
+
+body.quarto-dark .topic-political {
+  background: #3a1a4d;
+  color: #c47cf0;
 }
 
 /* --- Status badges --- */
