@@ -201,7 +201,7 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 <span class="status-badge badge-published">Published</span>
 </div>
 <h4 class="card-title"><a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/ecaf.70007" target="_blank">Property rights and entrepreneurship</a></h4>
-<p class="card-meta"><em>Economic Affairs</em>, 45(3), 509-521, 2025</p>
+<p class="card-meta"><em>Economic Affairs</em>, 45(3), 509-521, 2025 &middot; <a href="publications/Regalado_Cardoso_Property_Rights_Entrepreneurship_2025.pdf" target="_blank" rel="noopener">Preprint (PDF)</a></p>
 <p class="card-hook">Property rights and total entrepreneurship follow a U-shaped relationship: necessity entrepreneurship falls first, then opportunity entrepreneurship rises.</p>
 <details class="card-expand"><summary>Read more</summary>
 <div class="card-description">

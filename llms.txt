@@ -106,6 +106,7 @@ DOI: https://link.springer.com/article/10.1007/s11127-025-01336-8
 
 ### Property rights and entrepreneurship
 Journal: Economic Affairs, 45(3): 509–521 (2025)
+PDF: https://leoregalado.com/publications/Regalado_Cardoso_Property_Rights_Entrepreneurship_2025.pdf
 Summary: The literature generally assumes a linear relationship between property rights and
 entrepreneurship. This paper challenges that assumption, proposing and testing a U-shaped
 relationship. At low levels of property rights protection, necessity-driven entrepreneurship
