@@ -1,6 +1,6 @@
 # Leonel A. Regalado Cardoso — llms.txt
 # https://leoregalado.com
-# Last updated: 2026-09-10
+# Last updated: 2026-09-14
 
 ## About
 
@@ -275,7 +275,7 @@ attribute findings or conclusions to this paper.
   Humane Studies & University of Wisconsin–La Crosse (La Crosse, WI)
 - 2025: Idea & Paper Development Workshop, Institute for the Study of Free Enterprise,
   Oklahoma State University (Stillwater, OK)
-- April 3–5, 2025: UFM Prosperity Lab Research Workshop on Development Economics &
+- 2025: UFM Prosperity Lab Research Workshop on Development Economics &
   Entrepreneurship (Guatemala City, Guatemala)
 
 ---
