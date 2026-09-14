@@ -72,7 +72,7 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 
 <div class="featured-card">
 <span class="topic-label topic-migration">Migration</span>
-<h4>Did the Syrian Refugee Crisis impact European economic freedom?</h4>
+<h4><a href="publications/Powell_Regalado_Syrian_Refugees_European_Economic_Freedom_2026.pdf" target="_blank" rel="noopener">Syrian refugees and the resilience of European economic freedom: Evidence from Austria, Germany, and Sweden</a></h4>
 <p class="featured-meta">with Benjamin Powell | <em>Journal of Comparative Economics</em>, Forthcoming</p>
 <p class="featured-desc">Using the synthetic control method, we find that the Syrian refugee surge did not meaningfully impact economic freedom in Germany, Austria, or Sweden, despite the largest institutional gap and refugee inflows in modern European history.</p>
 <a href="explore-research.html" class="featured-link">Read more &rarr;</a>

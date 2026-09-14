@@ -31,7 +31,7 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 <span class="topic-label topic-migration">Migration</span>
 <span class="status-badge badge-published">Forthcoming</span>
 </div>
-<h4 class="card-title">Did the Syrian Refugee Crisis impact European economic freedom?</h4>
+<h4 class="card-title"><a href="publications/Powell_Regalado_Syrian_Refugees_European_Economic_Freedom_2026.pdf" target="_blank" rel="noopener">Syrian refugees and the resilience of European economic freedom: Evidence from Austria, Germany, and Sweden</a></h4>
 <p class="card-meta">with Benjamin Powell &middot; <em>Journal of Comparative Economics</em>, Forthcoming</p>
 <p class="card-hook">Using synthetic control methods, we find no evidence that the Syrian refugee surge eroded economic freedom in Germany, Austria, or Sweden.</p>
 <details class="card-expand"><summary>Read more</summary>
@@ -165,7 +165,7 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 <span class="status-badge badge-published">Published</span>
 </div>
 <h4 class="card-title"><a href="https://link.springer.com/article/10.1007/s11127-025-01336-8" target="_blank">Emigration and origin country economic institutions</a></h4>
-<p class="card-meta">with Benjamin Powell &middot; <em>Public Choice</em>, 2025</p>
+<p class="card-meta">with Benjamin Powell &middot; <em>Public Choice</em>, 2025 &middot; <a href="publications/Powell_Regalado_Emigration_Origin_Country_Economic_Institutions_2025.pdf" target="_blank" rel="noopener">Preprint (PDF)</a></p>
 <p class="card-hook">Moderate emigration improves origin-country economic institutions through an inverted-U relationship, driven by medium- and high-skill emigrant stocks.</p>
 <details class="card-expand"><summary>Read more</summary>
 <div class="card-description">

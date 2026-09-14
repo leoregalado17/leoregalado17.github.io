@@ -17,13 +17,13 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 
 ## Peer-Reviewed Publications
 
-### Did the Syrian Refugee Crisis impact European economic freedom? {.paper-title}
+### [Syrian refugees and the resilience of European economic freedom: Evidence from Austria, Germany, and Sweden](publications/Powell_Regalado_Syrian_Refugees_European_Economic_Freedom_2026.pdf){.paper-title target="_blank"}
 *with Benjamin Powell* | *Journal of Comparative Economics*, Forthcoming
 
 ---
 
 ### [Emigration and origin country economic institutions](https://link.springer.com/article/10.1007/s11127-025-01336-8){.paper-title target="_blank"}
-*with Benjamin Powell* | *Public Choice*, 2025
+*with Benjamin Powell* | *Public Choice*, 2025 | [Preprint (PDF)](publications/Powell_Regalado_Emigration_Origin_Country_Economic_Institutions_2025.pdf){target="_blank"}
 
 ---
 

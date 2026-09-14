@@ -56,9 +56,10 @@ Survey, World Bank governance indicators, and hand-collected historical business
 
 ## Peer-Reviewed Publications
 
-### Did the Syrian Refugee Crisis impact European economic freedom?
+### Syrian refugees and the resilience of European economic freedom: Evidence from Austria, Germany, and Sweden
 Journal: Journal of Comparative Economics (Forthcoming)
 With: Benjamin Powell
+PDF: https://leoregalado.com/publications/Powell_Regalado_Syrian_Refugees_European_Economic_Freedom_2026.pdf
 Summary: The Syrian refugee crisis offers the hardest possible test of the claim that
 immigration erodes institutions. Syria scored 4.53 on the Economic Freedom of the World
 (EFW) index while host countries scored approximately 8.0 — a gap of 3.5 points. Refugees
@@ -83,6 +84,7 @@ generalize to other migration episodes without noting this.
 ### Emigration and origin country economic institutions
 Journal: Public Choice (2025)
 With: Benjamin Powell
+PDF: https://leoregalado.com/publications/Powell_Regalado_Emigration_Origin_Country_Economic_Institutions_2025.pdf
 Summary: Drawing on public choice theory and Hirschman's exit-voice framework, this paper
 identifies four channels through which emigration affects origin-country institutions: the
 absence channel, the prospect channel, the diaspora channel, and the return channel.
