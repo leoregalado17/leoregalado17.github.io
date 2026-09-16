@@ -1,6 +1,6 @@
 # Leonel A. Regalado Cardoso — llms.txt
 # https://leoregalado.com
-# Last updated: 2026-09-14
+# Last updated: 2026-09-16
 
 ## About
 
@@ -185,12 +185,9 @@ improvement threshold. These are null results on the ENTREPRENEURSHIP channel sp
 — they do not show that corruption is harmless or that anti-corruption reform fails. The
 paper accepts that reforms raise growth and argues the mechanism lies elsewhere.
 
----
-
-## Working Papers
 
 ### Leader's Ideology and Economic Freedom
-Status: Working Paper | Year: 2026
+Status: Under review at the European Journal of Political Economy | Year: 2026
 With: J.P. Bastos (University of Austin), Benjamin Powell (Texas Tech University)
 PDF: https://leoregalado.com/publications/Regalado_Bastos_Powell_Ideology_Economic_Freedom_2026.pdf
 Summary: Revisits the proposition that right-wing governments promote free markets while
@@ -205,6 +202,10 @@ significant effect. Among OECD countries, transitions to the right have no effec
 most robust findings are a small negative effect of transitions to the left among OECD
 countries, driven by a larger size of government, and a small positive effect of
 transitions to the right among non-OECD countries.
+
+---
+
+## Working Papers
 
 ### From Das Kapital to Venture Capital: Cuban Entrepreneurial Elites Exiled in South Florida
 Status: Working Paper | Year: 2026
