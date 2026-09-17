@@ -101,13 +101,13 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 </div>
 
 <!-- ── Ideology and Economic Freedom Paper ── -->
-<div class="paper-card" data-topic="political" data-status="under-review">
+<div class="paper-card" data-topic="political" data-status="working">
 <div class="card-header-row">
 <span class="topic-label topic-political">Political Economy</span>
-<span class="status-badge badge-under-review">Under Review</span>
+<span class="status-badge badge-working">Working Paper</span>
 </div>
 <h4 class="card-title"><a href="publications/Regalado_Bastos_Powell_Ideology_Economic_Freedom_2026.pdf" target="_blank" rel="noopener">Leader's Ideology and Economic Freedom</a></h4>
-<p class="card-meta">with J.P. Bastos and Benjamin Powell &middot; Under review at the <em>European Journal of Political Economy</em></p>
+<p class="card-meta">with J.P. Bastos and Benjamin Powell</p>
 <p class="card-hook">Do right-wing leaders expand economic freedom and left-wing leaders restrict it? Causal estimates show the effects are small and mostly absent.</p>
 <details class="card-expand"><summary>Read more</summary>
 <div class="card-description">

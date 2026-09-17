@@ -3,12 +3,28 @@
 \usepackage[margin=1in]{geometry}
 \usepackage{enumitem}
 \usepackage{titlesec}
+\usepackage[usenames,dvipsnames]{xcolor}
 \usepackage{hyperref}
 \usepackage{setspace}
+\usepackage{fancyhdr}
+
+% Links styled like J.P.'s CV: coloured text, no boxes.
+\hypersetup{colorlinks=true, urlcolor=NavyBlue, linkcolor=NavyBlue}
 
 \setstretch{1.05}
 \setlength{\parindent}{0pt}
-\pagenumbering{gobble}
+% Footer on every page, matching J.P.'s: month/year left, name centre, page right.
+% The month and year come from the build date, so a rebuild always re-dates it.
+\newcommand{\cvmonthyear}{%
+  \ifcase\month\or January\or February\or March\or April\or May\or June\or
+  July\or August\or September\or October\or November\or December\fi\ \the\year}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot[L]{\footnotesize\scshape\cvmonthyear}
+\fancyfoot[C]{\footnotesize\scshape Leonel Regalado \textperiodcentered\ CV}
+\fancyfoot[R]{\footnotesize\scshape\thepage}
 
 \titleformat{\section}
   {\large\bfseries}
@@ -18,7 +34,7 @@
 
 \setlist[itemize]{noitemsep, topsep=2pt}
 \ifdefined\extendedcv\else
-  \geometry{top=0.65in,bottom=0.65in,left=0.8in,right=0.8in}
+  \geometry{top=0.65in,bottom=0.65in,left=0.8in,right=0.8in,footskip=0.35in}
   \setstretch{1}
   \titlespacing*{\section}{0pt}{10pt}{5pt}
   \setlist[itemize]{noitemsep,topsep=2pt,parsep=0pt}
@@ -30,9 +46,9 @@
     {\LARGE \textbf{Leonel A. Regalado Cardoso}}\\[6pt]
     Ph.D. Candidate, Department of Agricultural and Applied Economics\\
     Texas Tech University\\[4pt]
-    \href{https://linkedin.com}{LinkedIn} \;|\;
+    \href{https://www.linkedin.com/in/leonel-regalado/}{LinkedIn} \;|\;
     +1 (806) 758-2048 \;|\;
-    \href{mailto:lregalad@ttu.edu}{lregalad@ttu.edu} \;|\;
+    \href{mailto:leoregalado31@gmail.com}{leoregalado31@gmail.com} \;|\;
     Lubbock, Texas
 \end{center}
 
@@ -42,7 +58,8 @@
 \section*{Education}
 
 \textbf{Texas Tech University} \hfill Lubbock, Texas\\
-Ph.D. in Agricultural and Applied Economics \hfill Expected Spring 2027
+Ph.D. in Agricultural and Applied Economics \hfill Expected Spring 2027\\
+Dissertation Chair: Dr. Benjamin Powell
 
 \vspace{4pt}
 \textbf{Texas Tech University} \hfill Lubbock, Texas\\
@@ -63,8 +80,8 @@ Postgraduate Certificate in Money, Banking, and Central Banking \hfill 2022
 
 \begin{itemize}
     \item Powell, B., Regalado Cardoso, L. Syrian refugees and the resilience of European economic freedom: Evidence from Austria, Germany, and Sweden. \textit{Journal of Comparative Economics}, Forthcoming.
-    \item Powell, B., Regalado Cardoso, L. (2025). Emigration and origin country economic institutions. \textit{Public Choice}.
-    \item Regalado Cardoso, L. (2025). Property rights and entrepreneurship. \textit{Economic Affairs}, 45(3), 509--521.
+    \item Powell, B., Regalado Cardoso, L. (2025). \href{https://doi.org/10.1007/s11127-025-01336-8}{Emigration and origin country economic institutions}. \textit{Public Choice}.
+    \item Regalado Cardoso, L. (2025). \href{https://doi.org/10.1111/ecaf.70007}{Property rights and entrepreneurship}. \textit{Economic Affairs}, 45(3), 509--521.
 \end{itemize}
 
 \textbf{Under Review}
@@ -72,13 +89,13 @@ Postgraduate Certificate in Money, Banking, and Central Banking \hfill 2022
 \begin{itemize}
     \item Regalado Cardoso, L. Debt Constraints in Emerging Economies: Evidence from Guatemala. \textit{Under review at Public Finance Review.}
     \item Regalado Cardoso, L. Do corruption reforms spur entrepreneurship? \textit{Under review at the Journal of Institutional Economics.}
-    \item Regalado Cardoso, L., Bastos, J.P., Powell, B. Leader's Ideology and Economic Freedom. \textit{Under review at the European Journal of Political Economy.}
 \end{itemize}
 
 \textbf{Working Papers}
 
 \begin{itemize}
-    \item Regalado Cardoso, L., Martinez, C. From Das Kapital to Venture Capital: Cuban Entrepreneurial Elites Exiled in South Florida.
+    \item Regalado Cardoso, L., Martinez, C. From Das Kapital to Venture Capital: Cuban Entrepreneurial Elites Exiled in South Florida. \textbf{[Job Market Paper]}
+    \item Regalado Cardoso, L., Bastos, J.P., Powell, B. Leader's Ideology and Economic Freedom.
 \end{itemize}
 
 %----------------------------------
@@ -164,5 +181,28 @@ Languages: Spanish (Native), English (Fluent), Italian (Conversational)
 Programming: Stata
 
 Software \& Tools: \LaTeX{}, Quarto, Git
+
+
+%----------------------------------
+\ifdefined\extendedcv
+\section*{References}
+
+{\hangindent=1.2em\hangafter=1\noindent\textbf{Dr. Benjamin Powell}, Professor of Economics, Jerry S. Rawls College of Business Administration\par}
+\hspace*{1.2em}P.O. Box 45059, Texas Tech University.\\
+\hspace*{1.2em}Phone: (806) 834-3097\\
+\hspace*{1.2em}E-mail: \href{mailto:Benjamin.Powell@ttu.edu}{Benjamin.Powell@ttu.edu}
+
+\vspace{6pt}
+{\hangindent=1.2em\hangafter=1\noindent\textbf{Dr. Jamie Bologna Pavlik}, Associate Professor, Department of Agricultural and Applied Economics\par}
+\hspace*{1.2em}P.O. Box 42132, Texas Tech University.\\
+\hspace*{1.2em}Phone: (806) 834-8515\\
+\hspace*{1.2em}E-mail: \href{mailto:Jamie.Bologna@ttu.edu}{Jamie.Bologna@ttu.edu}
+
+\vspace{6pt}
+{\hangindent=1.2em\hangafter=1\noindent\textbf{Dr. Andrew T. Young}, Professor of Economics, Jerry S. Rawls College of Business Administration\par}
+\hspace*{1.2em}P.O. Box 45059, Texas Tech University.\\
+\hspace*{1.2em}Phone: (806) 834-1374\\
+\hspace*{1.2em}E-mail: \href{mailto:A.T.Young@ttu.edu}{A.T.Young@ttu.edu}
+\fi
 
 \end{document}
