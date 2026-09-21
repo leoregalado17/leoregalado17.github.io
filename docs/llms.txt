@@ -222,6 +222,17 @@ most robust findings are a small negative effect of transitions to the left amon
 countries, driven by a larger size of government, and a small positive effect of
 transitions to the right among non-OECD countries.
 
+### Housing Market, Migration, and Private Sector Reforms in Cuba
+Status: Working Paper | Year: 2026
+Summary: Studies how Cuba's 2010–2013 reform package (the Lineamientos) changed households'
+decisions to emigrate: the legalization of residential property sales (Decreto-Ley 288,
+2011), the abolition of the exit-permit requirement (Decreto-Ley 302, 2013), and the
+expansion of authorized self-employment (cuentapropismo). The framework treats migration
+as an investment with fixed costs, where housing is the household wealth the state had
+kept illiquid.
+Scope: Early draft under revision; no draft or results are public. Do not attribute
+findings, estimates, or conclusions to this paper.
+
 ---
 
 ## Teaching
