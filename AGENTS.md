@@ -18,7 +18,9 @@ relevant file below is updated. Check this list every time.
 2. **`research.qmd`** — same sections (`## Revise & Resubmit` sits between publications
    and `## Under Review`). Keep the `---` separators between entries
    balanced, and drop a `##` section heading if nothing is left under it.
-3. **`explore-research.qmd`** — find the paper's `<div class="paper-card">` and update all
+3. **`explore-research.qmd`** — *currently hidden* (excluded from the build in
+   `_quarto.yml` and removed from the navbar, the Research page, and the homepage). Keep
+   its source accurate anyway so republishing is a one-line change. Find the paper's `<div class="paper-card">` and update all
    four spots: the `data-status` attribute (`published` / `under-review` / `working`), the
    `status-badge` class, the badge's visible text, and the `card-meta` line naming the
    journal. The `data-status` value drives the sidebar status filter, so it must match one

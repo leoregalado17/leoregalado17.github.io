@@ -3,6 +3,7 @@ project:
   output-dir: docs
   render:
     - "*.qmd"
+    - "!explore-research.qmd"   # hidden for now; delete this line to republish
     - "beco3310/*.qmd"
   resources:
     - cv.pdf
@@ -31,8 +32,6 @@ website:
         text: Home
       - href: research.qmd
         text: Research
-      - href: explore-research.qmd
-        text: Explore My Research
       - href: teaching.qmd
         text: Teaching
       - href: presentations.qmd

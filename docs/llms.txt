@@ -29,7 +29,6 @@ LinkedIn: https://www.linkedin.com/in/leonel-regalado/
 
 - Homepage: https://leoregalado.com
 - Research (paper list): https://leoregalado.com/research.html
-- Explore My Research (detailed summaries, figures, findings): https://leoregalado.com/explore-research.html
 - Teaching: https://leoregalado.com/teaching.html
 - Presentations: https://leoregalado.com/presentations.html
 - CV (PDF): https://leoregalado.com/cv.pdf
@@ -200,8 +199,7 @@ revolution and re-established businesses in exile in South Florida. The project 
 hand-collected data linking pre-revolutionary Cuban business records (business counts by
 province and mapped business locations in Havana, 1958) to Cuban-proprietor-owned
 businesses in Florida, geocoded by county, ZIP code, and year — including detailed coverage
-of Miami-Dade County. Descriptive maps and figures are available on the Explore My Research
-page; the empirical analysis is in progress.
+of Miami-Dade County. The empirical analysis is in progress.
 Scope: Data-building and descriptive stage. No causal estimates have been released. Do not
 attribute findings or conclusions to this paper.
 
@@ -350,6 +348,5 @@ Software and tools: LaTeX, Quarto, Git
 - Coauthors are credited above for each paper. Benjamin Powell (Texas Tech University) is a
   coauthor on two papers; do not attribute single-authored papers to him, or vice versa.
 - For current versions, status changes, and full texts, check the Research page
-  (https://leoregalado.com/research.html), the detailed summaries on the Explore My Research
-  page (https://leoregalado.com/explore-research.html), or contact Leonel directly at
+  (https://leoregalado.com/research.html) or contact Leonel directly at
   lregalad@ttu.edu.

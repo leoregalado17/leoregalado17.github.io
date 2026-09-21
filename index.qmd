@@ -75,7 +75,6 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 <h4><a href="publications/Powell_Regalado_Syrian_Refugees_European_Economic_Freedom_2026.pdf" target="_blank" rel="noopener">Syrian refugees and the resilience of European economic freedom: Evidence from Austria, Germany, and Sweden</a></h4>
 <p class="featured-meta">with Benjamin Powell | <em>Journal of Comparative Economics</em>, Forthcoming</p>
 <p class="featured-desc">Using the synthetic control method, we find that the Syrian refugee surge did not meaningfully impact economic freedom in Germany, Austria, or Sweden, despite the largest institutional gap and refugee inflows in modern European history.</p>
-<a href="explore-research.html" class="featured-link">Read more &rarr;</a>
 </div>
 
 <div class="featured-card">
@@ -83,11 +82,10 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 <h4><a href="publications/Regalado_Cardoso_Corruption_Reforms_Entrepreneurship_2026.pdf" target="_blank" rel="noopener">Do corruption reforms spur entrepreneurship?</a></h4>
 <p class="featured-meta">Under review at the <em>Journal of Institutional Economics</em></p>
 <p class="featured-desc">Applying the Callaway and Sant'Anna (2021) DiD estimator, this paper finds that sustained anti-corruption reforms have no significant effect on entrepreneurship, suggesting the growth benefits of reforms flow through other channels.</p>
-<a href="explore-research.html" class="featured-link">Read more &rarr;</a>
 </div>
 
 </div>
 
-<p style="text-align:center; margin-top:1rem;"><a href="explore-research.html" class="featured-link">See all research &rarr;</a></p>
+<p style="text-align:center; margin-top:1rem;"><a href="research.html" class="featured-link">See all research &rarr;</a></p>
 
 </div>
