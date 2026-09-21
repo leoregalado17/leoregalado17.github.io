@@ -231,10 +231,10 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 <div class="paper-card" data-topic="fiscal" data-status="under-review">
 <div class="card-header-row">
 <span class="topic-label topic-fiscal">Fiscal & Monetary Policy</span>
-<span class="status-badge badge-under-review">Under Review</span>
+<span class="status-badge badge-under-review">R&R</span>
 </div>
 <h4 class="card-title"><a href="publications/Regalado_Cardoso_Debt_Constraints_Guatemala_2026.pdf" target="_blank" rel="noopener">Debt Constraints in Emerging Economies: Evidence from Guatemala</a></h4>
-<p class="card-meta">Under review at <em>Public Finance Review</em></p>
+<p class="card-meta">R&amp;R at <em>Public Finance Review</em></p>
 <p class="card-hook">Guatemala's fiscal rules reduced central bank lending but did not produce genuine fiscal discipline; the debt-to-GDP improvement was driven by inflation, not austerity.</p>
 <details class="card-expand"><summary>Read more</summary>
 <div class="card-description">

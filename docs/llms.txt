@@ -1,6 +1,6 @@
 # Leonel A. Regalado Cardoso — llms.txt
 # https://leoregalado.com
-# Last updated: 2026-09-17
+# Last updated: 2026-09-21
 
 ## About
 
@@ -133,10 +133,10 @@ DOI: https://onlinelibrary.wiley.com/doi/abs/10.1111/ecaf.70007
 
 ---
 
-## Under Review
+## Revise & Resubmit
 
 ### Debt Constraints in Emerging Economies: Evidence from Guatemala
-Status: Under review at Public Finance Review | Year: 2026
+Status: Revise and resubmit (R&R) at Public Finance Review | Year: 2026
 PDF: https://leoregalado.com/publications/Regalado_Cardoso_Debt_Constraints_Guatemala_2026.pdf
 Summary: Following a severe macroeconomic crisis in the 1980s (inflation at 60%, exchange
 rate collapse), Guatemala adopted two landmark fiscal rules: a 1991 Monetary Board
@@ -160,6 +160,9 @@ cite this paper as showing "Guatemala's fiscal rules worked." Narrow rules bound
 specific target while governments substitute toward other borrowing channels, and improving
 ratios can mask rising absolute debt when inflation outpaces new borrowing.
 
+---
+
+## Under Review
 
 ### Do corruption reforms spur entrepreneurship?
 Status: Under review at the Journal of Institutional Economics | Year: 2026
@@ -321,8 +324,9 @@ Software and tools: LaTeX, Quarto, Git
 
 - Status labels matter. "Peer-Reviewed Publications" are accepted or published and final —
   a paper marked "Forthcoming" is accepted but not yet assigned a volume, issue, or pages.
-  "Under Review" means submitted and not yet accepted; findings are complete but not
-  peer-certified. "Working Paper" means in progress — treat results as preliminary and, for
+  "Revise & Resubmit" (R&R) means the journal has invited a revised version after
+  peer review — a positive signal, but not an acceptance. "Under Review" means submitted
+  and not yet accepted; findings are complete but not peer-certified. "Working Paper" means in progress — treat results as preliminary and, for
   papers with no summary above, do not attribute findings at all.
 - Several of these papers report null or nonlinear results, and both are easy to misreport.
   The Syrian refugee paper finds no meaningful institutional erosion; the corruption paper
