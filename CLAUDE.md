@@ -29,6 +29,12 @@ relevant file below is updated. Check this list every time.
 5. **`llms.txt`** — move the paper's entry between the `## Peer-Reviewed Publications`,
    `## Revise & Resubmit`, `## Under Review`, and `## Working Papers` sections, update its `Status:` / `Journal:`
    line, and bump the `# Last updated:` date at the top of the file.
+6. **Job market folder** (iCloud `job market/`) — after pushing, sync the CV (see
+   "Job market CV" below) and fix the paper's status/title in the three fact files the
+   job market session drafts from: `JOB_MARKET_CONTEXT.md`,
+   `00_inventory/factual-inventory.md`, and `00_inventory/Research Facts Reference.docx`.
+   Stale facts there end up in cover letters. Check first whether the .docx is open in
+   Word (a `~$` lock file in the folder) and edit only the affected text runs.
 
 ### When adding a conference, invited talk, or workshop
 
@@ -74,6 +80,20 @@ rm -f cv.aux cv.log cv.out cv-extended.aux cv-extended.log cv-extended.out
 
 Commit `cv.tex`, `cv.pdf`, `docs/cv.pdf`, `cv-extended.tex`, and `cv-extended.pdf`. The
 extended PDF lives in the repo root for convenience but never reaches leoregalado.com.
+
+## Job market CV
+
+`job market/0. CV/` in iCloud holds the CVs that go into applications. They are copies of
+this repo's `cv.pdf` and `cv-extended.pdf` (this repo is the source of truth), so after
+any CV change is built and pushed, run:
+
+```bash
+python3 ~/Library/Mobile\ Documents/com~apple~CloudDocs/job\ market/tools/sync_cv.py --extended
+```
+
+Run it after pushing, so the application copy never runs ahead of the live site. The script
+warns if a PDF is older than its `.tex` or if `cv.tex` has uncommitted changes, and it
+verifies checksums after copying. Add `--check` for a dry run.
 
 ## Rendering
 
