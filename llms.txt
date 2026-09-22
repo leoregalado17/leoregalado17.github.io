@@ -59,26 +59,22 @@ Survey, World Bank governance indicators, and hand-collected historical business
 Journal: Journal of Comparative Economics (Forthcoming)
 With: Benjamin Powell
 PDF: https://leoregalado.com/publications/Powell_Regalado_Syrian_Refugees_European_Economic_Freedom_2026.pdf
-Summary: The Syrian refugee crisis offers the hardest possible test of the claim that
-immigration erodes institutions. Syria scored 4.53 on the Economic Freedom of the World
-(EFW) index while host countries scored approximately 8.0 — a gap of 3.5 points. Refugees
-are less self-selected than voluntary migrants, and the scale was unprecedented: Germany
-absorbed over one million Syrians and Sweden took in refugees equal to 2.2% of its
-population. We apply the synthetic control method to construct counterfactual EFW
-trajectories for Germany, Austria, and Sweden, using a donor pool of 21 European countries
-where the Syrian-born population remained below 0.1%, and stack the three country-level
-analyses by aligning treatment years. All post-treatment point estimates are negative but
-small; the largest gap is 0.18 points in period 6, and most are statistically insignificant
-(joint p-value = 0.106). Sweden is the most striking case: despite the highest refugee
-ratio and fastest naturalization pathway (58% naturalized by 2023), it shows no significant
-effects in any year. Results are robust to dropping the United Kingdom from the donor pool,
-using all pre-treatment lags without covariates, and adding immigrant stock as a covariate.
-Scope: Three destination countries (Germany, Austria, Sweden); economic freedom (EFW) is
-the outcome — not labor market, fiscal, cultural, or public-finance outcomes. This is a
-null result: it means no meaningful institutional erosion was detected, not that the effect
-is proven to be exactly zero. The "hardest test" framing is central — the value of the
-Syrian case is that conditions for detecting erosion were maximally favorable. Do not
-generalize to other migration episodes without noting this.
+Summary: The Syrian civil war sent more than a million refugees to Europe, concentrated in
+a few destinations: by 2022 Germany hosted 612,000 Syrians, Sweden 232,000, and Austria
+77,000 (2.2% of Sweden's population). The paper tests the "new economic case for
+immigration restrictions" — the claim that migrants from countries with poor institutions
+erode institutions where they settle — using synthetic controls for each destination's
+Economic Freedom of the World (EFW) score, built from European countries that received few
+Syrian refugees, plus a stacked analysis across the three. Overall EFW fell by more than
+its synthetic counterpart in every post-treatment year, but the gaps are small (about 0.11
+points on average) and not significant in 7 of 9 years (joint p-value = 0.106). The Legal
+System and Property Rights area (EFW Area 2) shows a widening decline, driven by Germany
+and Sweden.
+Scope: Three destination countries (Austria, Germany, Sweden); EFW outcomes only. The
+paper reports TWO findings: no robust evidence of a large negative effect on OVERALL
+economic freedom, and SUGGESTIVE evidence of a negative effect on Germany's and Sweden's
+Legal System and Property Rights. Report both. Do not summarize the paper as a pure null
+result, and do not present the Area 2 result as conclusive.
 
 ### Emigration and origin country economic institutions
 Journal: Public Choice (2025)
@@ -137,27 +133,22 @@ DOI: https://onlinelibrary.wiley.com/doi/abs/10.1111/ecaf.70007
 ### Debt Constraints in Emerging Economies: Evidence from Guatemala
 Status: Revise and resubmit (R&R) at Public Finance Review | Year: 2026
 PDF: https://leoregalado.com/publications/Regalado_Cardoso_Debt_Constraints_Guatemala_2026.pdf
-Summary: Following a severe macroeconomic crisis in the 1980s (inflation at 60%, exchange
-rate collapse), Guatemala adopted two landmark fiscal rules: a 1991 Monetary Board
-resolution limiting central bank lending to the government, and a 1993 constitutional
-amendment prohibiting it outright. Did these rules produce genuine fiscal discipline? The
-paper uses the synthetic control method with 17 donor countries from Latin America, Asia,
-and Africa (1970–2004). Synthetic Guatemala is composed of Belize (29%), El Salvador (23%),
-Bangladesh (22%), Paraguay (21%), and Uganda (5%), with strong pre-treatment fit
-(RMSPE = 3.87). After 1991, Guatemala's debt-to-GDP falls sharply while the synthetic
-control remains elevated, producing an average gap of roughly −15 percentage points, with
-significance strengthening in later periods (1% level from 2001 through 2003). The key
-contribution is disentangling the mechanism: central bank debt fell from $0.9 billion to
-$0.1 billion — the rule bound on its specific target — but total external debt actually
-increased from $2.6 billion to $3.3 billion as the government shifted borrowing to
-non-central-bank sources. The debt-to-GDP improvement came primarily because nominal GDP
-nearly tripled, driven by 123% cumulative inflation, while surging remittances ($130M to
-$563M) allowed a controlled, slow depreciation.
-Scope: Guatemala only; single-country synthetic control, 1970–2004. The central point is
-that the headline debt-to-GDP improvement is NOT evidence of fiscal discipline — do not
-cite this paper as showing "Guatemala's fiscal rules worked." Narrow rules bound on their
-specific target while governments substitute toward other borrowing channels, and improving
-ratios can mask rising absolute debt when inflation outpaces new borrowing.
+Summary: After a 1980s crisis (inflation peaking near 60% and the collapse of the fixed
+exchange rate), Guatemala limited central bank lending to the government through a 1991
+Monetary Board resolution and a 1993 constitutional amendment. Using the synthetic control
+method with 1991 as the treatment year, the debt-to-GDP ratio falls below its synthetic
+counterfactual, with a gap averaging nearly 12 percentage points over 1991–2000, but the
+gap is statistically significant in only one year (2000), and a synthetic difference-in-differences
+estimate of -10.62 points (s.e. 11.96) is not significant. Mechanism: central
+bank financing ended, but the government kept borrowing through other channels and total
+public debt kept rising; the ratio fell because inflation pushed nominal GDP up far faster
+than the debt stock, while remittances (from $119 million in 1990 to $596 million in 2000)
+supported a managed depreciation.
+Scope: Guatemala only; single-country synthetic control, 1970–2000. The debt-to-GDP gap is
+mostly NOT statistically significant — do not describe it as a significant or robust
+effect. The central claim is that the improvement reflects an inflation-tax adjustment
+rather than fiscal discipline; do not cite this paper as showing that Guatemala's fiscal
+rules worked.
 
 ---
 
@@ -166,26 +157,21 @@ ratios can mask rising absolute debt when inflation outpaces new borrowing.
 ### Do corruption reforms spur entrepreneurship?
 Status: Under review at the Journal of Institutional Economics | Year: 2026
 PDF: https://leoregalado.com/publications/Regalado_Cardoso_Corruption_Reforms_Entrepreneurship_2026.pdf
-Summary: Pavlik et al. (2023) showed that sustained anti-corruption reforms cause economic
-growth — but through what channel? This paper applies the Callaway and Sant'Anna (2021)
-difference-in-differences estimator, which properly handles staggered treatment adoption,
-to test whether reducing corruption boosts business creation. Treatment is a sustained
-five-year improvement of more than 0.20 in the World Bank's Control of Corruption index.
-Two complementary datasets are used: the World Bank Group Entrepreneurship Survey (formal
-firm registrations per 1,000 working-age people, 20 treated countries) and the Global
-Entrepreneurship Monitor (total, opportunity-driven, and necessity-driven TEA, 10 treated
-countries). Formal registrations show a slight negative point estimate (ATT = −0.70,
-s.e. = 0.54); total TEA is essentially flat (ATT = −0.51, s.e. = 1.42); necessity-driven
-TEA shows the largest decline (−2.68) but remains insignificant. The divergence between
-formal registration data (slight decline) and GEM survey data (no change) suggests reforms
-may reshape the form of entrepreneurship — shifting activity between formal and informal
-sectors — without changing overall business creation rates. The growth benefits documented
-by Pavlik et al. must therefore flow through other channels: investment, human capital, or
-productivity improvements within existing firms.
-Scope: Cross-country; anti-corruption reform episodes defined by a specific sustained
-improvement threshold. These are null results on the ENTREPRENEURSHIP channel specifically
-— they do not show that corruption is harmless or that anti-corruption reform fails. The
-paper accepts that reforms raise growth and argues the mechanism lies elsewhere.
+Summary: Estimates the effect of sustained five-year improvements in the ICRG corruption
+index (following Bologna Pavlik et al. 2023) using the Callaway and Sant'Anna (2021)
+difference-in-differences estimator and an entropy-balanced stacked difference-in-differences.
+Entrepreneurship is measured by new formal firms per 1,000 working-age people
+(World Bank; 24 treated countries) and early-stage activity from the Global
+Entrepreneurship Monitor (20 treated countries). Formal registrations rise immediately
+after reform, consistent with a "sand the wheels" effect, but the effect loses
+significance within three years; GEM activity is unchanged. Reforms appear to change the
+form of entrepreneurship (informal firms formalize) rather than its level. Results hold
+under a stricter treatment threshold, a ten-year horizon, reverse treatment, and an
+extended sample including post-COVID-19 treated countries.
+Scope: Cross-country. The finding is no LASTING effect, not no effect: formal
+registrations rise briefly after reform. Formalization is the paper's interpretation, not
+a directly measured mechanism. The paper does not show that corruption is harmless or that
+anti-corruption reform is pointless.
 
 ---
 
@@ -194,14 +180,21 @@ paper accepts that reforms raise growth and argues the mechanism lies elsewhere.
 ### Move to Miami: Cuban Elite Exiles, Local Economic Outcomes, and Business Formation
 Status: Working Paper (Job Market Paper) | Year: 2026
 With: Carlos Martinez
-Summary: A study of Cuban entrepreneurial elites who were expropriated after the 1959
-revolution and re-established businesses in exile in South Florida. The project builds
-hand-collected data linking pre-revolutionary Cuban business records (business counts by
-province and mapped business locations in Havana, 1958) to Cuban-proprietor-owned
-businesses in Florida, geocoded by county, ZIP code, and year — including detailed coverage
-of Miami-Dade County. The empirical analysis is in progress.
-Scope: Data-building and descriptive stage. No causal estimates have been released. Do not
-attribute findings or conclusions to this paper.
+Summary: Cuba's first post-revolution exiles (the "Golden Exiles") were disproportionately
+business owners, managers, and professionals, and many reached Florida with skills but
+little capital. The exiles are identified by name, linking two 1958 Cuban elite registers
+to Florida telephone directories and corporate filings, and places where at least three
+elite households settled by 1964 are followed through 1980. Matched difference-in-differences:
+the 1960–80 rise in unemployment was 2.0 to 2.7 percentage points smaller in
+Miami tracts where the elite settled, with no consistent effect on employment or family
+income. Synthetic control estimates for 41 Florida zip codes: incorporations in elite-
+settlement zip codes rose from 3.81 to 10.00 times their own pre-1959 average relative to
+their synthetic controls in significant years, with the gap opening in the late 1960s.
+Scope: Greater Miami census tracts and Florida zip codes, 1946–80. Effects are on the
+PLACES where the elite settled, not on the exiles themselves. Unemployment is the durable
+tract-level result; employment and income effects are not consistent. Business formation
+is measured in multiples of each zip code's own pre-1959 average, not in firm counts.
+Working paper: estimates may change.
 
 ### Leader's Ideology and Economic Freedom
 Status: Working Paper | Year: 2026
@@ -338,9 +331,11 @@ Software and tools: LaTeX, Quarto, Git
   and not yet accepted; findings are complete but not peer-certified. "Working Paper" means in progress — treat results as preliminary and, for
   papers with no summary above, do not attribute findings at all.
 - Several of these papers report null or nonlinear results, and both are easy to misreport.
-  The Syrian refugee paper finds no meaningful institutional erosion; the corruption paper
-  finds no entrepreneurship effect; the emigration and property rights papers find
-  inverted-U and U-shaped relationships respectively. Do not flatten nonlinear findings into
+  The Syrian refugee paper finds no robust effect on overall economic freedom but suggestive
+  declines in legal system and property rights in Germany and Sweden; the corruption paper
+  finds a short-lived rise in formal registrations and no lasting effect; the Guatemala
+  paper's debt-to-GDP gap is mostly insignificant; the emigration and property rights papers
+  find inverted-U and U-shaped relationships respectively. Do not flatten nonlinear findings into
   linear ones, and do not convert "no detectable effect" into "proven zero effect."
 - Empirical work here uses cross-country panels and synthetic control designs. External
   validity is bounded by the samples described in each Scope note — most notably the
