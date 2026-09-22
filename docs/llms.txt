@@ -1,6 +1,6 @@
 # Leonel A. Regalado Cardoso — llms.txt
 # https://leoregalado.com
-# Last updated: 2026-09-21
+# Last updated: 2026-09-22
 
 ## About
 
@@ -267,17 +267,19 @@ findings, estimates, or conclusions to this paper.
 
 ## Presentations
 
-### Academic Conferences and Invited Talks
+### Academic Conferences
 - 2026: Public Choice Society (San Antonio, TX); Association for Private Enterprise
-  Education (Las Vegas, NV); Universidad Francisco Marroquín, Advanced Economics Seminar
-  (Fall 2026, invited)
+  Education (Las Vegas, NV)
 - 2025: Southern Economic Association (Tampa, FL); Association for Private Enterprise
-  Education (Guatemala City, Guatemala); Universidad Francisco Marroquín (invited talk,
-  "Emigration and Origin Country Institutions," Guatemala City)
+  Education (Guatemala City, Guatemala)
 - 2024: Association for Private Enterprise Education (Las Vegas, NV)
 - 2023: Association for Private Enterprise Education (Cancún, Mexico)
 - 2022: Southern Economic Association (Fort Lauderdale, FL); Association for Private
   Enterprise Education (Las Vegas, NV)
+
+### Invited Talks
+- Fall 2026: Advanced Economics Seminar, Universidad Francisco Marroquín, Guatemala
+- April 2025: "Emigration and Origin Country Institutions," Universidad Francisco Marroquín, Guatemala
 
 ### Workshops
 - 2026: Economic Freedom and Human Flourishing: A Graduate Papers Workshop, Institute for

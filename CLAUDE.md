@@ -42,8 +42,8 @@ relevant file below is updated. Check this list every time.
 
 ### When adding a conference, invited talk, or workshop
 
-- **`cv.tex`** — `Academic Conferences and Invited Talks*` (grouped by year; `*` marks an
-  invited talk) or the `Workshops` subsection.
+- **`cv.tex`** — `Academic Conferences` (grouped by year), `Invited Talks` (one line each,
+  newest first: `Apr.\ 2025. ``Title,'' Venue, Country.`), or the `Workshops` subsection.
 - **`presentations.qmd`** — the matching section.
 - **`llms.txt`** — the `## Presentations` section.
 
@@ -128,8 +128,9 @@ as `text/plain; charset=utf-8`, so this is a local artifact only, not a real bug
 
 - Accepted but not yet assigned a volume/issue: list as "Forthcoming", not with a year.
   Swap in the full citation and link once the DOI exists.
-- Presentations follow the format used in JP Bastos's job market CV: conferences and
-  invited talks merged into one year-by-year list, with `*` marking invited talks.
+- Presentations follow JP Bastos's job market CV (January 2026): academic conferences
+  listed by year, and invited talks listed separately with date, talk title, and venue.
+  (His later CV merges them with `*`; Leonel chose the market version on 2026-09-22.)
 - Workshops are listed only when Leonel presented or workshopped a paper. Attendance-only
   colloquia are deliberately left off.
 - **Contact email is `lregalad@ttu.edu` everywhere until Leonel graduates** (expected Spring
