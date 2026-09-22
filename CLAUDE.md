@@ -129,6 +129,12 @@ as `text/plain; charset=utf-8`, so this is a local artifact only, not a real bug
   invited talks merged into one year-by-year list, with `*` marking invited talks.
 - Workshops are listed only when Leonel presented or workshopped a paper. Attendance-only
   colloquia are deliberately left off.
+- **Contact email is `lregalad@ttu.edu` everywhere until Leonel graduates** (expected Spring
+  2027), then switches to his personal `leoregalado31@gmail.com`, because the TTU address
+  will be lost. When that happens, change it in: `cv.tex` (header `\href`), `_quarto.yml`
+  (navbar envelope icon), `index.qmd` (hero social icon), and `llms.txt` (`Contact:` line and
+  the last Notes bullet); rebuild both CVs and sync the job market folder. Leave the BECO 3310
+  course pages as they are — that address was correct for that course.
 - Untracked files in the repo root (logo drafts, loose figures, the `publications/` folder)
   are pre-existing and deliberately uncommitted. Stage files explicitly by name; do not
   `git add -A`.
