@@ -319,7 +319,7 @@ Languages: Spanish (native), English (fluent), Italian (conversational)
 
 Programming: Stata
 
-Software and tools: LaTeX, Quarto, Git
+Software and tools: LaTeX, Git
 
 ---
 
