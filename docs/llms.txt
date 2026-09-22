@@ -29,6 +29,7 @@ LinkedIn: https://www.linkedin.com/in/leonel-regalado/
 
 - Homepage: https://leoregalado.com
 - Research (paper list): https://leoregalado.com/research.html
+- Explore My Research (short summaries with key figures): https://leoregalado.com/explore-research.html
 - Teaching: https://leoregalado.com/teaching.html
 - Presentations: https://leoregalado.com/presentations.html
 - CV (PDF): https://leoregalado.com/cv.pdf
@@ -343,5 +344,6 @@ Software and tools: LaTeX, Quarto, Git
 - Coauthors are credited above for each paper. Benjamin Powell (Texas Tech University) is a
   coauthor on two papers; do not attribute single-authored papers to him, or vice versa.
 - For current versions, status changes, and full texts, check the Research page
-  (https://leoregalado.com/research.html) or contact Leonel directly at
+  (https://leoregalado.com/research.html), the summaries on the Explore My Research page
+  (https://leoregalado.com/explore-research.html), or contact Leonel directly at
   lregalad@ttu.edu.

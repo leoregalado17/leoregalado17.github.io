@@ -4,6 +4,13 @@ title: "Research"
 
 My research focuses on migration, entrepreneurship, and political economy, with an emphasis on how institutions, policy environments, and economic incentives influence individual behavior and long-run development outcomes.
 
+<div class="explore-cta">
+<a href="explore-research.html">
+<strong>Explore My Research</strong>
+<br><span class="explore-cta-desc">Read short summaries of each paper with key figures and findings.</span>
+</a>
+</div>
+
 ---
 
 ::: {.research-list}

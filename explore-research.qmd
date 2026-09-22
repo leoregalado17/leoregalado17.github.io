@@ -114,6 +114,17 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 
 <p>Globally, transitions to either a left- or a right-wing government have no significant effect on economic freedom, and among OECD countries transitions to the right have no effect either. The two most robust findings are a <strong>small negative effect after transitions to the left among OECD countries</strong>, driven by a larger size of government, and a <strong>small positive effect after transitions to the right among non-OECD countries</strong>.</p>
 
+<div class="card-figures">
+<figure>
+<img src="images/research/ideology_oecd_left.png" alt="Event study of transitions to left-wing leaders in OECD countries">
+<figcaption>Transitions to the left, OECD sample (Historical Index of Economic Liberty): economic freedom declines after a left-wing leader takes office. Bars are confidence intervals.</figcaption>
+</figure>
+<figure>
+<img src="images/research/ideology_non_oecd.png" alt="Event studies of transitions to the left and right outside the OECD">
+<figcaption>Non-OECD countries (Economic Freedom of the World): no effect after transitions to the left (left panel); economic freedom rises after transitions to the right (right panel).</figcaption>
+</figure>
+</div>
+
 </div>
 </details>
 </div>

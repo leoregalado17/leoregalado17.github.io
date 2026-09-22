@@ -18,14 +18,16 @@ relevant file below is updated. Check this list every time.
 2. **`research.qmd`** — same sections (`## Revise & Resubmit` sits between publications
    and `## Under Review`). Keep the `---` separators between entries
    balanced, and drop a `##` section heading if nothing is left under it.
-3. **`explore-research.qmd`** — *currently hidden* (excluded from the build in
-   `_quarto.yml` and removed from the navbar, the Research page, and the homepage). Keep
-   its source accurate anyway so republishing is a one-line change. Find the paper's `<div class="paper-card">` and update all
+3. **`explore-research.qmd`** — find the paper's `<div class="paper-card">` and update all
    four spots: the `data-status` attribute (`published` / `under-review` / `working`), the
    `status-badge` class, the badge's visible text, and the `card-meta` line naming the
    journal. The `data-status` value drives the sidebar status filter, so it must match one
    of the three filter values. An R&R uses `data-status="under-review"` (the filter is
    labelled "Under Review / R&R") with the badge text "R&R".
+   Card figures are static PNGs exported from the manuscript into `images/research/`
+   (no hand-coded chart data). When a revision changes a paper's results, replace the
+   figure files and rewrite the summary from the paper's own text; spot-checking numbers
+   misses changed findings. Keep `llms.txt` and the homepage blurbs consistent with it.
 4. **`index.qmd`** — check the Featured Research cards. Only some papers appear here, but
    the ones that do carry their own `featured-meta` status line, and it is easy to miss.
 5. **`llms.txt`** — move the paper's entry between the `## Peer-Reviewed Publications`,
