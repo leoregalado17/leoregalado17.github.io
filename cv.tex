@@ -33,12 +33,6 @@
   {}[\titlerule]
 
 \setlist[itemize]{noitemsep, topsep=2pt}
-\ifdefined\extendedcv\else
-  \geometry{top=0.65in,bottom=0.65in,left=0.8in,right=0.8in,footskip=0.35in}
-  \setstretch{1}
-  \titlespacing*{\section}{0pt}{10pt}{5pt}
-  \setlist[itemize]{noitemsep,topsep=2pt,parsep=0pt}
-\fi
 
 \begin{document}
 
@@ -52,7 +46,7 @@
     Lubbock, Texas
 \end{center}
 
-\ifdefined\extendedcv\vspace{0.2in}\else\vspace{0pt}\fi
+\vspace{0.2in}
 
 %----------------------------------
 \section*{Education}
@@ -171,14 +165,12 @@ Postgraduate Certificate in Money, Banking, and Central Banking \hfill 2022
     \item Public Choice
 \end{itemize}
 
-\ifdefined\extendedcv
 \textbf{Leadership}
 
 \begin{itemize}
     \item 2020--2022 --- Treasurer, UFM Debate Association
     \item 2020--2022 --- Coordinator and Cofounder, UFM Public Choice Club
 \end{itemize}
-\fi
 
 \textbf{Skills}
 
@@ -190,25 +182,23 @@ Software \& Tools: \LaTeX{}, Git
 
 
 %----------------------------------
-\ifdefined\extendedcv
 \section*{References}
 
 {\hangindent=1.2em\hangafter=1\noindent\textbf{Dr. Benjamin Powell}, Professor of Economics, Jerry S. Rawls College of Business Administration\par}
 \hspace*{1.2em}P.O. Box 45059, Texas Tech University.\\
-\hspace*{1.2em}Phone: (806) 834-3097\\
+\ifdefined\refphones\hspace*{1.2em}Phone: (806) 834-3097\\\fi
 \hspace*{1.2em}E-mail: \href{mailto:Benjamin.Powell@ttu.edu}{Benjamin.Powell@ttu.edu}
 
 \vspace{6pt}
 {\hangindent=1.2em\hangafter=1\noindent\textbf{Dr. Jamie Bologna Pavlik}, Associate Professor, Department of Agricultural and Applied Economics\par}
 \hspace*{1.2em}P.O. Box 42132, Texas Tech University.\\
-\hspace*{1.2em}Phone: (806) 834-8515\\
+\ifdefined\refphones\hspace*{1.2em}Phone: (806) 834-8515\\\fi
 \hspace*{1.2em}E-mail: \href{mailto:Jamie.Bologna@ttu.edu}{Jamie.Bologna@ttu.edu}
 
 \vspace{6pt}
 {\hangindent=1.2em\hangafter=1\noindent\textbf{Dr. Andrew T. Young}, Professor of Economics, Jerry S. Rawls College of Business Administration\par}
 \hspace*{1.2em}P.O. Box 45059, Texas Tech University.\\
-\hspace*{1.2em}Phone: (806) 834-1374\\
+\ifdefined\refphones\hspace*{1.2em}Phone: (806) 834-1374\\\fi
 \hspace*{1.2em}E-mail: \href{mailto:A.T.Young@ttu.edu}{A.T.Young@ttu.edu}
-\fi
 
 \end{document}

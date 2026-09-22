@@ -55,40 +55,43 @@ Service` at the bottom), and `llms.txt`. Awards, teaching, and employment appear
 
 ## Building the CV
 
-Two CVs are built from one source, and only one of them is published.
+One CV, built in two versions from the same source. Both are the full CV (Education through
+Leadership and References, about 3 pages); they differ only in the referees' phone numbers.
 
-- **`cv.tex` → `cv.pdf` (2 pages)** — the focused CV. This is the version the website
-  serves: the navbar "CV" link, `cv.qmd`'s redirect, and the `CV:` line in `llms.txt` all
-  point at `cv.pdf`. Compact spacing and no Leadership section are the DEFAULT.
-- **`cv-extended.tex` → `cv-extended.pdf` (3 pages)** — the full CV. It sets
-  `\def\extendedcv{1}` and inputs `cv.tex`, which restores the looser spacing and adds the
-  Leadership section. **This one is deliberately NOT published** — keep it out of `docs/`
-  and out of `resources:` in `_quarto.yml`.
+- **`cv.tex` → `cv.pdf` — public.** This is the CV the website serves: the navbar "CV" link,
+  `cv.qmd`'s redirect, and the `CV:` line in `llms.txt` all point at `cv.pdf`. References show
+  name, title, address and email, but **no phone numbers** (decided 2026-09-21).
+- **`cv-extended.tex` → `cv-extended.pdf` — private.** A four-line wrapper that sets
+  `\def\refphones{1}` and inputs `cv.tex`, adding the referees' office phones. For
+  applications only: **never publish it** — keep it out of `docs/` and out of `resources:`
+  in `_quarto.yml`.
 
-Edit content in `cv.tex` only; `cv-extended.tex` is a four-line wrapper. Anything wrapped
-in `\ifdefined\extendedcv ... \fi` appears in the extended version alone.
+Edit content in `cv.tex` only. Anything wrapped in `\ifdefined\refphones ... \fi` appears in
+the private version alone. (A compact 2-page layout existed until 2026-09-21 and was retired
+when the full CV went on the website; it is in git history if ever needed.)
 
-`pdflatex` is not on `PATH`. After any CV edit, build BOTH (twice each), verify page
-counts, and copy only `cv.pdf` into `docs/`:
+`pdflatex` is not on `PATH`. After any CV edit, build BOTH (twice each), check them, and copy
+only `cv.pdf` into `docs/`:
 
 ```bash
 /Library/TeX/texbin/pdflatex -interaction=nonstopmode cv.tex
 /Library/TeX/texbin/pdflatex -interaction=nonstopmode cv.tex
 /Library/TeX/texbin/pdflatex -interaction=nonstopmode cv-extended.tex
 /Library/TeX/texbin/pdflatex -interaction=nonstopmode cv-extended.tex
-pdfinfo cv.pdf | awk '/^Pages/{print}'            # must be 2
-pdfinfo cv-extended.pdf | awk '/^Pages/{print}'   # 3
+pdftotext cv.pdf - | grep -c 'Phone:'            # must be 0 — the public CV has no phones
+pdftotext cv-extended.pdf - | grep -c 'Phone:'   # 3
 cp cv.pdf docs/cv.pdf                             # do NOT copy cv-extended.pdf
 rm -f cv.aux cv.log cv.out cv-extended.aux cv-extended.log cv-extended.out
 ```
 
 Commit `cv.tex`, `cv.pdf`, `docs/cv.pdf`, `cv-extended.tex`, and `cv-extended.pdf`. The
-extended PDF lives in the repo root for convenience but never reaches leoregalado.com.
+private PDF lives in the repo root for convenience but never reaches leoregalado.com.
 
 ## Job market CV
 
 `job market/0. CV/` in iCloud holds the CVs that go into applications. They are copies of
-this repo's `cv.pdf` and `cv-extended.pdf` (this repo is the source of truth), so after
+this repo's `cv.pdf` (public, as `Leonel Regalado CV.pdf`) and `cv-extended.pdf` (with
+referee phones, as `Leonel Regalado CV (extended).pdf`); this repo is the source of truth, so after
 any CV change is built and pushed, run:
 
 ```bash
