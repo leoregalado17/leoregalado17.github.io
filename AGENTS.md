@@ -139,6 +139,8 @@ as `text/plain; charset=utf-8`, so this is a local artifact only, not a real bug
   (navbar envelope icon), `index.qmd` (hero social icon), and `llms.txt` (`Contact:` line and
   the last Notes bullet); rebuild both CVs and sync the job market folder. Leave the BECO 3310
   course pages as they are — that address was correct for that course.
-- Untracked files in the repo root (logo drafts, loose figures, the `publications/` folder)
-  are pre-existing and deliberately uncommitted. Stage files explicitly by name; do not
-  `git add -A`.
+- The paper PDFs in `publications/` ARE tracked (and copied into `docs/publications/` by
+  the `resources:` glob), so commit both copies when posting a paper. Other untracked
+  files in the repo root (logo drafts, loose figures, stray `.tex` drafts in
+  `publications/`) are pre-existing and deliberately uncommitted. Stage files explicitly
+  by name; do not `git add -A`.
