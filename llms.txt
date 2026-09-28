@@ -182,43 +182,41 @@ anti-corruption reform is pointless.
 Status: Working Paper (Job Market Paper) | Year: 2026
 With: Carlos Martinez
 PDF: https://leoregalado.com/publications/Regalado_Martinez_Move_to_Miami_2026.pdf
-Summary: Cuba's first post-revolution exiles (the "Golden Exiles") were disproportionately
-business owners, managers, and professionals, and many reached Florida with skills but
-little capital. The exiles are identified by name, linking two 1958 Cuban elite registers
-to Florida telephone directories and corporate filings, and places where at least three
-elite households settled by 1964 are followed through 1980. Matched difference-in-differences:
-the 1960–80 rise in unemployment was 2.0 to 2.7 percentage points smaller in
-Miami tracts where the elite settled, with no consistent effect on employment or family
-income. Synthetic control estimates for 41 Florida zip codes: incorporations in elite-
-settlement zip codes rose from 3.81 to 10.00 times their own pre-1959 average relative to
-their synthetic controls in significant years, with the gap opening in the late 1960s.
+Summary: Cuba's pre-revolutionary business and professional elite had their assets
+expropriated by the revolutionary government, and many reached Florida after 1959 with
+their skills but little of their wealth, which makes them a rare case of a skilled
+population arriving without its capital. The exiles are identified by name, linking two
+1958 Cuban elite registers to Florida telephone directories and corporate filings, and
+places where at least three elite households settled by 1964 are followed through 1980.
+Matched difference-in-differences: the 1960-80 rise in unemployment was 2.0 to 2.7
+percentage points smaller in Miami tracts where the elite settled, with no consistent
+effect on employment or family income. Synthetic control estimates for 41 Florida zip
+codes: incorporations in elite-settlement zip codes pull away from their synthetic
+controls in the late 1960s, with an average post-1959 effect of 2.15 times each zip code's
+own pre-1959 level; the effect grows with the number of elite households and reaches 7.8
+times in the seven zip codes that became the core of Miami's Cuban enclave.
 Scope: Greater Miami census tracts and Florida zip codes, 1946–80. Effects are on the
 PLACES where the elite settled, not on the exiles themselves. Unemployment is the durable
 tract-level result; employment and income effects are not consistent. Business formation
 is measured in multiples of each zip code's own pre-1959 average, not in firm counts.
-Working paper: estimates may change.
-
-### Leader's Ideology and Economic Freedom
-Status: Working Paper | Year: 2026
-With: J.P. Bastos (University of Austin), Benjamin Powell (Texas Tech University)
-PDF: https://leoregalado.com/publications/Regalado_Bastos_Powell_Ideology_Economic_Freedom_2026.pdf
-Summary: Revisits the proposition that right-wing governments promote free markets while
-left-wing governments constrain them, providing the first causal estimates of the effect
-of government leaders' ideology on economic freedom. Uses a doubly-robust stacked
-difference-in-differences design that accounts for staggered treatment timing and
-identifies clean ideological transitions after a stable pre-treatment period, in a global
-sample of 153 countries measured with the Economic Freedom of the World index (EFW) and a
-sample of 21 OECD countries back to 1870 measured with the Historical Index of Economic
-Liberty (HIEL). Globally, transitions to either a left- or right-wing government have no
-significant effect. Among OECD countries, transitions to the right have no effect. The two
-most robust findings are a small negative effect of transitions to the left among OECD
-countries, driven by a larger size of government, and a small positive effect of
-transitions to the right among non-OECD countries.
-
-### Housing Market, Migration, and Private Sector Reforms in Cuba
-Status: Working Paper | Year: 2026
-PDF: https://leoregalado.com/publications/Regalado_Cardoso_Housing_Market_Migration_Cuba_2026.pdf
-Summary: Studies how Cuba's 2010–2013 reform package (the Lineamientos) changed
+Working paper: estimates may change. ### Leader's Ideology and Economic Freedom Status:
+Working Paper | Year: 2026 With: J.P. Bastos (University of Austin), Benjamin Powell
+(Texas Tech University) PDF: https://leoregalado.com/publications/Regalado_Bastos_Powell_I
+deology_Economic_Freedom_2026.pdf Summary: Revisits the proposition that right-wing
+governments promote free markets while left-wing governments constrain them, providing the
+first causal estimates of the effect of government leaders' ideology on economic freedom.
+Uses a doubly-robust stacked difference-in-differences design that accounts for staggered
+treatment timing and identifies clean ideological transitions after a stable pre-treatment
+period, in a global sample of 153 countries measured with the Economic Freedom of the
+World index (EFW) and a sample of 21 OECD countries back to 1870 measured with the
+Historical Index of Economic Liberty (HIEL). Globally, transitions to either a left- or
+right-wing government have no significant effect. Among OECD countries, transitions to the
+right have no effect. The two most robust findings are a small negative effect of
+transitions to the left among OECD countries, driven by a larger size of government, and a
+small positive effect of transitions to the right among non-OECD countries. ### Housing
+Market, Migration, and Private Sector Reforms in Cuba Status: Working Paper | Year: 2026
+PDF: https://leoregalado.com/publications/Regalado_Cardoso_Housing_Market_Migration_Cuba_2
+026.pdf Summary: Studies how Cuba's 2010–2013 reform package (the Lineamientos) changed
 households' decisions to emigrate: the legalization of residential property sales
 (Decreto-Ley 288, 2011), the abolition of the exit-permit requirement (Decreto-Ley 302,
 2013), and the expansion of authorized self-employment (cuentapropismo). A fixed-cost
@@ -227,11 +225,11 @@ yields timing predictions for each reform; these are compared with OECD Internat
 Migration Database stocks and DHS lawful permanent resident admissions. Cuba's emigration
 rate nearly doubled between 2010 and 2024, and the timing of the response together with
 the size of housing wealth relative to cuentapropismo income points to the housing reform
-as the most important component of the package.
-Scope: Descriptive evidence only. The paper states that without a counterfactual it cannot
-make causal claims about the magnitude of each reform, and the reforms are treated as one
-package rather than separately identified. Draft dated 2026-05-17; a revision is planned,
-so treat the findings as preliminary.
+as the most important component of the package. Scope: Descriptive evidence only. The
+paper states that without a counterfactual it cannot make causal claims about the
+magnitude of each reform, and the reforms are treated as one package rather than
+separately identified. Draft dated 2026-05-17; a revision is planned, so treat the
+findings as preliminary.
 
 ---
 

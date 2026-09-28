@@ -83,7 +83,7 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 </figure>
 </div>
 
-<p>Matched difference-in-differences shows that unemployment rose 2.0 to 2.7 percentage points less between 1960 and 1980 in Miami tracts where the elite settled, with no consistent effect on employment or family income. <strong>Synthetic control</strong> estimates for 41 Florida zip codes show incorporations in elite-settlement zip codes rising from 3.81 to 10.00 times their own pre-1959 average relative to their synthetic controls in significant years, with the gap opening in the late 1960s.</p>
+<p>Matched difference-in-differences shows that unemployment rose 2.0 to 2.7 percentage points less between 1960 and 1980 in Miami tracts where the elite settled, with no consistent effect on employment or family income. <strong>Synthetic control</strong> estimates for 41 Florida zip codes show incorporations in elite-settlement zip codes pulling away from their synthetic controls in the late 1960s, with an average post-1959 effect of 2.15 times each zip code's own pre-1959 level. The effect grows with the number of elite households, reaching 7.8 times in the seven zip codes that became the core of Miami's Cuban enclave.</p>
 
 <div class="card-figures">
 <figure>
