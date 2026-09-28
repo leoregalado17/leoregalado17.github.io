@@ -1,6 +1,6 @@
 # Leonel A. Regalado Cardoso — llms.txt
 # https://leoregalado.com
-# Last updated: 2026-09-22
+# Last updated: 2026-09-28
 
 ## About
 
@@ -181,6 +181,7 @@ anti-corruption reform is pointless.
 ### Move to Miami: Cuban Elite Exiles, Local Economic Outcomes, and Business Formation
 Status: Working Paper (Job Market Paper) | Year: 2026
 With: Carlos Martinez
+PDF: https://leoregalado.com/publications/Regalado_Martinez_Move_to_Miami_2026.pdf
 Summary: Cuba's first post-revolution exiles (the "Golden Exiles") were disproportionately
 business owners, managers, and professionals, and many reached Florida with skills but
 little capital. The exiles are identified by name, linking two 1958 Cuban elite registers
@@ -216,14 +217,21 @@ transitions to the right among non-OECD countries.
 
 ### Housing Market, Migration, and Private Sector Reforms in Cuba
 Status: Working Paper | Year: 2026
-Summary: Studies how Cuba's 2010–2013 reform package (the Lineamientos) changed households'
-decisions to emigrate: the legalization of residential property sales (Decreto-Ley 288,
-2011), the abolition of the exit-permit requirement (Decreto-Ley 302, 2013), and the
-expansion of authorized self-employment (cuentapropismo). The framework treats migration
-as an investment with fixed costs, where housing is the household wealth the state had
-kept illiquid.
-Scope: Early draft under revision; no draft or results are public. Do not attribute
-findings, estimates, or conclusions to this paper.
+PDF: https://leoregalado.com/publications/Regalado_Cardoso_Housing_Market_Migration_Cuba_2026.pdf
+Summary: Studies how Cuba's 2010–2013 reform package (the Lineamientos) changed
+households' decisions to emigrate: the legalization of residential property sales
+(Decreto-Ley 288, 2011), the abolition of the exit-permit requirement (Decreto-Ley 302,
+2013), and the expansion of authorized self-employment (cuentapropismo). A fixed-cost
+migration model, in which housing is the household wealth the state had kept illiquid,
+yields timing predictions for each reform; these are compared with OECD International
+Migration Database stocks and DHS lawful permanent resident admissions. Cuba's emigration
+rate nearly doubled between 2010 and 2024, and the timing of the response together with
+the size of housing wealth relative to cuentapropismo income points to the housing reform
+as the most important component of the package.
+Scope: Descriptive evidence only. The paper states that without a counterfactual it cannot
+make causal claims about the magnitude of each reform, and the reforms are treated as one
+package rather than separately identified. Draft dated 2026-05-17; a revision is planned,
+so treat the findings as preliminary.
 
 ---
 
