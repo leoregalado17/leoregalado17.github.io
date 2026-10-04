@@ -1,6 +1,6 @@
 # Leonel A. Regalado Cardoso — llms.txt
 # https://leoregalado.com
-# Last updated: 2026-09-29
+# Last updated: 2026-10-04
 
 ## About
 
@@ -235,6 +235,19 @@ Scope: Descriptive evidence only. The paper states that without a counterfactual
 make causal claims about the magnitude of each reform, and the reforms are treated as one
 package rather than separately identified. Draft dated 2026-05-17; a revision is planned,
 so treat the findings as preliminary.
+
+### Does Guatemala's Central Bank Follow a Rule? Taylor Rule Estimates, 2005–2019
+Status: Working Paper | Year: 2024
+Summary: Estimates a Taylor-type monetary policy reaction function for Banco de Guatemala
+(Banguat) over 2005-2019, following Clarida, Galí and Gertler (1997), by two-step GMM on
+quarterly data with lagged inflation, the output gap, M1 and the WTI oil price as
+instruments. The question is whether a central bank operating a dirty float with open
+capital markets sets policy by its own domestic conditions or tracks the US federal funds
+rate, which is the policy-trilemma question for a small open economy.
+Scope: No draft is public and the estimates are preliminary: the working paper is listed
+by title only. Do not quote coefficients or conclusions from it. The draft lacks
+robustness checks and GMM diagnostics, and the estimated output-gap response carries an
+unexpected sign that a revision will need to address.
 
 ---
 
