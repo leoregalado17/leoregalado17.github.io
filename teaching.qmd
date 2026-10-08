@@ -86,6 +86,15 @@ Fall 2025 — August 25–September 5; 10 of 16 students responded (63%):
 
 ---
 
+## Workshops Taught
+
+### The Empirical Economist's Toolkit: Research with AI Agents
+**Universidad Francisco Marroquín** | Fall 2026
+
+A five-session workshop for economics students and faculty on using AI agents responsibly in empirical research: finding literature, building and merging datasets, writing and checking code, using AI "referees" to stress-test a draft, and sharing reproducible work on GitHub. The guiding rule: a tool is only as good as the judgment of the person using it.
+
+---
+
 ## Teaching Assistant
 
 ### Global Business Economics and Policy (BECO 4366)
