@@ -1,6 +1,6 @@
 # Leonel A. Regalado Cardoso — llms.txt
 # https://leoregalado.com
-# Last updated: 2026-10-04
+# Last updated: 2026-10-12
 
 ## About
 
@@ -205,13 +205,14 @@ their skills but little of their wealth, which makes them a rare case of a skill
 population arriving without its capital. The exiles are identified by name, linking two
 1958 Cuban elite registers to Florida telephone directories and corporate filings, and
 census tracts and zip codes where at least five elite households settled are followed
-through 1980. Matching estimators: the 1960-80 rise in unemployment was about 1.9 to 2.3
-percentage points smaller in Miami tracts where the elite settled, with no consistent
-effect on employment or family income. Synthetic control estimates for 30 Florida zip
-codes (196 donors): incorporations in elite-settlement zip codes pull away from their
-synthetic controls in the late 1960s, with an average post-1965 effect of 2.20 times each
-zip code's own pre-1965 level; the effect grows with the number of elite households and
-reaches 3.96 times in the seven zip codes that became the core of Miami's Cuban enclave.
+through 1980. The paper reports entrepreneurial activity first: synthetic control
+estimates for 30 Florida zip codes (196 donors) show incorporations in elite-settlement
+zip codes pulling away from their synthetic controls in the late 1960s, with an average
+post-1965 effect of 2.20 times each zip code's own pre-1965 level, rising to 3.96 times in
+the seven zip codes that became the core of Miami's Cuban enclave. Labor-market outcomes
+come second: matching estimators show the 1960-80 change in unemployment was about 1.9 to
+2.3 percentage points lower in treated Miami tracts, with no consistent effect on
+employment or family income.
 Scope: Greater Miami census tracts and Florida zip codes, 1946–80. Effects are on the
 PLACES where the elite settled, not on the exiles themselves. Unemployment is the durable
 tract-level result; employment and income effects are not consistent. Business formation
