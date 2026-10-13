@@ -322,6 +322,23 @@ body.quarto-dark .paper-card {
   text-decoration: none;
 }
 
+/* Job market paper card: full width, accented, two links */
+.jmp-single {
+  grid-template-columns: 1fr;
+}
+
+.jmp-card {
+  border-left: 4px solid var(--bs-primary);
+}
+
+.jmp-card .featured-desc {
+  font-size: 0.92rem;
+}
+
+.featured-link + .featured-link {
+  margin-left: 1.2rem;
+}
+
 .featured-link:hover {
   text-decoration: underline;
 }
