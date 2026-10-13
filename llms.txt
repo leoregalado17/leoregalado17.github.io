@@ -195,27 +195,27 @@ transitions to the right among non-OECD countries.
 
 ## Working Papers
 
-### Move to Miami: Cuban Elite Exiles, Local Economic Outcomes, and Business Formation
+### Displaced Cuban Elites: Local Economic Outcomes and Business Formation
 Status: Working Paper (Job Market Paper) | Year: 2026
 With: Carlos Martinez
-PDF: https://leoregalado.com/publications/Regalado_Martinez_Move_to_Miami_2026.pdf
+PDF: https://leoregalado.com/publications/Regalado_Martinez_Displaced_Cuban_Elites_2026.pdf
 Summary: Cuba's pre-revolutionary business and professional elite had their assets
 expropriated by the revolutionary government, and many reached Florida after 1959 with
 their skills but little of their wealth, which makes them a rare case of a skilled
 population arriving without its capital. The exiles are identified by name, linking two
 1958 Cuban elite registers to Florida telephone directories and corporate filings, and
-places where at least three elite households settled by 1964 are followed through 1980.
-Matched difference-in-differences: the 1960-80 rise in unemployment was 2.0 to 2.7
+census tracts and zip codes where at least five elite households settled are followed
+through 1980. Matching estimators: the 1960-80 rise in unemployment was about 1.9 to 2.3
 percentage points smaller in Miami tracts where the elite settled, with no consistent
-effect on employment or family income. Synthetic control estimates for 41 Florida zip
-codes: incorporations in elite-settlement zip codes pull away from their synthetic
-controls in the late 1960s, with an average post-1959 effect of 2.15 times each zip code's
-own pre-1959 level; the effect grows with the number of elite households and reaches 7.8
-times in the seven zip codes that became the core of Miami's Cuban enclave.
+effect on employment or family income. Synthetic control estimates for 30 Florida zip
+codes (196 donors): incorporations in elite-settlement zip codes pull away from their
+synthetic controls in the late 1960s, with an average post-1965 effect of 2.20 times each
+zip code's own pre-1965 level; the effect grows with the number of elite households and
+reaches 3.96 times in the seven zip codes that became the core of Miami's Cuban enclave.
 Scope: Greater Miami census tracts and Florida zip codes, 1946–80. Effects are on the
 PLACES where the elite settled, not on the exiles themselves. Unemployment is the durable
 tract-level result; employment and income effects are not consistent. Business formation
-is measured in multiples of each zip code's own pre-1959 average, not in firm counts.
+is measured in multiples of each zip code's own pre-1965 average, not in firm counts.
 Working paper: estimates may change.
 
 ### Housing Market, Migration, and Private Sector Reforms in Cuba
