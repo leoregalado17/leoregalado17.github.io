@@ -12,6 +12,7 @@ project:
     - beco3310/pdfs/**
     - beco3310/hw_images/**
     - guatemala-map/**
+    - toolkit/**
     - CNAME
     - logo.png
     - favicon.png
