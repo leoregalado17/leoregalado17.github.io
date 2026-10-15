@@ -37,10 +37,6 @@ I am a Ph.D. candidate in the Department of Agricultural and Applied Economics a
 My research focuses on migration, entrepreneurship, and political economy, with an emphasis on how institutions, policy environments, and economic incentives influence individual behavior and long-run development outcomes.
 </p>
 
-<p class="hero-bio">
-Outside of economics, I play guitar and write music, play tennis, lift weights, and love traveling. I am also a lifelong Liverpool FC supporter. YNWA!
-</p>
-
 ## Education
 
 <div class="education-grid">
