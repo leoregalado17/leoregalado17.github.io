@@ -3668,7 +3668,7 @@ EFW scores from the paper’s dataset (2023 report).
 <li><strong>Choose the method.</strong> The design you wrote down decides the method, not the other way around.</li>
 <li><strong>Look at the data.</strong> Descriptive statistics and figures before any regression.</li>
 <li><strong>Write the code and estimate.</strong> Starting from code you already understand.</li>
-<li><strong>Run the robustness checks.</strong> The ones you planned in step 1.</li>
+<li><strong>Run the robustness checks.</strong> Does the main result survive reasonable changes?</li>
 </ol>
 <p>AI helps in steps 3 to 5, a lot. Steps 1 and 2 are yours.</p>
 </section>
@@ -3714,10 +3714,6 @@ EFW scores from the paper’s dataset (2023 report).
 <tr class="odd">
 <td><strong>Extensions</strong></td>
 <td>Does the effect depend on how much emigration there is (a square term) and on initial institutions (an interaction)?</td>
-</tr>
-<tr class="even">
-<td><strong>Robustness</strong></td>
-<td>Planned in advance (step 5)</td>
 </tr>
 </tbody>
 </table>
@@ -3850,11 +3846,7 @@ EFW scores from the paper’s dataset (2023 report).
 </tr>
 </tbody>
 </table>
-<p>Two rules:</p>
-<ul>
-<li><strong>Plan them in step 1.</strong> Write the list of checks before you see the main result. A check chosen after seeing the result is a choice, and readers know it.</li>
-<li><strong>Report all of them.</strong> Including the ones where the result gets weaker. That is information, not failure.</li>
-</ul>
+<p>One rule: <strong>report all of them</strong>, including the ones where the result gets weaker. That is information, not failure.</p>
 <section id="this-is-where-ai-is-most-useful" class="level3">
 <h3 class="anchored" data-anchor-id="this-is-where-ai-is-most-useful">This is where AI is most useful</h3>
 <p>Once the main script works, each robustness check is a small edit: change a variable, drop some rows, add a control. That used to take an afternoon of copying and editing code. Now it is one prompt:</p>
@@ -3867,7 +3859,7 @@ EFW scores from the paper’s dataset (2023 report).
 <h3 class="anchored" data-anchor-id="the-danger-specification-searching">The danger: specification searching</h3>
 <p>Because checks are now cheap, it is easy to run a hundred specifications and report the ones that look good. That is specification searching (or <em>p</em>-hacking), and it produces results that don’t hold up. What protects you:</p>
 <ul>
-<li><strong>The plan.</strong> You report what you planned, and say clearly what you added later.</li>
+<li><strong>Report everything.</strong> Every check you ran goes in the paper or the appendix, not only the ones that look good.</li>
 <li><strong>Git.</strong> Every script and result is committed, so the history shows what you ran and when.</li>
 <li><strong>The log.</strong> Keep a file (<code>analysis_log.md</code>) with every specification you ran and why. Ask the agent to update it each time it runs something.</li>
 </ul>
