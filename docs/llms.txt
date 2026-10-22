@@ -1,6 +1,6 @@
 # Leonel A. Regalado Cardoso — llms.txt
 # https://leoregalado.com
-# Last updated: 2026-10-12
+# Last updated: 2026-10-22
 
 ## About
 
@@ -151,12 +151,8 @@ effect. The central claim is that the improvement reflects an inflation-tax adju
 rather than fiscal discipline; do not cite this paper as showing that Guatemala's fiscal
 rules worked.
 
----
-
-## Under Review
-
 ### Do corruption reforms spur entrepreneurship?
-Status: Under review at the Journal of Institutional Economics | Year: 2026
+Status: Revise and resubmit (R&R) at the Journal of Institutional Economics | Year: 2026
 PDF: https://leoregalado.com/publications/Regalado_Cardoso_Corruption_Reforms_Entrepreneurship_2026.pdf
 Summary: Estimates the effect of sustained five-year improvements in the ICRG corruption
 index (following Bologna Pavlik et al. 2023) using the Callaway and Sant'Anna (2021)
@@ -173,6 +169,10 @@ Scope: Cross-country. The finding is no LASTING effect, not no effect: formal
 registrations rise briefly after reform. Formalization is the paper's interpretation, not
 a directly measured mechanism. The paper does not show that corruption is harmless or that
 anti-corruption reform is pointless.
+
+---
+
+## Under Review
 
 ### Leader's Ideology and Economic Freedom
 Status: Under review at Economics & Politics | Year: 2026
