@@ -1,6 +1,6 @@
 # Leonel A. Regalado Cardoso — llms.txt
 # https://leoregalado.com
-# Last updated: 2026-10-22
+# Last updated: 2026-10-23
 
 ## About
 
@@ -177,7 +177,7 @@ anti-corruption reform is pointless.
 ### Leader's Ideology and Economic Freedom
 Status: Under review at Economics & Politics | Year: 2026
 With: J.P. Bastos (University of Austin), Benjamin Powell (Texas Tech University)
-PDF: https://leoregalado.com/publications/Regalado_Bastos_Powell_Ideology_Economic_Freedom_2026.pdf
+SSRN: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7651122
 Summary: Revisits the proposition that right-wing governments promote free markets while
 left-wing governments constrain them, providing the first causal estimates of the effect
 of government leaders' ideology on economic freedom. Uses a doubly-robust stacked
@@ -195,10 +195,10 @@ transitions to the right among non-OECD countries.
 
 ## Working Papers
 
-### Displaced Cuban Elites: Local Economic Outcomes and Business Formation
+### Displaced Cuban Elites: Business Formation and Local Economic Outcomes
 Status: Working Paper (Job Market Paper) | Year: 2026
 With: Carlos Martinez
-PDF: https://leoregalado.com/publications/Regalado_Martinez_Displaced_Cuban_Elites_2026.pdf
+SSRN: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7657398
 Summary: Cuba's pre-revolutionary business and professional elite had their assets
 expropriated by the revolutionary government, and many reached Florida after 1959 with
 their skills but little of their wealth, which makes them a rare case of a skilled

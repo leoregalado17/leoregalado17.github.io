@@ -68,7 +68,7 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 </div>
 <span class="status-badge badge-working">Working Paper</span>
 </div>
-<h4 class="card-title"><a href="publications/Regalado_Martinez_Displaced_Cuban_Elites_2026.pdf" target="_blank" rel="noopener">Displaced Cuban Elites: Local Economic Outcomes and Business Formation</a></h4>
+<h4 class="card-title"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7657398" target="_blank" rel="noopener">Displaced Cuban Elites: Business Formation and Local Economic Outcomes</a></h4>
 <p class="card-meta">with Carlos Martinez &middot; <strong>Job Market Paper</strong></p>
 <p class="card-hook">Where Cuba's exiled business elite settled after 1959, new business formation pulled ahead from the late 1960s and unemployment rose less by 1980.</p>
 <details class="card-expand"><summary>Read more</summary>
@@ -104,7 +104,7 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 <span class="topic-label topic-political">Political Economy</span>
 <span class="status-badge badge-under-review">Under Review</span>
 </div>
-<h4 class="card-title"><a href="publications/Regalado_Bastos_Powell_Ideology_Economic_Freedom_2026.pdf" target="_blank" rel="noopener">Leader's Ideology and Economic Freedom</a></h4>
+<h4 class="card-title"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7651122" target="_blank" rel="noopener">Leader's Ideology and Economic Freedom</a></h4>
 <p class="card-meta">with J.P. Bastos and Benjamin Powell &middot; Under review at <em>Economics & Politics</em></p>
 <p class="card-hook">Do right-wing leaders expand economic freedom and left-wing leaders restrict it? Causal estimates show the effects are small and mostly absent.</p>
 <details class="card-expand"><summary>Read more</summary>
