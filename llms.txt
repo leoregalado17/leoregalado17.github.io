@@ -1,6 +1,6 @@
 # Leonel A. Regalado Cardoso — llms.txt
 # https://leoregalado.com
-# Last updated: 2026-10-23
+# Last updated: 2026-10-30
 
 ## About
 
@@ -332,7 +332,7 @@ unexpected sign that a revision will need to address.
 
 ## Service and Other Information
 
-Journal referee: Public Choice; Journal of New Finance
+Journal referee: Eurasian Economic Review; Journal of New Finance; Public Choice
 
 Past employment:
 - 2023: Jr. Economic Analyst, Analyze, Guatemala City, Guatemala
