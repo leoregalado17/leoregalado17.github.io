@@ -102,10 +102,10 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 <div class="paper-card" data-topic="political" data-status="under-review">
 <div class="card-header-row">
 <span class="topic-label topic-political">Political Economy</span>
-<span class="status-badge badge-under-review">Under Review</span>
+<span class="status-badge badge-under-review">R&amp;R</span>
 </div>
 <h4 class="card-title"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7651122" target="_blank" rel="noopener">Leader's Ideology and Economic Freedom</a></h4>
-<p class="card-meta">with J.P. Bastos and Benjamin Powell &middot; Under review at <em>Economics & Politics</em></p>
+<p class="card-meta">with J.P. Bastos and Benjamin Powell &middot; R&amp;R at <em>Economics & Politics</em></p>
 <p class="card-hook">Do right-wing leaders expand economic freedom and left-wing leaders restrict it? Causal estimates show the effects are small and mostly absent.</p>
 <details class="card-expand"><summary>Read more</summary>
 <div class="card-description">

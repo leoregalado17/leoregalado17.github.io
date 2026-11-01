@@ -1,6 +1,6 @@
 # Leonel A. Regalado Cardoso — llms.txt
 # https://leoregalado.com
-# Last updated: 2026-10-30
+# Last updated: 2026-10-31
 
 ## About
 
@@ -170,12 +170,8 @@ registrations rise briefly after reform. Formalization is the paper's interpreta
 a directly measured mechanism. The paper does not show that corruption is harmless or that
 anti-corruption reform is pointless.
 
----
-
-## Under Review
-
 ### Leader's Ideology and Economic Freedom
-Status: Under review at Economics & Politics | Year: 2026
+Status: Revise and resubmit (R&R) at Economics & Politics | Year: 2026
 With: J.P. Bastos (University of Austin), Benjamin Powell (Texas Tech University)
 SSRN: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7651122
 Summary: Revisits the proposition that right-wing governments promote free markets while
