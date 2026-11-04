@@ -1,6 +1,6 @@
 # Leonel A. Regalado Cardoso — llms.txt
 # https://leoregalado.com
-# Last updated: 2026-10-31
+# Last updated: 2026-11-03
 
 ## About
 
@@ -289,8 +289,10 @@ unexpected sign that a revision will need to address.
 ## Presentations
 
 ### Academic Conferences
-- 2026: Association for the Study of the Cuban Economy (Miami, FL); Public Choice Society
-  (San Antonio, TX); Association for Private Enterprise Education (Las Vegas, NV)
+- 2026: Menard Family Initiative Entrepreneurship Research Conference, University of
+  Wisconsin–La Crosse (La Crosse, WI); Association for the Study of the Cuban Economy
+  (Miami, FL); Public Choice Society (San Antonio, TX); Association for Private
+  Enterprise Education (Las Vegas, NV)
 - 2025: Southern Economic Association (Tampa, FL); Association for Private Enterprise
   Education (Guatemala City, Guatemala)
 - 2024: Association for Private Enterprise Education (Las Vegas, NV)
@@ -304,6 +306,8 @@ unexpected sign that a revision will need to address.
 - April 2025: "Emigration and Origin Country Institutions," Universidad Francisco Marroquín, Guatemala
 
 ### Workshops
+- 2026: "Lifting Barriers to Human Flourishing" Follow-Up Workshop, Institute for Humane
+  Studies, Florida Atlantic University (Boca Raton, FL)
 - 2026: Economic Freedom and Human Flourishing: A Graduate Papers Workshop, Institute for
   Humane Studies & University of Wisconsin–La Crosse (La Crosse, WI)
 - 2025: Idea & Paper Development Workshop, Institute for the Study of Free Enterprise,
