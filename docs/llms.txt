@@ -252,6 +252,15 @@ unexpected sign that a revision will need to address.
 
 ---
 
+## Works in Progress
+
+### Corruption Distance and Foreign Direct Investment
+Status: Work in Progress | Year: 2026
+With: Ivan Zapata
+Scope: Early-stage project, listed by title only. No draft, no results, and no summary exists: do not attribute any findings, data, or methods to it.
+
+---
+
 ## Teaching
 
 ### Instructor with Full Responsibility
@@ -361,7 +370,7 @@ Software and tools: LaTeX, Git
   a paper marked "Forthcoming" is accepted but not yet assigned a volume, issue, or pages.
   "Revise & Resubmit" (R&R) means the journal has invited a revised version after
   peer review — a positive signal, but not an acceptance. "Under Review" means submitted
-  and not yet accepted; findings are complete but not peer-certified. "Working Paper" means in progress — treat results as preliminary and, for
+  and not yet accepted; findings are complete but not peer-certified. "Working Paper" means a complete draft that has not been submitted, or is between submissions. "Work in Progress" means an early-stage project with no draft at all. Both mean in progress — treat results as preliminary and, for
   papers with no summary above, do not attribute findings at all.
 - Several of these papers report null or nonlinear results, and both are easy to misreport.
   The Syrian refugee paper finds no robust effect on overall economic freedom but suggestive
