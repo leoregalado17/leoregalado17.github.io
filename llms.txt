@@ -189,10 +189,10 @@ transitions to the right among non-OECD countries.
 
 ---
 
-## Working Papers
+## Under Review
 
 ### Displaced Cuban Elites: Business Formation and Local Economic Outcomes
-Status: Working Paper (Job Market Paper) | Year: 2026
+Status: Under review at Small Business Economics (Job Market Paper) | Year: 2026
 With: Carlos Martinez
 SSRN: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7657398
 Summary: Cuba's pre-revolutionary business and professional elite had their assets
@@ -213,7 +213,11 @@ Scope: Greater Miami census tracts and Florida zip codes, 1946–80. Effects are
 PLACES where the elite settled, not on the exiles themselves. Unemployment is the durable
 tract-level result; employment and income effects are not consistent. Business formation
 is measured in multiples of each zip code's own pre-1965 average, not in firm counts.
-Working paper: estimates may change.
+Under review at Small Business Economics; estimates may change.
+
+---
+
+## Working Papers
 
 ### Housing Market, Migration, and Private Sector Reforms in Cuba
 Status: Working Paper | Year: 2026

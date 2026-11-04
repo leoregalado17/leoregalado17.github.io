@@ -60,16 +60,16 @@ My research focuses on migration, entrepreneurship, and political economy, with 
 </div>
 
 <!-- ── Cuban Businessmen Paper ── -->
-<div class="paper-card" data-topic="migration entrepreneurship" data-status="working">
+<div class="paper-card" data-topic="migration entrepreneurship" data-status="under-review">
 <div class="card-header-row">
 <div class="topic-label-group">
 <span class="topic-label topic-migration">Migration</span>
 <span class="topic-label topic-entrepreneurship">Entrepreneurship</span>
 </div>
-<span class="status-badge badge-working">Working Paper</span>
+<span class="status-badge badge-under-review">Under Review</span>
 </div>
 <h4 class="card-title"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7657398" target="_blank" rel="noopener">Displaced Cuban Elites: Business Formation and Local Economic Outcomes</a></h4>
-<p class="card-meta">with Carlos Martinez &middot; <strong>Job Market Paper</strong></p>
+<p class="card-meta">with Carlos Martinez &middot; Under review at <em>Small Business Economics</em> &middot; <strong>Job Market Paper</strong></p>
 <p class="card-hook">Where Cuba's exiled business elite settled after 1959, new business formation pulled ahead from the late 1960s and unemployment rose less by 1980.</p>
 <details class="card-expand"><summary>Read more</summary>
 <div class="card-description">
