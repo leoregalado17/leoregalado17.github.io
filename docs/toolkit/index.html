@@ -2441,6 +2441,22 @@ window.Quarto = {
   <li><a href="#responsible-use" id="toc-responsible-use" class="nav-link" data-scroll-target="#responsible-use">Responsible use</a></li>
   <li><a href="#deliverable-4" id="toc-deliverable-4" class="nav-link" data-scroll-target="#deliverable-4">Practice and deliverable</a></li>
   </ul></li>
+  <li><a href="#part-5" id="toc-part-5" class="nav-link" data-scroll-target="#part-5">Part 5: Presenting and Sharing Our Work</a>
+  <ul class="collapse">
+  <li><a href="#skills-5" id="toc-skills-5" class="nav-link" data-scroll-target="#skills-5">The tools for this part</a></li>
+  <li><a href="#latex" id="toc-latex" class="nav-link" data-scroll-target="#latex">Install LaTeX on your computer</a></li>
+  <li><a href="#good-talk" id="toc-good-talk" class="nav-link" data-scroll-target="#good-talk">The rhetoric of decks: three laws</a></li>
+  <li><a href="#aristotle" id="toc-aristotle" class="nav-link" data-scroll-target="#aristotle">Credibility, emotion, logic</a></li>
+  <li><a href="#titles-structure" id="toc-titles-structure" class="nav-link" data-scroll-target="#titles-structure">Titles and structure</a></li>
+  <li><a href="#visual-rules" id="toc-visual-rules" class="nav-link" data-scroll-target="#visual-rules">What goes on a slide</a></li>
+  <li><a href="#prep" id="toc-prep" class="nav-link" data-scroll-target="#prep">Common failures, and how to prepare</a></li>
+  <li><a href="#talk-structure" id="toc-talk-structure" class="nav-link" data-scroll-target="#talk-structure">A conference talk, slide by slide</a></li>
+  <li><a href="#deck-demo" id="toc-deck-demo" class="nav-link" data-scroll-target="#deck-demo">Demo: one paper, two decks</a></li>
+  <li><a href="#deck-reviews" id="toc-deck-reviews" class="nav-link" data-scroll-target="#deck-reviews">Demo: two reviews of each deck</a></li>
+  <li><a href="#replication" id="toc-replication" class="nav-link" data-scroll-target="#replication">Replication packages: anyone can rerun your work</a></li>
+  <li><a href="#repro-tools" id="toc-repro-tools" class="nav-link" data-scroll-target="#repro-tools">Tools for reproducibility</a></li>
+  <li><a href="#deliverable-5" id="toc-deliverable-5" class="nav-link" data-scroll-target="#deliverable-5">Practice and deliverable</a></li>
+  </ul></li>
   <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
   </ul>
 </nav>
@@ -2514,9 +2530,9 @@ window.Quarto = {
 </tr>
 <tr class="odd">
 <td>5</td>
-<td>Presentation</td>
-<td>A talk and a public portfolio</td>
-<td>Coming</td>
+<td><a href="#part-5">Presentation</a></td>
+<td>A Beamer deck compiled on your own computer</td>
+<td>Available</td>
 </tr>
 </tbody>
 </table>
@@ -4717,6 +4733,285 @@ EFW scores from the paper’s dataset (2023 report).
 </div>
 </section>
 </section>
+<section id="part-5" class="level1">
+<h1>Part 5: Presenting and Sharing Our Work</h1>
+<p><strong>In this part:</strong> how to turn results into a talk, how to build and check slides with AI on your own computer, and how to share your work so anyone can rerun it.</p>
+<section id="skills-5" class="level2">
+<h2 class="anchored" data-anchor-id="skills-5">The tools for this part</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Tool</th>
+<th>Author</th>
+<th>What it does</th>
+<th>Where</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>rhetoric_of_decks.md</code></td>
+<td>Scott Cunningham (Baylor)</td>
+<td>The rules for a good deck</td>
+<td><a href="https://github.com/scunning1975/MixtapeTools/blob/main/presentations/rhetoric_of_decks.md">MixtapeTools</a></td>
+</tr>
+<tr class="even">
+<td><code>/beautiful_deck</code></td>
+<td>Scott Cunningham</td>
+<td>Builds a Beamer deck from start to finish, then audits it</td>
+<td><a href="https://github.com/scunning1975/MixtapeTools/tree/main/skills/beautiful_deck">MixtapeTools</a></td>
+</tr>
+<tr class="odd">
+<td><code>/referee2</code> (deck mode)</td>
+<td>Scott Cunningham</td>
+<td>Reviews a deck slide by slide</td>
+<td><a href="https://github.com/scunning1975/MixtapeTools">MixtapeTools</a></td>
+</tr>
+<tr class="even">
+<td><code>/slide-excellence</code></td>
+<td>Pedro H. C. Sant’Anna (Emory)</td>
+<td>Several reviewers at once: layout, teaching, proofreading</td>
+<td><a href="https://github.com/pedrohcgs/claude-code-my-workflow">claude-code-my-workflow</a></td>
+</tr>
+<tr class="odd">
+<td><code>/replication-package</code>, <code>/audit-reproducibility</code></td>
+<td>Pedro H. C. Sant’Anna</td>
+<td>Builds a replication package; checks the paper’s numbers against the code’s output</td>
+<td><a href="https://github.com/pedrohcgs/claude-code-my-workflow">claude-code-my-workflow</a></td>
+</tr>
+<tr class="even">
+<td><code>beamer-econ-presentations</code></td>
+<td>Me</td>
+<td>Beamer for economics talks: structure, tables, figures</td>
+<td>Used in the demo</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="latex" class="level2">
+<h2 class="anchored" data-anchor-id="latex">Install LaTeX on your computer</h2>
+<p>Beamer decks are LaTeX files. With LaTeX on your computer, the agent writes the deck, compiles it, reads the errors, and fixes them, all in your project folder. This is my setup: <a href="https://www.tug.org/mactex/">MacTeX</a> on Mac (<a href="https://tug.org/texlive/windows.html">TeX Live</a>, the same distribution, on Windows), and <a href="https://code.visualstudio.com/">VS Code</a> with the <a href="https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop">LaTeX Workshop</a> extension.</p>
+<p><strong>Let the agent download it.</strong> Open Claude Code and say: <em>“Download MacTeX and give me the commands to install it.”</em> (On Windows: <em>“Download the TeX Live installer for Windows and tell me how to run it.”</em>) The agent downloads the installer. You run the install yourself, because it asks for your password.</p>
+<p>On Mac, the commands it gives you look like this. The download is about 7 GB:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb30"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span class="at">-L</span> <span class="at">-o</span> ~/Downloads/MacTeX.pkg https://mirror.ctan.org/systems/mac/mactex/MacTeX.pkg</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb31"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> installer <span class="at">-pkg</span> ~/Downloads/MacTeX.pkg <span class="at">-target</span> /</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>On Windows (PowerShell), the installer is small and downloads the rest as it runs, which can take an hour:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb32"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="fu">curl</span><span class="op">.</span><span class="fu">exe</span> <span class="op">-</span>L <span class="op">-</span>o <span class="va">$HOME</span>\Downloads\install-tl-windows<span class="op">.</span><span class="fu">exe</span> https<span class="op">://</span>mirror<span class="op">.</span><span class="fu">ctan</span><span class="op">.</span><span class="fu">org</span><span class="op">/</span>systems<span class="op">/</span>texlive<span class="op">/</span>tlnet<span class="op">/</span>install-tl-windows<span class="op">.</span><span class="fu">exe</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb33"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="fu">Start-Process</span> <span class="va">$HOME</span>\Downloads\install-tl-windows<span class="op">.</span><span class="fu">exe</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Close the terminal, open a new one, and check with <code>latexmk -v</code>. Then install <a href="https://code.visualstudio.com/">VS Code</a> and, inside it, the LaTeX Workshop extension.</p>
+<p><strong>Settings.</strong> Ask the agent to add these to your VS Code user settings, or paste them yourself (command palette, <code>Cmd+Shift+P</code> on Mac or <code>Ctrl+Shift+P</code> on Windows, then <em>Preferences: Open User Settings (JSON)</em>, inside the braces). They compile with <code>latexmk</code>, keep the auxiliary files in a <code>build/</code> folder, and copy the PDF next to your <code>.tex</code> file.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb34"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="er">&quot;latex-workshop.latex.outDir&quot;:</span> <span class="er">&quot;%DIR%/build&quot;,</span></span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a><span class="er">&quot;latex-workshop.latex.recipes&quot;:</span> <span class="ot">[</span></span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">{</span> <span class="dt">&quot;name&quot;</span><span class="fu">:</span> <span class="st">&quot;latexmk (pdflatex)&quot;</span><span class="fu">,</span> <span class="dt">&quot;tools&quot;</span><span class="fu">:</span> <span class="ot">[</span><span class="st">&quot;latexmk&quot;</span><span class="ot">,</span> <span class="st">&quot;copy_pdf&quot;</span><span class="ot">]</span> <span class="fu">}</span></span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a><span class="ot">]</span><span class="er">,</span></span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a><span class="er">&quot;latex-workshop.latex.tools&quot;:</span> <span class="ot">[</span></span>
+<span id="cb34-6"><a href="#cb34-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">{</span> <span class="dt">&quot;name&quot;</span><span class="fu">:</span> <span class="st">&quot;latexmk&quot;</span><span class="fu">,</span> <span class="dt">&quot;command&quot;</span><span class="fu">:</span> <span class="st">&quot;latexmk&quot;</span><span class="fu">,</span></span>
+<span id="cb34-7"><a href="#cb34-7" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&quot;args&quot;</span><span class="fu">:</span> <span class="ot">[</span><span class="st">&quot;-synctex=1&quot;</span><span class="ot">,</span> <span class="st">&quot;-interaction=nonstopmode&quot;</span><span class="ot">,</span> <span class="st">&quot;-file-line-error&quot;</span><span class="ot">,</span> <span class="st">&quot;-pdf&quot;</span><span class="ot">,</span></span>
+<span id="cb34-8"><a href="#cb34-8" aria-hidden="true" tabindex="-1"></a>             <span class="st">&quot;-aux-directory=%DIR%/build&quot;</span><span class="ot">,</span> <span class="st">&quot;-outdir=%DIR%/build&quot;</span><span class="ot">,</span> <span class="st">&quot;%DOC%&quot;</span><span class="ot">]</span> <span class="fu">}</span><span class="ot">,</span></span>
+<span id="cb34-9"><a href="#cb34-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">{</span> <span class="dt">&quot;name&quot;</span><span class="fu">:</span> <span class="st">&quot;copy_pdf&quot;</span><span class="fu">,</span> <span class="dt">&quot;command&quot;</span><span class="fu">:</span> <span class="st">&quot;cp&quot;</span><span class="fu">,</span></span>
+<span id="cb34-10"><a href="#cb34-10" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&quot;args&quot;</span><span class="fu">:</span> <span class="ot">[</span><span class="st">&quot;%DIR%/build/%DOCFILE%.pdf&quot;</span><span class="ot">,</span> <span class="st">&quot;%DIR%/%DOCFILE%.pdf&quot;</span><span class="ot">]</span> <span class="fu">}</span></span>
+<span id="cb34-11"><a href="#cb34-11" aria-hidden="true" tabindex="-1"></a><span class="ot">]</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>On Windows, delete the <code>copy_pdf</code> tool and remove <code>&quot;copy_pdf&quot;</code> from the recipe (<code>cp</code> does not exist there); the PDF then stays in <code>build/</code>.</p>
+<p><strong>Check that it works.</strong> Save this as <code>test.tex</code> and open it in VS Code. When you save it again, the PDF appears.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb35"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="bu">\documentclass</span>{<span class="ex">beamer</span>}</span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">document</span>}</span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">frame</span>}{LaTeX works on this computer}</span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a>  Next: a real deck.</span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a><span class="kw">\end</span>{<span class="ex">frame</span>}</span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a><span class="kw">\end</span>{<span class="ex">document</span>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>From then on, you can ask Claude Code: <em>“Compile <code>slides/deck.tex</code> with latexmk and fix every error and warning.”</em></p>
+<p><span class="small-note">Sources: MacTeX and TeX Live are distributed by the <a href="https://tug.org/">TeX Users Group</a>; LaTeX Workshop is by James Yu (<a href="https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop">marketplace page</a>). The settings are mine.</span></p>
+</section>
+<section id="good-talk" class="level2">
+<h2 class="anchored" data-anchor-id="good-talk">The rhetoric of decks: three laws</h2>
+<p>Scott Cunningham’s guide to slides, <em>The Rhetoric of Decks</em>, is the standard that <code>/beautiful_deck</code> and <code>/referee2</code> check against. It starts from one idea: <strong>a deck is not a paper.</strong> It goes with a spoken argument. If the slides make sense without you, you wrote a document.</p>
+<ol type="1">
+<li><strong>Beauty is function.</strong> Every element earns its place, nothing distracts, and the eye knows where to go. Decoration that does nothing is noise.</li>
+<li><strong>Cognitive load is the enemy.</strong>
+<ul>
+<li><strong>One idea per slide</strong>, two only when they form a contrast. If the point takes two sentences, it takes two slides.</li>
+<li><strong>No walls of sentences.</strong> Text on a slide labels, sets up, or structures. The explaining is what you say.</li>
+</ul></li>
+<li><strong>The slide serves the spoken word.</strong> It holds attention, carries the evidence, and shows where you are in the argument. If you read your slides aloud, they failed.</li>
+</ol>
+<p><span class="small-note">Source: Scott Cunningham, <a href="https://github.com/scunning1975/MixtapeTools/blob/main/presentations/rhetoric_of_decks.md"><em>The Rhetoric of Decks</em></a>, MixtapeTools.</span></p>
+</section>
+<section id="aristotle" class="level2">
+<h2 class="anchored" data-anchor-id="aristotle">Credibility, emotion, logic</h2>
+<p>Cunningham builds on Aristotle’s three ways to persuade:</p>
+<ul>
+<li><strong>Credibility (ethos): why should they trust you?</strong> Show your method, the alternatives you considered, and your limitations. Admitting a weakness builds trust.</li>
+<li><strong>Emotion (pathos): why should they care?</strong> Open with a problem the audience recognizes. Emotion without evidence breeds skepticism.</li>
+<li><strong>Logic (logos): does it make sense?</strong> Claims, the evidence for them, and the chain from problem to answer. Logic without emotion is a lecture.</li>
+<li><strong>The Devil’s Advocate slide.</strong> Present the strongest objection to your own argument, then your answer and the risk that remains. Audiences trust speakers who show their skeptics.</li>
+</ul>
+<p>The mix depends on the audience. A research talk is mostly logic.</p>
+<p><span class="small-note">Source: Scott Cunningham, <a href="https://github.com/scunning1975/MixtapeTools/blob/main/presentations/rhetoric_of_decks.md"><em>The Rhetoric of Decks</em></a>, Parts II and VII; his companion essay <a href="https://github.com/scunning1975/MixtapeTools/tree/main/presentations"><code>aristotle.md</code></a> goes deeper.</span></p>
+</section>
+<section id="titles-structure" class="level2">
+<h2 class="anchored" data-anchor-id="titles-structure">Titles and structure</h2>
+<ul>
+<li><strong>Titles are claims, not labels.</strong> “Results” says nothing. “Larger emigrant stocks go with larger later gains in freedom” is the argument. Someone who reads only your titles should get the whole talk.</li>
+<li><strong>Three acts:</strong> the problem, the investigation, the resolution.</li>
+<li><strong>Lead with the conclusion, then support it.</strong> In teaching it is the other way around: you walk through the reasoning, because the reasoning is the point.</li>
+<li><strong>The opening</strong> wins or loses the room in the first minute. Use a question, a surprising number, a concrete problem, or a bold claim, not “Today I will talk about…” or a long agenda.</li>
+<li><strong>The closing</strong> is what people remember: one takeaway, not “Questions?” or “Thank you.”</li>
+</ul>
+<p><span class="small-note">Source: Scott Cunningham, <a href="https://github.com/scunning1975/MixtapeTools/blob/main/presentations/rhetoric_of_decks.md"><em>The Rhetoric of Decks</em></a>, Parts III and IV.</span></p>
+</section>
+<section id="visual-rules" class="level2">
+<h2 class="anchored" data-anchor-id="visual-rules">What goes on a slide</h2>
+<p>Attention is a scarce budget. Cunningham’s rule: spend it evenly, so that every slide gives the same benefit for the same effort.</p>
+<p><span class="math display">\[\frac{MB_1}{MC_1} = \frac{MB_2}{MC_2} = \cdots = \frac{MB_n}{MC_n}\]</span></p>
+<ul>
+<li><strong>One main thing per slide</strong>, large, with white space around it. A crowded slide signals fear of leaving something out.</li>
+<li><strong>Bullets hide structure.</strong> Show the sequence, the contrast, or the cause and effect instead. Keep bullets for items that really are parallel.</li>
+<li><strong>Type:</strong> at least 24 point, two fonts at most, sans serif.</li>
+<li><strong>Charts are arguments:</strong> one message, no decoration, labels on the lines instead of a legend.</li>
+<li><strong>No full regression tables.</strong> Highlight the coefficient that matters, and say the finding out loud.</li>
+<li><strong>Rhythm.</strong> A dense slide needs a lighter one after it. Leaving something out is a choice, not a failure.</li>
+</ul>
+<p><span class="small-note">Source: Scott Cunningham, <a href="https://github.com/scunning1975/MixtapeTools/blob/main/presentations/rhetoric_of_decks.md"><em>The Rhetoric of Decks</em></a>, Parts V and VI.</span></p>
+</section>
+<section id="prep" class="level2">
+<h2 class="anchored" data-anchor-id="prep">Common failures, and how to prepare</h2>
+<p><strong>Eight common failures:</strong> walls of text; the main point buried on slide 15; decorated charts; a long agenda; ending on “Questions?”; claims without evidence; decoration that does nothing; dense slides as a security blanket.</p>
+<p><strong>How to prepare:</strong></p>
+<ol type="1">
+<li>Define the one thing the audience must remember.</li>
+<li>Know the audience: what they know and what they doubt.</li>
+<li>Outline the arc, and draft it ugly.</li>
+<li>Apply the laws, and add the skeptic.</li>
+<li>Cut, then practice out loud.</li>
+</ol>
+<p><strong>Before you present:</strong> can the back row read every slide? Does every slide move the argument forward? What will they remember tomorrow?</p>
+<p><span class="small-note">Source: Scott Cunningham, <a href="https://github.com/scunning1975/MixtapeTools/blob/main/presentations/rhetoric_of_decks.md"><em>The Rhetoric of Decks</em></a>, Parts IX and X.</span></p>
+</section>
+<section id="talk-structure" class="level2">
+<h2 class="anchored" data-anchor-id="talk-structure">A conference talk, slide by slide</h2>
+<p>The structure I use for a research talk:</p>
+<ol type="1">
+<li><strong>Title.</strong></li>
+<li><strong>Motivation.</strong> The question in plain language, and one fact or figure that shows why it matters.</li>
+<li><strong>This paper.</strong> What you do and what you find, in two or three points.</li>
+<li><strong>Framework.</strong> The mechanism and what it predicts.</li>
+<li><strong>Data.</strong> Units, years, key variables, sources.</li>
+<li><strong>Empirical strategy.</strong> The variation you use and the equation, explained term by term.</li>
+<li><strong>Main results.</strong> The punchline first, in units that matter.</li>
+<li><strong>Threats and robustness.</strong> The strongest objection and your answer.</li>
+<li><strong>Conclusion.</strong> The question, the answer, and its limits. Nothing new.</li>
+</ol>
+<p><span class="small-note">Source: my <code>beamer-econ-presentations</code> skill. Cunningham’s rules above apply to every one of these slides.</span></p>
+</section>
+<section id="deck-demo" class="level2">
+<h2 class="anchored" data-anchor-id="deck-demo">Demo: one paper, two decks</h2>
+<p>I gave both tools the same brief: a 20-minute conference talk on our running example, with numbers taken only from the paper’s published tables, figures made in a notebook, and the same closing sentence.</p>
+<ul>
+<li><strong>Deck 1: my <code>beamer-econ-presentations</code> skill, following Cunningham’s rules.</strong> One agent, plain design. 15 slides, about 12 minutes.</li>
+<li><strong>Deck 2: Cunningham’s <code>/beautiful_deck</code>.</strong> It asks six questions first (source, audience, look, code language, format, the one sentence), designs the theme, and writes an outline that you approve before it makes any slide. Then it makes the figures from code, compiles until there are no warnings, and sends two more agents to audit the rhetoric and the graphics. 15 slides, about 35 minutes, plus the time to approve the outline.</li>
+</ul>
+<p>We look at both decks in class.</p>
+<p><span class="small-note">Sources: <code>/beautiful_deck</code> by Scott Cunningham, <a href="https://github.com/scunning1975/MixtapeTools/tree/main/skills/beautiful_deck">MixtapeTools</a>; the paper is Powell and Regalado Cardoso (2025), <em>Public Choice</em>.</span></p>
+</section>
+<section id="deck-reviews" class="level2">
+<h2 class="anchored" data-anchor-id="deck-reviews">Demo: two reviews of each deck</h2>
+<ul>
+<li><strong><code>/referee2</code> in deck mode (Cunningham).</strong> A new session checks every slide against the rhetoric of decks: one idea per slide, titles as claims, no walls of sentences. It compiles the deck, reads the log for warnings, and gives a verdict. About 8 to 10 minutes per deck.</li>
+<li><strong><code>/slide-excellence</code> (Sant’Anna).</strong> Several reviewers work in parallel, each with one lens: layout, teaching, and proofreading (plus diagrams, when the deck has them). It runs inside his repository. I skipped his substance reviewer, which is a template you customize for your field first. About 4 to 5 minutes per deck. It does not compile the deck, so its layout comments are estimates.</li>
+</ul>
+<p>We go through the reviews in class.</p>
+<p><span class="small-note">Sources: <code>/referee2</code> by Scott Cunningham, <a href="https://github.com/scunning1975/MixtapeTools">MixtapeTools</a>; <code>/slide-excellence</code> by Pedro H. C. Sant’Anna, <a href="https://github.com/pedrohcgs/claude-code-my-workflow">claude-code-my-workflow</a>.</span></p>
+</section>
+<section id="replication" class="level2">
+<h2 class="anchored" data-anchor-id="replication">Replication packages: anyone can rerun your work</h2>
+<p>A replication package is the data (or how to get it), the code, and a README that takes a stranger from the raw files to every table and figure in the paper.</p>
+<ul>
+<li><strong>Journals check.</strong> At the American Economic Association journals, the Data Editor checks the package before a paper is published. The rules are the <a href="https://datacodestandard.org/">Data and Code Availability Standard</a>.</li>
+<li><strong>The README</strong> follows a <a href="https://social-science-data-editors.github.io/template_README/">standard template</a>:
+<ul>
+<li><strong>Data availability:</strong> where each source comes from, its license, and whether you may share it.</li>
+<li><strong>Computational requirements:</strong> software, versions, packages, and how long it takes to run.</li>
+<li><strong>Instructions:</strong> the order in which to run the files.</li>
+<li><strong>Tables and figures:</strong> which file makes each one.</li>
+</ul></li>
+<li><strong>You already have most of it.</strong> <code>raw/</code>, <code>build/</code>, <code>clean/</code>, notebooks that run from top to bottom, <code>codebook.md</code>, and <code>data_log.md</code> (Part 2).</li>
+<li><strong>What usually breaks:</strong> absolute paths (<code>/Users/you/...</code>), no run order, package versions not written down, numbers typed into the paper by hand, and data that a public repository may not redistribute.</li>
+</ul>
+<p><strong>The test:</strong> clone your repository into a new folder (or onto a classmate’s computer) and run it from top to bottom. If it does not run there, it is not a replication package.</p>
+<p><span class="small-note">Sources: the American Economic Association’s <a href="https://datacodestandard.org/">Data and Code Availability Standard</a> and the <a href="https://aeadataeditor.github.io/">AEA Data Editor</a>; the Social Science Data Editors’ <a href="https://social-science-data-editors.github.io/template_README/">template README</a>.</span></p>
+</section>
+<section id="repro-tools" class="level2">
+<h2 class="anchored" data-anchor-id="repro-tools">Tools for reproducibility</h2>
+<ul>
+<li><strong><code>/replication-package</code> (Sant’Anna).</strong> Assembles the package: the README, a list of datasets, the computational requirements, and a map from each table and figure to the line of code that makes it. It checks the numbers first.</li>
+<li><strong><code>/audit-reproducibility</code> (Sant’Anna).</strong> Compares every number in the paper with the code’s output files and reports PASS or FAIL for each one.</li>
+<li><strong><code>/referee2</code> in code mode (Cunningham, <a href="#referee2">Part 4</a>).</strong> Replicates your analysis in three languages and audits the folder as a replication package.</li>
+</ul>
+<p><strong>Your repository is also your portfolio.</strong> A public repository with a clear README, code that runs, and an honest AI log shows what you can do better than a line on a CV. Keep keys, paywalled PDFs, and restricted data out of it.</p>
+<p><span class="small-note">Sources: <code>/replication-package</code> and <code>/audit-reproducibility</code> by Pedro H. C. Sant’Anna, <a href="https://github.com/pedrohcgs/claude-code-my-workflow">claude-code-my-workflow</a>; <code>/referee2</code> by Scott Cunningham, <a href="https://github.com/scunning1975/MixtapeTools">MixtapeTools</a>.</span></p>
+</section>
+<section id="deliverable-5" class="level2">
+<h2 class="anchored" data-anchor-id="deliverable-5">Practice and deliverable</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>What you do</th>
+<th>What it leaves</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Install LaTeX, VS Code, and LaTeX Workshop, and compile the test file above</td>
+<td>LaTeX on your computer</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Pick a published paper: the one from Deliverable 4, or another you know well</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Ask Claude Code for the deck (prompt below)</td>
+<td><code>slides/&lt;paper&gt;.tex</code></td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Compile it on your computer with <code>latexmk</code> and fix every error and warning</td>
+<td><code>slides/&lt;paper&gt;.pdf</code></td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Read every slide against the paper: each number should match its table</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Log what you did, then commit and push</td>
+<td><code>ai_log.md</code></td>
+</tr>
+</tbody>
+</table>
+<blockquote class="blockquote">
+<p>Read the paper in <code>literature/pdfs/&lt;paper&gt;.pdf</code> and Cunningham’s rules in <code>rhetoric_of_decks.md</code>. Write a Beamer deck of 5 to 7 slides for a 10-minute talk on this paper, in <code>slides/</code>. Titles are claims. One idea per slide. Use only numbers from the paper’s tables, and note under each one which table it comes from. Compile it with <code>latexmk -pdf</code> and fix every error and warning.</p>
+</blockquote>
+<p>Using ChatGPT? Ask it for the <code>.tex</code> file, then compile it yourself in VS Code.</p>
+<p><span class="small-note">Get <code>rhetoric_of_decks.md</code> from Scott Cunningham’s <a href="https://github.com/scunning1975/MixtapeTools/blob/main/presentations/rhetoric_of_decks.md">MixtapeTools</a> and save it in your project.</span></p>
+<div class="deliverable">
+<p><strong>Deliverable 5.</strong> A Beamer deck of 5 to 7 slides on a published paper, compiled on your own computer. In your repository:</p>
+<ul>
+<li><code>slides/&lt;paper&gt;.tex</code> and <code>slides/&lt;paper&gt;.pdf</code>;</li>
+<li>any figure on the slides, with the notebook that made it;</li>
+<li>your <code>ai_log.md</code>, updated.</li>
+</ul>
+</div>
+</section>
+</section>
 <section id="resources" class="level1">
 <h1>Resources</h1>
 <p><strong>Skills used in the workshop</strong></p>
@@ -4725,6 +5020,12 @@ EFW scores from the paper’s dataset (2023 report).
 <li>Scott Cunningham, MixtapeTools (<code>/referee2</code>): <a href="https://github.com/scunning1975/MixtapeTools">github.com/scunning1975/MixtapeTools</a></li>
 <li>Pedro Sant’Anna, Claude Code academic workflow (<code>/review-paper</code>, <code>/verify-claims</code>): <a href="https://github.com/pedrohcgs/claude-code-my-workflow">github.com/pedrohcgs/claude-code-my-workflow</a></li>
 <li>Hugo Sant’Anna, clo-author (the editor and referee personas): <a href="https://github.com/hugosantanna/clo-author">github.com/hugosantanna/clo-author</a></li>
+<li>Scott Cunningham, the rhetoric of decks: <a href="https://github.com/scunning1975/MixtapeTools/blob/main/presentations/rhetoric_of_decks.md">MixtapeTools/presentations</a></li>
+</ul>
+<p><strong>Replication packages</strong></p>
+<ul>
+<li>AEA Data and Code Availability Standard: <a href="https://datacodestandard.org/">datacodestandard.org</a></li>
+<li>Template README for replication packages: <a href="https://social-science-data-editors.github.io/template_README/">social-science-data-editors.github.io/template_README</a></li>
 </ul>
 <p><strong>The running example</strong></p>
 <ul>
